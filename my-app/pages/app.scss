@@ -33,7 +33,7 @@ body{
 }
 
 .contents{
-  padding: 0% 15%;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
@@ -42,11 +42,38 @@ body{
 @import "/pages/BuddingWriters/BuddingWriters.scss";
 @import "../comps/ArtMenu1/ArtMenu1.scss";
 @import "../pages/index.scss";
-
-
+@import "../comps/flip/flip.scss";
+@import "../comps/flip2/flip2.scss";
+@import "../pages/index.scss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap');
+@import '../pages/AboutMe/AboutMe.scss';
 
+.gif{
+  width: 40%;
+}
+.description{
+  flex:3;
+}
 
+.gifNDesc{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+ 
+}
+
+.FlipCardBack{
+  
+}
+
+@media only screen and (max-width: 700px) {
+
+  .gifNDesc{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @media only screen and (min-width: 700px) {
 
@@ -94,3 +121,39 @@ body{
   position: relative;
  // border-top: solid 1px rgb(72, 72, 72);
 }
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1{
+  
+}
+
+li{
+  font-weight: 300;
+  font-size: 14px;
+}
+p{
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(60, 60, 60);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');

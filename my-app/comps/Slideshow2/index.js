@@ -35,6 +35,7 @@ const RightCont = styled.div`
 const Imgs = styled.img`
   display: flex;
   width: 35vw;
+  background-color: white;
   height: auto;
   justify-content: flex-end;
 

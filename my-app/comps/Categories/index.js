@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-
 const Categories = () => {
   return (
     <div className="Menu">
@@ -11,7 +10,7 @@ const Categories = () => {
         </div>
         <div className="navItems">
           <li>
-            <a>About Me</a>
+            <a href="/AboutMe">About Me</a>
           </li>
           <li>
             <a>Major Projects</a>

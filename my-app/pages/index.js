@@ -4,6 +4,10 @@ import React, { useState } from "react";
 import Categories from "../comps/Categories";
 import Slideshow2 from "../comps/Slideshow2";
 import styled from "styled-components";
+import Flip from "../comps/flip";
+import Flip2 from "../comps/flip2";
+import Flip3 from "../comps/flip3";
+import ProjectDesc1 from "../comps/ProjectDesc1";
 
 const Cont = styled.div`
   height: fit-content;
@@ -49,9 +53,6 @@ const Header1 = styled.div`
   display: flex;
   flex-direction: column;
 `;
-
-const ProjectDesc = styled.p``;
-
 const H4 = styled.div`
   font-family: "Lucida Sans", sans-serif;
   font-size: 16px;
@@ -63,13 +64,6 @@ const ProjectDescTop = styled.div`
   height: fit-content;
   padding: 100px 15%;
 `;
-const BG = styled.div`
-background-color: #5A9DC1;
-width:20%;
-position: absolute;
-height: 200px;
-z-index: -1;
-`;
 
 export default function Home() {
   const [inHover, setHover] = useState(true);
@@ -77,14 +71,14 @@ export default function Home() {
   return (
     <div>
       <Cont>
-        <BG></BG>
-          <Categories></Categories>
-        
+        <Categories></Categories>
+
         <div className="contents">
           <br></br>
+
           <ProjectDescTop>
             <Header1>Budding Writers Bookstore Cafe</Header1>
-            <ProjectDesc>
+            <p>
               I took part in creating a <b>Wordpress website</b> with two other
               teamates. The website was based on a fake company called Budding
               Writers Bookstore Cafe, which was a bookstore cafe that also
@@ -97,13 +91,21 @@ export default function Home() {
               <b>user reaserch and testing</b>, created a <b>sitemap,</b> did
               created a content <b>inventory file</b>, created a persona, helped
               in logo design.
-            </ProjectDesc>
+            </p>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
           </ProjectDescTop>
-
+          <div className="gifNDesc">
+            <div className="gif">
+              <Flip2 />
+            </div>
+            <div className="description">
+              <ProjectDesc1 />
+            </div>
+            <div></div>
+          </div>
           <div className="landscape">
             {inHover && (
               <Header2>
