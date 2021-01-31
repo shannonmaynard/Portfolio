@@ -1,0 +1,96 @@
+div.gallery {
+    border: 1px solid #ccc;
+  } 
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  .artColumn{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: fit-content;
+  }
+  .pics{
+    width: 100%;
+  }
+body{
+
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.contents{
+  padding: 0% 15%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+@import "../comps/Categories/Categories.scss";
+@import "/pages/ArtPage2/index.scss";
+@import "/pages/BuddingWriters/BuddingWriters.scss";
+@import "../comps/ArtMenu1/ArtMenu1.scss";
+@import "../pages/index.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap');
+
+
+
+@media only screen and (min-width: 700px) {
+
+  .ArtCol3{
+    display: none;
+  }
+}
+
+
+  @media only screen and (max-width: 700px) {
+  
+    .ArtCol1{
+      display: none;
+    }
+
+    .ArtCol3{
+      display: flex;
+    }
+    .ArtMenu{
+      display: flex;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  body{
+    overflow-x: hidden;
+    color: #333333;
+  }
+
+.landscape{
+ // border-top: solid 1px rgb(72, 72, 72);
+  position: relative;
+  border-top: 1px solid white;
+}
+
+
+
+
+.portrait{
+  position: relative;
+ // border-top: solid 1px rgb(72, 72, 72);
+}
