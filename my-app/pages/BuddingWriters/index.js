@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+/*
 import Categories from "../comps/Categories";
 import Slideshow2 from "../comps/Slideshow2";
 import Slideshow3 from "../comps/Slideshow3";
@@ -160,3 +161,9 @@ export default function Home() {
     </div>
   );
 }
+*/
+const BuddingWriters = () =>{
+  return <div>test</div>;
+}
+
+export default BuddingWriters;
