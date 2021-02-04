@@ -34,7 +34,6 @@ const Header3 = styled.h2`
   display: flex;
   font-size: 20px;
   margin-top: 50px;
-
   height: 100%;
   top: 45%;
   position: absolute;
@@ -99,7 +98,7 @@ export default function Home() {
           </ProjectDescTop>
           <div className="gifNDesc">
             <div className="gif">
-              <Flip2 />
+              <Flip2 url="url(/ListApp.gif)"/>
             </div>
             <div className="description">
               <ProjectDesc1 />

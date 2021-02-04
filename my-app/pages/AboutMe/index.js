@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import Categories from "../../comps/Categories";
 
 export default function Home({ isVisible }) {
-  <motion.div animate={{ opacity: isVisible ? 1 : 0 }} />;
+ 
 
   return (
-    <div>
+    <div className="About">
       <Categories></Categories>
       <div className="contentsAbout">
         <div className="intro">

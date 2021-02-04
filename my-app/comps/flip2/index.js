@@ -18,8 +18,8 @@ const FlipCardBack = styled.div`
   background-repeat: no-repeat;
   @media only screen and (max-width: 700px) {
     width: 100%;
-    background-size: 160%;
-    height: 30vh;
+    background-size: 200%;
+    height:70vh;
     min-width: 30vh;
   }
 `;

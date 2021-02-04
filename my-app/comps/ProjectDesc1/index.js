@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Desc = styled.div`
   flex: 3;
-  margin-left: 80px;
   height: auto;
   padding: 30px;
 `;

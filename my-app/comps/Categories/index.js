@@ -10,7 +10,7 @@ const Categories = () => {
         </div>
         <div className="navItems">
           <li>
-            <a href="/AboutMe">About Me</a>
+            <a href="/About">About</a>
           </li>
           <li>
             <a>Major Projects</a>
