@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="aboutCont">
       <Categories></Categories>
+      <div className="contents">
       <div className="contentAbout">
         <div className="intro">
           <div className="wordCont">
@@ -23,6 +24,7 @@ export default function Home() {
             <img src="/linkedIn.png" />
           </a>
         </div>
+      </div>
     </div>
   );
 }

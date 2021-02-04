@@ -4,11 +4,11 @@ import styled from "styled-components";
 const Categories = () => {
   return (
     <div className="Menu">
-      <ul>
-        <div className="menuColRow">
-          <div className="menuHeader">Shannon's Portfolio</div>
-        </div>
+     
+        <div className="menuHeader">Shannon's Portfolio</div>
+
         <div className="navItems">
+           <ul>
           <li>
             <a href="/About">About</a>
           </li>
@@ -21,8 +21,9 @@ const Categories = () => {
           <li>
             <a href="/ArtPage2">Art</a>
           </li>
+           </ul>
         </div>
-      </ul>
+     
     </div>
   );
 };

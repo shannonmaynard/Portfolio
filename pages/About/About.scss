@@ -9,7 +9,13 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        background-color: black;
+        ::before{
+            opacity:0%;
+        }
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.139), black);
+        ::after{
+            transition: 1s; 
+            opacity:100%;}
         .intro{
             max-width: 800px;
             width: 80%;
