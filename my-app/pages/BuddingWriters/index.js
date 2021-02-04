@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import React, { useState } from "react";
 import Categories from "../comps/Categories";
 import Slideshow2 from "../comps/Slideshow2";
