@@ -60,12 +60,7 @@ const Categories = () => {
             <li>
               <a href="/Projects">Projects</a>
             </li>
-            <li>
-              <a href="/GraphicDesign">Graphic Design</a>
-            </li>
-            <li>
-              <a href="/ArtPage2">Art</a>
-            </li>
+  
           </ul>
         </div>
       </NavBox>
