@@ -58,10 +58,10 @@ const Categories = () => {
               <a href="/About">About</a>
             </li>
             <li>
-              <a>Major Projects</a>
+              <a href="/Projects">Projects</a>
             </li>
             <li>
-              <a>Graphic Design</a>
+              <a href="/GraphicDesign">Graphic Design</a>
             </li>
             <li>
               <a href="/ArtPage2">Art</a>

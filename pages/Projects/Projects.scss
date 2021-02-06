@@ -1,0 +1,33 @@
+.contMajorProj {
+    display: flex;
+    width: 100%;
+    
+    .imgsCont {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        .projRows {
+            gap: 20px;
+            display: flex;
+            flex-direction: row;
+      
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .imgsCont {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .projRows {
+            width: 100%;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}
