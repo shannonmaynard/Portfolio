@@ -1,49 +1,63 @@
 .contMajorProj {
-    display: flex;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
-    background-color: #ffffffaf;
+
+    .item {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        padding-top: 75px;
+        //background: #ccc;
+        text-align: center;
+        //color: #FFF;
+        font-size: 3em;
+    }
     .contentsProjects {
         display: flex;
         width: 100%;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    h1 {
-        font-size: 35px;
-        
-    }
-    .imgsCont {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 0px;
-        align-items: flex-start;
-        padding: 40px;
-        justify-content: center;
-        .projRows {
-            gap: 20px;
+        h1 {
+            font-size: 35px;
+        }
+        .imgsCont {
             display: flex;
-            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 0px;
+            align-items: flex-start;
+            padding: 40px;
+            justify-content: center;
+            .projRows {
+                gap: 20px;
+                display: flex;
+                flex-direction: row;
+            }
         }
     }
 }
- }
 @media only screen and (max-width: 700px) {
-    .imgsCont {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        .projRows {
+    .contentsProjects {
+     
+        .imgsCont {
+            display: flex;
             width: 100%;
             flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+            .projRows {
+                width: 100%;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 }

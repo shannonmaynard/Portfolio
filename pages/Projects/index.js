@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import MajorImgs from "../../comps/MajorImgs";
 import Categories from "../../comps/Categories";
+import MajorImgs from "../../comps/MajorImgs";
+import Menu from "../../comps/Menu";
 
 const Projects = () => {
   return (
@@ -8,30 +9,18 @@ const Projects = () => {
       <Categories></Categories>
 
       <div className="contents">
-        <div className="contentsProjects">
-          <br></br> <br></br> <br></br>
+        <div className="contentsProjects" data-aos="zoom-in">
           <h1>PROJECTS</h1>
+          <br></br> <br></br> <br></br>
           <div className="imgsCont">
             <div className="projRows">
               <MajorImgs></MajorImgs>
-              <MajorImgs
-                imgHeight="100%"
-                imgWidth="auto"
-                src="/CommaidImg.png"
-              ></MajorImgs>
+              <MajorImgs imgWidth="auto" src="/CommaidImg.png"></MajorImgs>
             </div>
             <div className="projRows">
-              <MajorImgs
-                src="/mag.png"
-                imgHeight="100%"
-                justifyContent="flex-end"
-                imgWidth="100%"
-              ></MajorImgs>
-              <MajorImgs
-                src="GameList.png"
-                imgWidth="auto"
-                imgHeight="280px"
-              ></MajorImgs>
+              <MajorImgs src="/mag.png">
+              </MajorImgs>
+              <MajorImgs src="GameList.png" imgWidth="auto"></MajorImgs>
             </div>
           </div>
         </div>

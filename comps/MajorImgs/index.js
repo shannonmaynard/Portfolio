@@ -8,9 +8,9 @@ const Cont = styled.div`
   align-items: ${props => props.alignItems ? props.alignItems : "center"};
   justify-content: ${props => props.justifyContent ? props.justifyContent : "center"};
   display: flex;
+  background-color: #191919;
   border-radius: 10px;
   margin-right: 10px;
-  background-color: white;
   border: solid 6px black;
   box-shadow: 5px 5px 12px rgba(50, 50, 50, 0.38);
   position: relative;

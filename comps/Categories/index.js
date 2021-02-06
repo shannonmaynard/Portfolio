@@ -35,6 +35,11 @@ const A = styled.a`
 font-weight: bold;
 `;
 
+const ContFill = styled.div`
+height: 187px;
+
+`;
+
 const Categories = () => {
   const [expanded, setExpanded] = useState(false);
   const [a, setA] = useState(false);
@@ -64,6 +69,7 @@ const Categories = () => {
           </ul>
         </div>
       </NavBox>
+  
     </div>
   );
 };
