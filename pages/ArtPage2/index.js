@@ -7,16 +7,17 @@ import ArtColumn2 from "../../comps/ArtColumn2";
 import ArtColumn3 from "../../comps/ArtColumn3";
 import Categories from "../../comps/Categories";
 
-
 export default function Home() {
   return (
     <div className="artPage2Cont">
-      <div id="headerArt">
+      <div className="CategoriesAbout">
         <Categories />
-      </div>
+        </div>
+
       <div className="contents">
         <div className="infoArt">
-          Here are some of my favorite pieces that I've made over the years.
+          <br></br>   <br></br>
+          <p>Here are some of my favorite pieces that I've made over the years.</p>
         </div>
         <a href="#headerArt">
           <img className="arrowUp" src="/Art/arrowUp.svg"></img>

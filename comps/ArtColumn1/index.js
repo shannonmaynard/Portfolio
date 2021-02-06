@@ -20,10 +20,7 @@ const Responsive = styled.div`
 
 const Img = styled.img`
   width: 100%;
-  :hover{
-    width: 110%;
-    transition: 0.5s;
-  }
+
 `;
 
 const ArtColumn1 = () => {

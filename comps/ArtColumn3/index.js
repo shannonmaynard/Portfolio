@@ -8,19 +8,23 @@ const ImgGallery = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 100%;
 `;
 
 const Responsive = styled.div`
   width: 100%;
-  
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-
 `;
 
 const Img = styled.img`
   width: 100%;
+  :hover{
+    width: 110%;
+    transition: 0.5s;
+  }
 `;
 
 const ArtColumn3 = () => {

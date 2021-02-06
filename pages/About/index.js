@@ -16,11 +16,14 @@ export default function Home() {
           <div className="imgMe">
             <img src="/Me.png" />
           </div>
+          <div className="circle">
+            
+          </div>
         </div>
       </div>
       <div>
           <h2>Contact Me</h2>
-          <a href="www.linkedin.com/in/shannon-maynard-7004a6198">
+          <a href="www.linkedin.com/in/shannon-maynard-7004a6198" target="_blank">
             <img src="/linkedIn.png" />
           </a>
         </div>
