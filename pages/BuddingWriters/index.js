@@ -78,8 +78,6 @@ const H4 = styled.div`
 `;
 
 export default function Home() {
-  const [inHover, setHover] = useState(false);
-  const [inHover2, setHover2] = useState(false);
   return (
     <div>
 
@@ -110,7 +108,7 @@ export default function Home() {
         <br></br>
 
         <div className="landscape">
-          
+ 
           {inHover && (
             <Header2>
               LOGO<Header3>Graphic Design</Header3>
@@ -161,9 +159,3 @@ export default function Home() {
     </div>
   );
 }
-*/
-const BuddingWriters = () =>{
-  return <div>test</div>;
-}
-
-export default BuddingWriters;
