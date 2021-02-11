@@ -1,0 +1,149 @@
+.aboutCont {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+
+    .contentAbout {
+        width: 100%;
+        margin-top: -50px;
+        max-height: 1000px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 30px;
+        background-color: rgb(255, 255, 255);
+
+        h1 {
+            font-size: 43px;
+            top: 0px;
+            text-align: left;
+            margin-bottom: 0px;
+        }
+     
+        .imgMeMobile {
+            display: none;
+        }
+        p{
+            width: 100%;
+            font-size:17px;
+            line-height: 26px;
+        }
+        .intro {
+            min-width: 700px;
+            padding: 30px;
+            width: 100%;
+            display: flex;
+            margin: 30px;
+            height: fit-content;
+            align-items: center;
+            justify-content: center;
+
+            .wordCont {
+                //flex: 2;
+                width: 100%;
+                max-width: 900px;
+                padding: 30px;
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+                text-align: justify; /* For Edge */
+                text-align-last: left;
+                //min-width: 420px;
+                width: max-content;
+                justify-content: center;
+            }
+            .imgMe {
+                // flex: 1;
+                padding: 3px;
+                width: 100%;
+                display: flex;
+                border-radius: 0px;
+                align-items: center;
+               //;
+                height: 100%;
+                margin-right: 30px;
+
+                img {
+                    border: 1px solid rgba(128, 128, 128, 0.331);
+                    width: auto;
+                    height: 30vw;
+                    border-radius: 20vw;
+                    max-width: 350px;
+                    max-height: 350px;
+                    -webkit-user-drag: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutCont {
+        width: 100%;
+        .contentAbout {
+            display: flex;
+            width: 100vw;
+            margin-top: 0px;
+            .intro {
+                padding: 60px 30px;
+                margin: auto;
+                gap: 20px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                //max-width: min-content;
+                .wordCont {
+                    //min-width: 100px;
+                    width: 100%;
+                    justify-content: left;
+                    align-items: center;
+                    text-align: left;
+                    
+                    h1 {
+                        font-size: 34px;
+                        margin: 10px;
+                        width: 100%;
+                        
+                    }
+                    h4 {
+                        width: 100%;
+                        margin-top: 0px;
+                        margin-bottom: 30px;
+                    }
+                    .imgMeMobile {
+                        // flex: 1;
+                        padding: 13px;
+                       
+                        display: flex;
+                        width: 100%;
+
+                        img {
+                            border: 1px solid rgba(128, 128, 128, 0.331);
+                            width: 100%;
+                            height: auto;
+                            border-radius: 50vw;
+                            max-width: 350px;
+                            max-height: 350px;
+                            -webkit-user-drag: none;
+                        }
+                    }
+                    p {
+                        width: 100%;
+                        margin: 0px;
+                     
+                    }
+                }
+                .imgMe {
+                    display: none;
+                }
+            }
+        }
+    }
+}
