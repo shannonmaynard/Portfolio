@@ -164,6 +164,7 @@ export default function Home({ margin }) {
           <div className="personas">
             <div className="row">
               <Img src="bw/persona1.png" />
+              <br></br> <br></br>
             </div>
           </div>
           <div className="personas">
