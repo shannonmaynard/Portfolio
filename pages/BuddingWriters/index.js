@@ -258,7 +258,7 @@ export default function Home({ margin }) {
         data-aos="fade-up"
         data-aos-mirror="false"
         data-aos-delay="200"
-      > <h3>Building the Website</h3>
+      > <h3>09 - Building the Website</h3>
         <div className="compContInner">
           <div className="personas">
             <div className="row">

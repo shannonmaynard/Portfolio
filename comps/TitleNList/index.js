@@ -7,8 +7,7 @@ const Cont = styled.div`
   width: 85vw;
   justify-content: center;
   align-items: center;
-
-gap: 20px;
+  gap: 20px;
   @media only screen and (max-width: 700px) {
     flex-direction: column;
     width: 100%;
@@ -32,7 +31,7 @@ const Img = styled.img`
   }
 `;
 const ImgCont = styled.div`
-    width: 100%;
+  width: 100%;
   max-width: 900px;
   justify-content: center;
   align-items: center;
@@ -43,15 +42,14 @@ const ImgCont = styled.div`
     margin: 0px;
     align-items: center;
   }
-
 `;
 
 const Info = styled.div`
-width: 100%;
-flex: 3;
-flex-direction: column;
-display: flex;
-max-width: 700px;
+  width: 100%;
+  flex: 3;
+  flex-direction: column;
+  display: flex;
+  max-width: 700px;
   @media only screen and (max-width: 700px) {
     padding: 10px;
     align-items: center;
@@ -78,7 +76,6 @@ const H3Big = styled.h3`
 `;
 
 const P = styled.p`
-
   font-weight: 300;
   margin: 0px;
   text-align: left;
@@ -126,15 +123,20 @@ const TitleNList = ({
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
+    <BigCont
+      className="animated"
+      data-aos="fade-up"
+      data-aos-mirror="true"
+      data-aos-delay="200"
+    >
       <H3>{h3}</H3>
-   
+
       <Cont>
         <ImgCont>
           <Img src={src}></Img>
         </ImgCont>
-        <Info >
-        <H3Big fontSize={fontSize}>{h3}</H3Big>
+        <Info>
+          <H3Big fontSize={fontSize}>{h3}</H3Big>
           <P>
             <h5>{p2}</h5>
             <Ol>
@@ -167,7 +169,6 @@ const TitleNList = ({
         </Info>
       </Cont>
     </BigCont>
-
   );
 };
 
