@@ -26,7 +26,7 @@ const HamCont = styled.div`
   @media only screen and (max-width: 700px) {
     display: flex;
     position: fixed;
-    top: 10px;
+    top: 35px;
     right: 10px;
     transform: scale(.9);
   }
@@ -61,7 +61,7 @@ const Categories = () => {
         <div className="navItems">
           <ul>
             <li>
-              <a href="/About">About</a>
+              <a href="/">About</a>
             </li>
             <li>
               <a href="/Projects">Work</a>

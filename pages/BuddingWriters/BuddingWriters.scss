@@ -1,0 +1,181 @@
+.contentsBW {
+    width: 100%;
+
+    .projTitle {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+        padding: 200px 10px;
+        gap: 0px;
+        height: fit-content;
+   
+        h1 {
+            margin: 0px;
+        }
+
+        h5 {
+            margin: 0px;
+        }
+    }
+
+    .rows {
+        display: flex;
+        background-color: rgb(53, 49, 46);
+        width: 100%;
+        flex-direction: row;
+        gap: 50px;
+        padding: 50px;
+        justify-content: center;
+      
+        @media only screen and (max-width: 700px) {
+            flex-direction: column;
+       }
+        .row1 {
+            max-width: 650px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            h3 {
+                color: white;
+            }
+            p {
+                color: rgb(189, 189, 189);
+            }
+        }
+        .row2 {
+            margin-top: 130px;
+            flex: 1;
+            flex-direction: column;
+            max-width: 700px;
+
+            h4 {
+                color: white;
+            }
+            h5 {
+                color: white;
+                padding: 0px;
+                margin: 0px;
+            }
+            p {
+                color: rgb(189, 189, 189);
+                margin: 0px;
+                text-align: left;
+            }
+            @media only screen and (max-width: 700px) {
+                 margin-top: 0px;
+            }
+    
+        }
+    }
+    .deliverables {
+        background-color: rgb(249, 238, 226);
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    h2 {
+        margin-bottom: 0px;
+    }
+    .compCont1 {
+        margin-top: 0px;
+        padding: 200px 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        justify-content: space-between;
+        @media only screen and (max-width: 700px) {
+            padding: 50px 40px;
+       }
+        .compContInner {
+            width: max-content;
+            display: flex;
+            flex-direction: row;
+            gap: 14px;
+            
+            @media only screen and (max-width: 700px) {
+                flex-direction: column; 
+         
+            }
+            .personas {
+                
+                width: 100%;
+                .row {
+                    
+                    display: flex;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+.compCont2 {
+    padding: 200px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:  rgb(255, 255, 255);
+    @media only screen and (max-width: 700px) {
+        padding: 50px 20px;
+   }
+}
+.projScene {
+    width: 50%;
+    margin-left: 25%;
+    max-width: 700px;
+    margin-bottom: 300px;
+    @media only screen and (max-width: 700px) {
+        padding: 10px;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    div {
+        .rows {
+            .row2 {
+                margin-top: 200px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    div {
+        .rows {
+            padding: 40px 20px;
+            gap: 0px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .row2 {
+                margin-top: 30px;
+            }
+        }
+    }
+    h3,
+    h2 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+.key {
+    background-color: #DDB575;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 60px;
+    @media only screen and (max-width: 700px) {
+        padding: 20px 0px;
+   }
+}
+[data-aos].compCont1 {
+    visibility: visible;
+    
+  }

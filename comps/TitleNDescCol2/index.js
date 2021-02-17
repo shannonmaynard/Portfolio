@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+const BigCont = styled.div`
+  padding: 0px 50px;
+`;
+
 const Cont = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  
+  gap: 40px;
+
   align-items: center;
   @media only screen and (max-width: 700px) {
     flex-direction: column;
@@ -19,7 +24,6 @@ const Cont = styled.div`
 */
 
 const Info = styled.div`
-  padding: 0px 50px;
   display: flex;
   flex-direction: column;
   flex: ${(props) => (props.flexInfo ? props.flexInfo : "3")};
@@ -31,18 +35,11 @@ const Info = styled.div`
 `;
 
 const H3 = styled.h3`
-  display: none;
+  display: flex;
 
   @media only screen and (max-width: 700px) {
-    display: flex;
     padding: 20px;
     margin-bottom: 0px;
-  }
-`;
-
-const H3Big = styled.h3`
-  @media only screen and (max-width: 700px) {
-    display: none;
   }
 `;
 
@@ -54,42 +51,43 @@ const P = styled.p`
 `;
 
 const Img = styled.img`
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 700px) {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
   }
 `;
 const ImgCont = styled.div`
   display: flex;
-  flex: ${(props) => (props.flexImg ? props.flexImg : "2.5")};
+  flex: ${(props) => (props.flexImg ? props.flexImg : "4")};
 `;
 
-const TitleNDesc = ({ h3, p, p3, src, flexImg, flexInfo }) => {
+const TitleNDescCol2 = ({ h3, p, p3, src, flexImg, flexInfo, h5 }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="animated" data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
-      <H3>{h3}</H3>
+    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
+      <H3>{h3}</H3> <h5>{h5}</h5>
+      <P>{p}</P>
+      <br></br> <br></br>
       <Cont>
         <ImgCont flexImg={flexImg}>
           <Img src={src}></Img>
         </ImgCont>
-        <Info flexInfo={flexInfo}>
-          <H3Big>{h3}</H3Big>
-          <P>{p}</P>
-
-          <P>{p3}</P>
-        </Info>
+        <Info flexInfo={flexInfo}></Info>
       </Cont>
-    </div>
+    </BigCont>
   );
 };
 
-TitleNDesc.defaultProps = {
+TitleNDescCol2.defaultProps = {
   h3: "Project Title",
-
+  p:
+    "The project was for a fake client our design teacher made up that owned a start up business offering a unique mix of cafe and lunch services with a large collection of second hand novels and literature. Budding writers cafe bookstore, a bookstore cafe in the heart of Vancouver, provides a safe haven to (budding) writers of all backgrounds to relax, converse, read and write with like minded souls.The overall look and feel is grass-roots yet well organized and should feel comfortable to users.",
+  src: "",
 };
 
-export default TitleNDesc;
+export default TitleNDescCol2;

@@ -62,7 +62,7 @@ const MajorImgs = ({
 
   return (
     <div>
-      <Cont>
+      <Cont className="animated"data-aos="fade-up" data-aos-mirror="true">
         <Dark></Dark>
         <Img
           imgWidth={imgWidth}

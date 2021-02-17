@@ -49,53 +49,56 @@ const H3Big = styled.h3`
   }
 `;
 
-const P = styled.div`
+const P = styled.p`
   max-width: 700px;
+  font-weight: 300;
+  margin: 0px;
+  text-align: left;
   @media only screen and (max-width: 700px) {
     padding: 10px;
   }
 `;
 
 const BigCont = styled.div`
-  margin-top: 300px;
-  margin-bottom: 300px;
-`;
 
+`;
+const H5 = styled.h5`
+font-size: 20px;
+`;
 const Ol = styled.ol`
   flex-direction: column;
 display: flex;
 gap: 10px;
+margin-top: 25px;
 
 `;
-const LI = styled.li`
-font-size: 16px;
-`;
+
 
 const TitleNList = ({
   h3,
   p,
   p2,
-
+src, fontSize, li1, li2, li3, li4, li5, li6, b1, b2, b3, b4, b5, b6
 
 }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <BigCont>
-      <H3>{h3}</H3>
+    <BigCont className="animated" data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
+      <H3 fontSize={fontSize}>{h3}</H3>
       <Cont>
-       <Img src="bw/pages.png"></Img>
+       <Img src={src}></Img>
         <Info>
-          <H3Big>{h3}</H3Big>
+          <H3Big fontSize={fontSize}>{h3}</H3Big>
           <P>
-            <b>{p2}</b>
+            <h5>{p2}</h5>
             <Ol>
-              <LI>Online book shop</LI>
-              <LI>Updatable event calendar Booking system</LI>
-              <LI>Updatable lunch menu(s)</LI>
-              <LI>Landing page</LI> 
-              <LI>About Page</LI>
-              <LI>Contact Page</LI>
+            <P><b>{b1}</b>{li1}</P>
+              <P><b>{b2}</b>{li2}</P>
+              <P><b>{b3}</b>{li3}</P>
+              <P><b>{b4}</b>{li4}</P> 
+              <P><b>{b5}</b>{li5}</P>
+              <P><b>{b6}</b>{li6}</P>
             </Ol>
           </P>
 
@@ -106,9 +109,7 @@ const TitleNList = ({
 };
 
 TitleNList.defaultProps = {
-  h3: "Project Title",
-  p: "fake content",
-  src: "",
+
 };
 
 export default TitleNList;
