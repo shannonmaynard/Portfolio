@@ -15,40 +15,19 @@ const Projects = () => {
             <h1>PROJECTS</h1>
 
             <div className="projRows">
-              <div
-                className="animated"
-                data-aos="zoom-in"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-              >
+              <div>
                 <MajorImgs imgWidth="100%" />
               </div>
-              <div
-                className="animated"
-                data-aos="zoom-in"
-                //data-aos-delay="250"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-              >
+              <div>
                 <MajorImgs src="/CommaidImg.png" />
               </div>
             </div>
             <div className="projRows">
-              <div
-                className="animated"
-                data-aos="zoom-in"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-              >
+              <div>
                 <MajorImgs src="/mag.png" />
               </div>
-          
-              <div
-                className="animated"
-                data-aos="zoom-in"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-              >
+
+              <div>
                 <MajorImgs src="/BWComputer.png" />
               </div>
             </div>
