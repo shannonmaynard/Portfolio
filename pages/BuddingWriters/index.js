@@ -163,12 +163,12 @@ export default function Home({ margin }) {
         <div className="compContInner">
           <div className="personas">
             <div className="row">
-              <Img src="bw/Persona1.png" />
+              <Img src="bw/persona1.png" />
             </div>
           </div>
           <div className="personas">
             <div className="row">
-              <Img src="bw/Persona2.png" />
+              <Img src="bw/persona2.png" />
             </div>
           </div>
         </div>

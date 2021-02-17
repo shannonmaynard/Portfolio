@@ -24,10 +24,10 @@ const Img = styled.img`
   width: 100%;
   height: auto;
   padding: 25px;
-
   @media only screen and (max-width: 700px) {
     width: 100%;
     padding: 0px;
+    margin-top: 0px;
   }
 `;
 const ImgCont = styled.div`
@@ -37,6 +37,7 @@ const ImgCont = styled.div`
   align-items: center;
   display: flex;
   flex: 4;
+  
   @media only screen and (max-width: 700px) {
     padding: 0px;
     margin: 0px;
