@@ -26,7 +26,7 @@ const Img = styled.img`
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 700px) {
     width: 90vw;
-    height: auto;
+    height: 100%;
   }
 `;
 
