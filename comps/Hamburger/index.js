@@ -6,7 +6,7 @@ const Cont = styled.div`
   width: fit-content;
   background: linear-gradient${(props) =>
   props.expanded ? "(rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.08))" : " rgba(255, 255, 255, 0);"};
-  padding: 10px 9px;
+  padding: 20px 10px;
   margin-right: 5px;
   border-radius: 40px;
   transition: all 0.5s ease-in-out;
