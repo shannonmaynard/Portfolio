@@ -27,7 +27,7 @@ const Img = styled.img`
 
   @media only screen and (max-width: 700px) {
     width: 100%;
-    padding: 40px;
+    padding: 0px;
   }
 `;
 const ImgCont = styled.div`
