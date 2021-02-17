@@ -63,6 +63,7 @@
                 color: rgb(189, 189, 189);
                 margin: 0px;
                 text-align: left;
+                max-width: 0px;
             }
             @media only screen and (max-width: 700px) {
                  margin-top: 0px;
@@ -115,7 +116,9 @@
 .compCont2 {
     padding: 200px 50px;
     width: 100%;
+    align-items: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background:  rgb(255, 255, 255);
     @media only screen and (max-width: 700px) {
@@ -166,7 +169,7 @@
     }
 }
 .key {
-    background-color: #DDB575;
+    background-color: #f0ddcb;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -179,3 +182,16 @@
     visibility: visible;
     
   }
+
+  .compCont3 {
+    margin-top: 0px;
+    padding: 200px 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    @media only screen and (max-width: 700px) {
+        padding: 50px 40px;
+   }}

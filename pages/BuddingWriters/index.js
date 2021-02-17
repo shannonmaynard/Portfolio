@@ -8,25 +8,23 @@ import Btn from "../../comps/Btn";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 
-const H5 = styled.div`
-  background-color: #353535;
-  color: white;
+const H4 = styled.div`
   width: 100%;
-  font-size: 20px;
+  font-size: 40px;
+  margin: 100px 0px;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
   text-align: center;
 `;
 const Img = styled.img`
-  width: 22.5vw;
-  max-width: 400px;
+  width: 40vw;
+  max-width: 700px;
   height: auto;
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 700px) {
-    width: 45vw;
+    width:90vw;
+    height: auto;
   }
 `;
-
 
 const Img2 = styled.img`
   width: 100%;
@@ -98,8 +96,8 @@ export default function Home({ margin }) {
           </a>
         </div>
       </div>
-      <div className="deliverables" >
-        <TitleNList 
+      <div className="deliverables">
+        <TitleNList
           src="bw/pages.png"
           h3="Website Deliverables"
           p2="Features were to include:"
@@ -118,9 +116,8 @@ export default function Home({ margin }) {
         ></TitleNList>
       </div>
       <H2>
-        <b>The User Experience</b>
-        Research
-        <br></br>
+        Research & Analysis
+  
       </H2>
       <div className="compCont1">
         <TitleNDesc
@@ -132,7 +129,7 @@ export default function Home({ margin }) {
         Organized for a friendly user experience."
         ></TitleNDesc>
       </div>
-      <div className="compCont2">
+      <div className="compCont1">
         <TitleNDesc
           h3="02 - Competitive Analysis"
           p="Now that we knew what our client wanted, we started taking a look at what other companies of a similar nature were doing to discover Strenghts, Weaknesses, Opportunities and Threats."
@@ -148,7 +145,12 @@ export default function Home({ margin }) {
           li3="Competition Takeaway: Indigo user-friendly online bookstore joined with grassroots feel for rest of website."
         ></KeyFindings>
       </div>
-      <div className="compCont1" data-aos="fade-up" data-aos-mirror="false" data-aos-delay="200">
+      <div
+        className="compCont1"
+        data-aos="fade-up"
+        data-aos-mirror="false"
+        data-aos-delay="200"
+      >
         <h3>03 - User Personas</h3>
         <p>
           We then created a user persona based off of our research to get a
@@ -160,14 +162,14 @@ export default function Home({ margin }) {
         <div className="compContInner">
           <div className="personas">
             <div className="row">
-              <Img src="bw/Persona1-2.png" />
-              <Img src="bw/Persona1-1.png" />
+              <Img src="bw/Persona1.png" />
+       
             </div>
           </div>
           <div className="personas">
             <div className="row">
-              <Img src="bw/Persona2-1.png" />
-              <Img src="bw/Persona2-2.png" />
+              <Img src="bw/Persona2.png" />
+
             </div>
           </div>
         </div>
@@ -184,34 +186,24 @@ export default function Home({ margin }) {
         ></TitleNDescCol>
       </div>
       <br></br>
-      <H2 margin="200px 0px">
-        Branding
-      </H2>
-      <div className="compCont2">
-        <TitleNDescCol
-          flexImg={4}
-          flexDir="column"
-          flex="none"
-          flexInfo={2}
-          h3="The Logo"
+      <H2 margin="200px 0px">Design</H2>
+      <div className="compCont3">
+        <TitleNDescCol2
+          h3="05 - The Logo"
           h5="First Stage In Branding"
           p="Finally, after we were clear on who are audience was, their goals and our positioning message, we finally started on the design. Our first step: creating a logo. For this, we had to think about how we could represent all three aspects of our clients business: coffee, reading and writing.
           "
-          src="bwlogo.svg"
-        ></TitleNDescCol>
-        <br></br><br></br><br></br><br></br>
+        ></TitleNDescCol2>
         <TitleNList
           p2="Logo Explained"
           b1="1. "
           b2="2. "
           b3="3. "
- 
           li1="A feather pen (representing the writing part) which is stirring into a cup of coffee (representing the cafe). Unfortunately we couldn't a clearer way of include books in the logo as well, without it becoming messy. The overall visual is an earthy, elegant yet whimsical design."
           li2="Our two fonts chosen are Zapfino for the words Budding Writers, and Bodoni Book for the tag."
           li3="Here we try and emulate the Zapfino strokes in the design of our logo (such as in the cup handle) to tie the logo and typeface together."
-  
           fontSize="10px"
-          src="bwlogoExplained.svg"
+          src="bw/bwlogoExplained.svg"
         ></TitleNList>
       </div>
 
@@ -220,46 +212,79 @@ export default function Home({ margin }) {
           flexImg={4}
           flexDir="column"
           flexInfo={2}
-          h3="Style Tiles"
+          h3="06 - Style Tiles"
           h5="The Look and Feel"
-          p=" Next up was creating a style tile that would give a bit of insight into the look and feel of our website.
+          p=" Next up was creating a style tile that would give a bit of insight into the look and feel of our website. The colors, typography interactive elements and the types of images that would be used were put together so that the project would have a consitent feel. One aspect that our client (teacher) was very impressed with was our choice in typography.
           "
           src="bw/styletile.png"
         ></TitleNDescCol>
       </div>
       <br></br>
-      <H2 margin="200px 0px">
-        Website Layout
-      </H2>
-      <div className="compCont1" data-aos="fade-up" data-aos-mirror="false" data-aos-delay="200">
+      <H2 margin="200px 0px">Website Layout</H2>
+      <div className="compCont1">
+        <TitleNDescCol
+          flexImg={4}
+          flexDir="column"
+          flexInfo={2}
+          h3="07 - Site Map"
+          h5="Mapping the Website"
+          p=" With the clear design vision and user characteristics and goals as well as our clients goals decided, I proceeded in creating a visual representation of all our information: the site map. This allowed me and my team to keep a clear idea of how and what the website would look like, while keeping in mind our users and client goals.
+          "
+          src="bw/sitemap.png"
+        ></TitleNDescCol>
+      </div>
+      <div className="compCont1">
+        <TitleNDescCol
+          flexImg={4}
+          flexDir="column"
+          flexInfo={2}
+          h3="08 - Content Inventory"
+          h5="The Content Details"
+          p="Having built up our plan step by step, here we finally got into the specifics. Here, the details were fleshed out, allowing all team members to keep up to date on what content would go on each page."
+          src="bw/contInventory.png"
+        ></TitleNDescCol>
+      </div>
+      <div className="animated" className="compCont1"
+        data-aos="fade-up"
+        data-aos-mirror="false"
+        data-aos-delay="200">
+        <H4>and finally...</H4>
+      </div>
+
+      <div
+        className="compCont1"
+        data-aos="fade-up"
+        data-aos-mirror="false"
+        data-aos-delay="200"
+      >
         <h3>Building the Website</h3>
         <div className="row">
-              <Img4 src="bw/implementation.png" />
-            </div>
+          <Img4 src="bw/implementation.png" />
+        </div>
         <h5>My contribution</h5>
         <p>
-        Because of student deadlines, we had to split up the work. For my part, I focused on the landing page, the book store page, and helped with the menus page.
+          Due to our many of student deadlines, my team and I split up the work. For my
+          part, I focused on the building the landing page, the book store page, the book product page and in creation of the menus pages.
         </p>
         <br></br>
         <br></br>
         <div className="compContInner">
-          <div className="personas">
-            
-          </div>
+          <div className="personas"></div>
         </div>
       </div>
-      <div className="compCont2">
+      <hr></hr>
+      <div className="compCont3">
         <TitleNDescCol
           flexImg={4}
+          maxWidth="700px"
           flexDir="column"
           flex="none"
           flexInfo={2}
           h3="What I learned"
           p="I learned how difficult it can be to modify wordpress templates with css and html. I learned that a good wordpress website with fully functional e-commerce takes time, and that most of the time spent on building a wordpress website is in the planning and research stages. Given more time, i'd tweak the design, fix css issues and make eCommerce fully functional."
-        
-          
           src="bwlogo.svg"
-        ></TitleNDescCol></div>
+        ></TitleNDescCol>
+      </div>
     </div>
   );
 }

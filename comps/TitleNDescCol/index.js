@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 const BigCont = styled.div`
     padding: 0px 50px;
+    
+
     @media only screen and (max-width: 700px) {
             padding: 0px 0px;
        }
@@ -27,7 +29,7 @@ const Cont = styled.div`
 */
 
 const Info = styled.div`
-  
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   flex: ${(props) => (props.flexInfo ? props.flexInfo : "3")};
@@ -68,17 +70,18 @@ const Img = styled.img`
 `;
 const ImgCont = styled.div`
 width: 100%;
+max-width: 900px;
 justify-content: center;
 align-items: center;
   display: ${(props) => (props.flex ? props.flex : "flex")};
   flex: ${(props) => (props.flexImg ? props.flexImg : "4")};
 `;
 
-const TitleNDescCol = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex }) => {
+const TitleNDescCol = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex, maxWidth }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
+    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200" maxWidth={maxWidth}>
       <H3>{h3}</H3>
    
       <Cont>
@@ -96,11 +99,5 @@ const TitleNDescCol = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex }) => {
   );
 };
 
-TitleNDescCol.defaultProps = {
-  h3: "Project Title",
-  p:
-    "The project was for a fake client our design teacher made up that owned a start up business offering a unique mix of cafe and lunch services with a large collection of second hand novels and literature. Budding writers cafe bookstore, a bookstore cafe in the heart of Vancouver, provides a safe haven to (budding) writers of all backgrounds to relax, converse, read and write with like minded souls.The overall look and feel is grass-roots yet well organized and should feel comfortable to users.",
-  src: "",
-};
 
 export default TitleNDescCol;

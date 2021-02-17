@@ -10,14 +10,13 @@ import styled from "styled-components";
 const P = styled.p`
 text-align: left;
 margin: 0px;
-color: white;
+
 font-size: 17px;
 margin-bottom: 20px;
 `;
 
 const BigCont = styled.div`
  padding: 50px;
- color: white;
 
   @media only screen and (max-width: 700px) {
     margin-top: 20px;
@@ -29,7 +28,7 @@ const BigCont = styled.div`
 const Key = styled.h3`
   display: flex;
   font-size: 23px;
-  color: white;
+
   @media only screen and (max-width: 700px) {
     padding: 10px;
     margin-bottom: 0px;
