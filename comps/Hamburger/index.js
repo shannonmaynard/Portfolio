@@ -37,8 +37,8 @@ const TopLine = styled.div`
   transition: all 0.5s ease-in-out;
   transform: ${(props) =>
     props.expanded
-      ? "rotate(45deg)  translateY(4px) translateX(4px)"
-      : "rotate(0deg)"};
+      ? "rotate(45deg)  translateY(4px) translateX(4px) scale(0.6)"
+      : "rotate(0deg) scale(0.9)"};
 `;
 
 const BottomLine = styled.div`
@@ -49,15 +49,15 @@ const BottomLine = styled.div`
   transition: all 0.5s ease-in-out;
   transform: ${(props) =>
     props.expanded
-      ? "rotate(-45deg) translateY(-6px) translateX(6px)"
-      : "rotate(0deg) "};
+      ? "rotate(-45deg) translateY(-6px) translateX(6px)scale(0.6)"
+      : "rotate(0deg) scale(0.9)"};
 `;
 
 const MiddleLine = styled.div`
   width: 40px;
   height: 2px;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.91);
   border-radius: 4px;
   opacity: ${(props) => (props.expanded ? "0" : "1")};
@@ -65,7 +65,7 @@ const MiddleLine = styled.div`
   transform: ${(props) =>
     props.expanded
       ? " translateX(-46px) "
-      : "translateX(16px)translateX(-16px)"};
+      : "translateX(16px)translateX(-16px) scale(0.9)"};
 `;
 
 const Hamburger = () => {
