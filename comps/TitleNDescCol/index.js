@@ -49,9 +49,15 @@ const H3 = styled.h3`
   }
 `;
 
-
-
 const P = styled.p`
+  max-width: 500px;
+  @media only screen and (max-width: 700px) {
+    padding: 0px 10px;
+  }
+`;
+
+
+const P2 = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 700px) {
     padding: 0px 10px;
@@ -92,7 +98,7 @@ const TitleNDescCol = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex, maxWidth }
          <h5>{h5}</h5>
           <P>{p}</P>
 
-          <P>{p3}</P>
+          <P2>{p3}</P2>
         </Info>
       </Cont>
     </BigCont>

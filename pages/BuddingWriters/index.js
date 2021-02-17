@@ -15,13 +15,17 @@ const H4 = styled.div`
   font-family: "Poppins", sans-serif;
   text-align: center;
 `;
+const P = styled.p`
+  width: 100%;
+  max-width: 700px;
+`;
 const Img = styled.img`
   width: 40vw;
   max-width: 700px;
   height: auto;
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 700px) {
-    width:90vw;
+    width: 90vw;
     height: auto;
   }
 `;
@@ -30,8 +34,8 @@ const Img2 = styled.img`
   width: 100%;
 `;
 const Img4 = styled.img`
-  width: 100%;
-  max-width: 1200px;
+  width: 80vw;
+  max-width: 900px;
 `;
 
 const Menu = styled.div`
@@ -115,10 +119,7 @@ export default function Home({ margin }) {
           li6="Contact Page"
         ></TitleNList>
       </div>
-      <H2>
-        Research & Analysis
-  
-      </H2>
+      <H2>Research & Analysis</H2>
       <div className="compCont1">
         <TitleNDesc
           h3="01 - User survey"
@@ -152,24 +153,22 @@ export default function Home({ margin }) {
         data-aos-delay="200"
       >
         <h3>03 - User Personas</h3>
-        <p>
+        <P>
           We then created a user persona based off of our research to get a
           picture of the two most regular customers would look like. This
           allowed us to find out their likes and dislikes as users.
-        </p>
+        </P>
         <br></br>
         <br></br>
         <div className="compContInner">
           <div className="personas">
             <div className="row">
               <Img src="bw/Persona1.png" />
-       
             </div>
           </div>
           <div className="personas">
             <div className="row">
               <Img src="bw/Persona2.png" />
-
             </div>
           </div>
         </div>
@@ -244,10 +243,13 @@ export default function Home({ margin }) {
           src="bw/contInventory.png"
         ></TitleNDescCol>
       </div>
-      <div className="animated" className="compCont1"
+      <div
+        className="animated"
+        className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="200">
+        data-aos-delay="200"
+      >
         <H4>and finally...</H4>
       </div>
 
@@ -256,21 +258,24 @@ export default function Home({ margin }) {
         data-aos="fade-up"
         data-aos-mirror="false"
         data-aos-delay="200"
-      >
-        <h3>Building the Website</h3>
-        <div className="row">
-          <Img4 src="bw/implementation.png" />
-        </div>
-        <h5>My contribution</h5>
-        <p>
-          Due to our many of student deadlines, my team and I split up the work. For my
-          part, I focused on the building the landing page, the book store page, the book product page and in creation of the menus pages.
-        </p>
-        <br></br>
-        <br></br>
+      > <h3>Building the Website</h3>
         <div className="compContInner">
-          <div className="personas"></div>
+          <div className="personas">
+            <div className="row">
+            <Img4 src="bw/implementation.png" />
+            </div>
+          </div>
         </div>
+       
+        <h5>My Contribution</h5>
+        <P>
+          Due to our many of student deadlines, my team and I split up the work.
+          For my part, I focused on the building the landing page, the book
+          store page, the book product page and in creation of the menus pages.
+        </P>
+        <a href="/http://buddingwriterst9.altervista.org/">
+            <Btn btn="View Live Project"></Btn>
+          </a>
       </div>
       <hr></hr>
       <div className="compCont3">
@@ -285,6 +290,7 @@ export default function Home({ margin }) {
           src="bwlogo.svg"
         ></TitleNDescCol>
       </div>
+   
     </div>
   );
 }

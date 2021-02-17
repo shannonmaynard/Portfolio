@@ -48,6 +48,7 @@
         .row2 {
             margin-top: 130px;
             flex: 1;
+            width: 100%;
             flex-direction: column;
             max-width: 700px;
 
@@ -63,7 +64,7 @@
                 color: rgb(189, 189, 189);
                 margin: 0px;
                 text-align: left;
-                max-width: 0px;
+                
             }
             @media only screen and (max-width: 700px) {
                  margin-top: 0px;
@@ -143,6 +144,7 @@
         .rows {
             .row2 {
                 margin-top: 200px;
+                width: 100%;
             }
         }
     }
