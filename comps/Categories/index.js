@@ -28,7 +28,7 @@ const HamCont = styled.div`
     position: fixed;
     top: 35px;
     right: 10px;
-    transform: scale(.9);
+  
   }
 `;
 
