@@ -56,6 +56,8 @@ const BottomLine = styled.div`
 const MiddleLine = styled.div`
   width: 40px;
   height: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   background-color: rgba(255, 255, 255, 0.91);
   border-radius: 4px;
   opacity: ${(props) => (props.expanded ? "0" : "1")};
