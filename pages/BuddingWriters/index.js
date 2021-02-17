@@ -36,6 +36,10 @@ const Img2 = styled.img`
 const Img4 = styled.img`
   width: 80vw;
   max-width: 900px;
+  @media only screen and (max-width: 700px) {
+    width: 90vw;
+    height: 100%;
+  }
 `;
 
 const Menu = styled.div`
