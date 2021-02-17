@@ -17,6 +17,9 @@ const Cont = styled.div`
   border: solid 6px black;
   box-shadow: 5px 5px 12px rgba(50, 50, 50, 0.38);
   position: relative;
+  @media only screen and (max-width:700px){
+    margin-bottom: 10px;
+  }
 `;
 
 const Img = styled.img`
