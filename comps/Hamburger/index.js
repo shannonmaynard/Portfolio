@@ -5,7 +5,7 @@ const Cont = styled.div`
   display: flex;
   width: fit-content;
   background: linear-gradient${(props) =>
-    props.expanded ? "(rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.08))" : " rgba(255, 255, 255, 0);"};
+  props.expanded ? "(rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.08))" : " rgba(255, 255, 255, 0);"};
   padding: 10px 9px;
   margin-right: 5px;
   border-radius: 40px;
@@ -20,9 +20,9 @@ const Cont = styled.div`
 const MenuBtn = styled.div`
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 35px;
+  height: 16px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   flex-direction: column;
@@ -56,8 +56,6 @@ const BottomLine = styled.div`
 const MiddleLine = styled.div`
   width: 40px;
   height: 2px;
-  margin-top: 6px;
-  margin-bottom: 6px;
   background-color: rgba(255, 255, 255, 0.91);
   border-radius: 4px;
   opacity: ${(props) => (props.expanded ? "0" : "1")};
