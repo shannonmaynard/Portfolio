@@ -70,7 +70,7 @@ const TitleNDesc = ({ h3, p, p3, src, flexImg, flexInfo }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="animated" data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
+    <div className="animated" data-aos="fade-up" data-aos-mirror="true" data-aos-delay="300">
       <H3>{h3}</H3>
       <Cont>
         <ImgCont flexImg={flexImg}>

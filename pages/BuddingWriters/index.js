@@ -8,13 +8,6 @@ import Btn from "../../comps/Btn";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 
-const H4 = styled.div`
-  width: 100%;
-  font-size: 40px;
-  margin: 100px 0px;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-`;
 const P = styled.p`
   width: 100%;
   max-width: 700px;
@@ -74,16 +67,18 @@ export default function Home({ margin }) {
         <h6>Wordpress website - 2020</h6>
       </div>
       <H2>Project Overview</H2>
-      <div className="rows">
+      <div className="rowsBW">
         <div className="row1">
           <h3>Project Scenario</h3>
           <p>
-            The project was for a fake client our design teacher made up that
-            owned a start up business offering a unique mix of cafe and lunch
-            services with a large collection of second hand novels and
-            literature. Budding writers cafe bookstore, a bookstore cafe in the
-            heart of Vancouver, provides a safe haven to (budding) writers of
-            all backgrounds to relax, converse, read and write with like minded
+            This project was in my first year of studies. Our teacher split up
+            the class into teams and assigned us a fake client (which he acted
+            as) that we had to build a wordpress website for. Our client owned a
+            start up business offering a unique mix of cafe and lunch services
+            with a large collection of second hand novels and literature.
+            Budding writers cafe bookstore, a bookstore cafe in the heart of
+            Vancouver, provides a safe haven to (budding) writers of all
+            backgrounds to relax, converse, read and write with like minded
             souls.The overall look and feel is grass-roots yet well organized
             and should feel comfortable to users.
           </p>
@@ -92,14 +87,15 @@ export default function Home({ margin }) {
           <h4>Roles</h4>
           <h5>My Role</h5>
           <p>
-            User research, brainstorming, branding, and creation of Wordpress
-            website with css custom modifications.
+            All things UX and UI. User research and analysis, brainstorming,
+            branding, and creation of Wordpress website with css custom
+            modifications.
           </p>
           <br></br>
           <h5>Project Team</h5>
           <p>Luana Teixiera - UX/UI</p>
           <p>Pooneh Ashja - UX/UI</p>
-          <a href="/http://buddingwriterst9.altervista.org/">
+          <a href="http://buddingwriterst9.altervista.org/" target="_blank">
             <Btn btn="View Live Project"></Btn>
           </a>
         </div>
@@ -127,19 +123,15 @@ export default function Home({ margin }) {
       <div className="compCont1">
         <TitleNDesc
           h3="01 - User survey"
-          p="The first step we took after meeting our Budding Writers client was to have them to fill out a survey we made. This was to get a general idea of their wants and needs for the project as well as key features to include.All of this let us build a picture of the website in our minds of a grassroots user-friendly website."
+          p="The first step we took after meeting our client was to have them to fill out a survey we made. This was to get a general idea of their wants and needs for the project. All of this let us build a picture of the website in our minds of a grassroots user-friendly website."
           src="bw/survey.png"
-          keyH3="Key Findings"
-          keyP="Website and branding should be grassroots with a sense of community. 
-        Organized for a friendly user experience."
         ></TitleNDesc>
       </div>
       <div className="compCont1">
         <TitleNDesc
           h3="02 - Competitive Analysis"
-          p="Now that we knew what our client wanted, we started taking a look at what other companies of a similar nature were doing to discover Strenghts, Weaknesses, Opportunities and Threats."
-          p3="Through this, we discovered the Budding Writers strengths and what we could take and improve from our competitors.
-        "
+          p="Now that we knew had a starting idea of what our client wanted, we began looking at what our direct and indirect competitors were doing to discover Strenghts, Weaknesses, Opportunities and Threats."
+          p3="Through this, we discovered what made Budding Writers special, as well as what we could take and improve from our competitors."
           src="bw/swot.png"
         ></TitleNDesc>
       </div>
@@ -154,14 +146,18 @@ export default function Home({ margin }) {
         className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="200"
+        data-aos-delay="300"
       >
-        <h3>03 - User Personas</h3>
-        <P>
-          We then created a user persona based off of our research to get a
-          picture of the two most regular customers would look like. This
-          allowed us to find out their likes and dislikes as users.
-        </P>
+        <div className="persInfo">
+         
+          <h3>03 - User Personas</h3>
+          <P>
+            We then created a user persona based off of our research to get a
+            picture of the two most regular customers would look like. This
+            allowed us to find out their likes and dislikes as users.
+          </P>
+        </div>
+
         <br></br>
         <br></br>
         <div className="compContInner">
@@ -253,34 +249,37 @@ export default function Home({ margin }) {
         className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="200"
+        data-aos-delay="300"
       >
-        <H4>and finally...</H4>
+        <h4 className="alter">and finally...</h4>
       </div>
 
       <div
         className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="200"
-      > <h3>09 - Building the Website</h3>
+        data-aos-delay="300"
+      >
+        <h3>09 - Building the Website</h3>
         <div className="compContInner">
           <div className="personas">
             <div className="row">
-            <Img4 src="bw/implementation.png" />
+              <Img4 src="bw/implementation.png" />
             </div>
           </div>
         </div>
-       
-        <h5>My Contribution</h5>
+
         <P>
+          {" "}
+          <h5>My Contribution</h5>
           Due to our many of student deadlines, my team and I split up the work.
           For my part, I focused on the building the landing page, the book
           store page, the book product page and in creation of the menus pages.
-        </P>
-        <a href="/http://buddingwriterst9.altervista.org/">
+          <br></br>
+          <a href="http://buddingwriterst9.altervista.org/" target="_blank">
             <Btn btn="View Live Project"></Btn>
           </a>
+        </P>
       </div>
       <hr></hr>
       <div className="compCont3">
@@ -295,7 +294,6 @@ export default function Home({ margin }) {
           src="bwlogo.svg"
         ></TitleNDescCol>
       </div>
-   
     </div>
   );
 }

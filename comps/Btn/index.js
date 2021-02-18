@@ -3,24 +3,24 @@ import styled from "styled-components";
 
 const Button = styled.button`
   background-color: transparent;
-  border: #ddb575 solid 2px;
-  color: #ddb575;
+  border: ${props => props.border ? props.border: "solid #ddb575 2px"};
+  color: ${props => props.color? props.color: "#ddb575"};
   margin: 40px 0px;
   padding: 20px;
-
+ :focus {outline:0;}
   :hover {
-    border: white solid 2px;
+    border: ${props => props.borderhov ? props.borderhov: "solid #ddb575 2px"} ;
     color: white;
-    transition: 1s;
-    background-color: #222222;
+    transition: .5s;
+    background-color: ${props => props.bgcolor ? props.bgcolor: "#ddb575"};
     cursor: pointer;
   }
 `;
 
-const Btn = ({ btn }) => {
+const Btn = ({ btn, color, border, borderhov, bgcolor }) => {
   return (
   
-      <Button>{btn}</Button>
+      <Button bgcolor={bgcolor} borderhov={borderhov} border={border} color={color}>{btn}</Button>
   
   );
 };

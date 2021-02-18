@@ -46,12 +46,11 @@
                     //background-color:blue;
                     width: fit-content;
                     padding-right: 40px;
-
                     img {
                         width: 100%;
                         height: auto;
                         max-width: 600px;
-
+                        -webkit-user-drag: none;
                         border-radius: 50%;
                     }
                 }

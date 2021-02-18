@@ -33,6 +33,7 @@ div.desc {
 @import "/pages/BuddingWriters/BuddingWriters.scss";
 @import "../comps/TitleNDesc/TitleNDesc.scss";
 @import "../pages/Projects/Projects.scss";
+@import "../pages/CommAid/CommAid.scss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap");
 @import "../pages/index.scss";
@@ -80,37 +81,46 @@ h1 {
   font-weight: 100;
   color: black;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h3 {
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 50px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "EB Garamond", sans-serif;
   //text-transform: uppercase;
 }
 h4 {
   color: black;
   font-weight: 600;
   font-size: 35px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "EB Garamond", sans-serif;
   //text-transform: uppercase;
+}
+
+ .alter {
+  width: 100%;
+  font-size: 40px;
+  margin: 100px 0px;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 h5 {
   color: black;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   margin: 15px 0px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   //text-transform: uppercase;
 }
 h6 {
   color: black;
   font-weight: 500;
   margin: 15px 0px;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
   //text-transform: uppercase;
 }
 
@@ -119,16 +129,7 @@ h6 {
   .contents {
     margin-top: 90px;
   }
-  .gif {
-    width: 100%;
-    height: 100%;
-  }
-  .gifNDesc {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    margin: auto;
-  }
+
   .description {
     margin: auto;
   }
@@ -142,6 +143,10 @@ h6 {
   h3 {
     font-weight: 700;
     font-size: 32px;
+
+
+  text-align: left;
+
   }
 }
 
@@ -172,6 +177,8 @@ h6 {
   visibility: visible;
   
 }
+
+
 .clearfix:after {
   content: "";
   display: table;
@@ -194,10 +201,7 @@ body {
     Helvetica Neue, sans-serif;
 }
 
-li {
-  font-weight: 300;
-  font-size: 14px;
-}
+
 p {
   font-weight: 300;
   font-size: 15px;
@@ -205,6 +209,13 @@ p {
   text-align-last: left;
   line-height: 26px;
   color: rgb(60, 60, 60);
+  font-family: "Open Sans", sans-serif;
+}
+
+ul li, ol li{
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {

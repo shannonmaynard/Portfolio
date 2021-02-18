@@ -16,19 +16,19 @@ const Projects = () => {
 
             <div className="projRows">
               <div>
-                <MajorImgs imgWidth="100%" />
+                <MajorImgs imgWidth="100%" src="epubImg.png"/>
               </div>
               <div>
-                <MajorImgs src="/CommaidImg.png" />
+                <MajorImgs src="/CommaidImg.png" href="/CommAid"/>
               </div>
             </div>
             <div className="projRows">
               <div>
-                <MajorImgs src="/mag.png" />
+                <MajorImgs src="/mag.png" href="/"/>
               </div>
 
               <div>
-                <MajorImgs src="/BWComputer.png" />
+                <MajorImgs src="/BWComputer.png" href="/BuddingWriters"/>
               </div>
             </div>
           </div>

@@ -21,15 +21,16 @@
         }
     }
 
-    .rows {
+    .rowsBW {
         display: flex;
-        background-color: rgb(53, 49, 46);
+        background-color: rgb(38, 35, 33);
         width: 100%;
         flex-direction: row;
         gap: 50px;
         padding: 50px;
         justify-content: center;
-      
+        background-image: url('../../public/bw/bookshelf.png');
+        background-blend-mode: overlay;
         @media only screen and (max-width: 700px) {
             flex-direction: column;
        }
@@ -90,7 +91,16 @@
         text-align: left;
         justify-content: space-between;
         @media only screen and (max-width: 700px) {
-            padding: 50px 40px;
+            padding: 0px 50px;
+            width: 100%;
+            img{
+                padding: 20px 20px;
+            }
+         
+                .alter{
+                    display: none;
+                } 
+          
        }
         .compContInner {
             width: max-content;
@@ -124,6 +134,12 @@
     background:  rgb(255, 255, 255);
     @media only screen and (max-width: 700px) {
         padding: 50px 20px;
+        img{
+            padding: 20px 20px;
+            width: 94%;
+            margin-top: 40px;
+        }
+        
    }
 }
 .projScene {
@@ -194,6 +210,8 @@
     flex-direction: column;
     text-align: left;
     justify-content: space-between;
+    
     @media only screen and (max-width: 700px) {
         padding: 50px 40px;
    }}
+

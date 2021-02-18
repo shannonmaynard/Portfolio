@@ -6,22 +6,22 @@ const BigCont = styled.div`
   flex-direction: column;
   margin-bottom: 50px;
   width: 100%;
-
+  display: flex;
   @media only screen and (max-width: 700px) {
     padding: 0px 0px;
     margin: 0px;
+    flex-direction: column;
   }
 `;
 
 const Cont = styled.div`
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: fit-content;
   max-width: 700px;
   gap: 40px;
   text-align: left;
   justify-content: flex-start;
-
   @media only screen and (max-width: 700px) {
     flex-direction: column;
     width: 100%;
@@ -58,16 +58,24 @@ const H3 = styled.h3`
 `;
 
 const P = styled.p`
-    max-width: 700px;
+  max-width: 700px;
   @media only screen and (max-width: 700px) {
     padding: 0px 10px;
   }
 `;
 
-const ImgCont = styled.div`
+const Info2 = styled.div`
   width: 100%;
   text-align: left;
+`;
 
+const Cont1 = styled.div`
+  flex: 1;
+  
+`;
+
+const InnerCont = styled.div`
+  display: flex;
 `;
 
 const TitleNDescCol2 = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex }) => {
@@ -78,15 +86,15 @@ const TitleNDescCol2 = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex }) => {
       className="animated"
       data-aos="fade-up"
       data-aos-mirror="true"
-      data-aos-delay="200"
+      data-aos-delay="300"
     >
-      <Cont>
+      <Cont1>
         <H3>{h3}</H3>
-        <ImgCont flexImg={flexImg} flex={flex}>
+        <Info2 flexImg={flexImg} flex={flex}>
           <h5>{h5}</h5>
           <P>{p}</P>
-        </ImgCont>
-      </Cont>
+        </Info2>
+      </Cont1>
     </BigCont>
   );
 };

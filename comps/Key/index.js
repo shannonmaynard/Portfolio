@@ -10,8 +10,6 @@ import styled from "styled-components";
 const P = styled.p`
 text-align: left;
 margin: 0px;
-
-font-size: 17px;
 margin-bottom: 20px;
 `;
 
@@ -27,7 +25,7 @@ const BigCont = styled.div`
 
 const Key = styled.h3`
   display: flex;
-  font-size: 23px;
+  font-size: 24px;
 
   @media only screen and (max-width: 700px) {
     padding: 10px;
@@ -39,7 +37,7 @@ const KeyFindings = ({li1, li2, li3 }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true">
+    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="300">
       <Key>Key Takeaways</Key>
       <ol>
         <P><b>1. </b>{li1}</P>

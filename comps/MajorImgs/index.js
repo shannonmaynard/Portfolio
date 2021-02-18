@@ -59,9 +59,10 @@ const MajorImgs = ({
   alignItems,
   imgWidth,
   scale,
-  viewWork
+  viewWork,
+  href
 }) => {
-  const [hover, setHover, href] = useState(false);
+  const [hover, setHover] = useState(false);
 
   return (
     <div>
@@ -78,7 +79,7 @@ const MajorImgs = ({
         <ViewWork>
           <ul>
             <li>
-              <a href="/BuddingWriters">{viewWork}</a>
+              <a href={href}>{viewWork}</a>
             </li>
           </ul>
         </ViewWork>
@@ -88,7 +89,6 @@ const MajorImgs = ({
 };
 
 MajorImgs.defaultProps = {
-  src: "/epubImg.png",
   viewWork: "View Work",
 
 };
