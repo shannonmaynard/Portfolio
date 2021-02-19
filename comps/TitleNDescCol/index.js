@@ -128,7 +128,7 @@ const TitleNDescCol = ({
   maxWidth,
   bgcolor,
   viewProject, 
-  flexLink
+  flexLink, href
 }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -151,7 +151,7 @@ const TitleNDescCol = ({
           <H5Small>{h5}</H5Small>
           <P>{p}</P>
           <br></br>
-          <H5 flexLink={flexLink}>{viewProject}</H5>
+          <a href={href} target="_blank"><H5 flexLink={flexLink}>{viewProject}</H5></a>
           <P2>{p3}</P2>
         </Info>
       </Cont>

@@ -288,6 +288,7 @@ export default function Home({ margin }) {
           src="cmaid/high-fidelity.png"
           viewProject="View High Fidelity"
           flexLink="flex"
+          href="https://www.figma.com/proto/R10YSuSRGPS50PKD7zHXVm/CommAid%2FModified?node-id=1%3A188&scaling=scale-down"
         ></TitleNDescCol>
       </div>
       <H2>Testing And Web Development</H2>
@@ -342,7 +343,7 @@ export default function Home({ margin }) {
             </div>
             <br></br> <br></br>
             <p>At every step in our process during every step, we also debugged. For my part, I created the landing page, Application form page for volunteers, the login pages and helped teamates with other pages as needed.</p>
-            <Btn btn="View CommAid Live" bgcolor="black" borderhov="black" border="black solid 2px" color="black"></Btn>
+            <Btn href="https://takfive-frontend-git-main.takefive.vercel.app/VolunteerListingPage" btn="View CommAid Live" bgcolor="black" borderhov="black" border="black solid 2px" color="black"></Btn>
           </div>
         </div>
       </div>
