@@ -75,7 +75,7 @@ const Epub = () => {
         <P>
           Please take note that this was built in Indesign and audio has weird
           glitches when played online.
-          <b> For viewing online, I recommend using Chrome</b> For the <b>best
+          <b> For viewing online, I recommend using Chrome.</b> For the <b>best
           experience</b>, you can <b>download</b> the file below, though you should be
           aware of its size of over <b>200MB.</b>
         </P>
