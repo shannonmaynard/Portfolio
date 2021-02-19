@@ -122,7 +122,7 @@
         }
     }
     .bg1 {
-        background-color: rgb(255, 250, 245);
+        background-color: rgb(255, 250, 246);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -139,13 +139,15 @@
             flex-direction: column;
             align-items: center;
             padding-bottom: 100px;
-           
+
             .keyInnerCA {
                 display: flex;
                 flex-direction: row;
                 gap: 50px;
-                @media only screen and (max-width: 700px){
+                @media only screen and (max-width: 700px) {
                     flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
                 }
                 .keyRow {
                     display: flex;
@@ -158,37 +160,82 @@
         }
     }
     .bg3 {
-        background-color: rgb(255, 250, 245);
+        background-color: rgb(255, 250, 246);
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
         padding: 150px 0px;
+        @media only screen and (max-width: 700px) {
+            padding: 50px 50px;
+        }
     }
     .deliverablesCA {
         background-color: rgb(255, 255, 255);
         padding: 200px 50px;
+        @media only screen and (max-width: 700px) {
+            padding: 0px 50px;
+        }
     }
-    .bg4{
+    .bg4 {
         background-color: rgb(255, 255, 255);
         padding: 200px 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        img{
-            max-width: 900px;
-            width: 100%;
+        @media only screen and (max-width: 700px) {
+            padding: 50px 50px;
+        }
+        p {
+            max-width: 700px;
+            text-align: left;
+            text-align-last: left;
+        }
+        img {
+            max-width: 1000px;
+            width: 90vw;
+            background-color: rgb(255, 250, 245);
         }
     }
-    .bg4-color{
+    .bg5 {
         background-color: rgb(255, 250, 245);
         padding: 200px 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        img{
+        @media only screen and (max-width: 700px) {
+            padding: 50px 50px;
+        }
+        p {
+            max-width: 700px;
+            text-align: left;
+            text-align-last: left;
+        }
+        img {
+            max-width: 1000px;
+            width: 90vw;
+            background-color: rgb(255, 250, 245);
+        }
+        .ol{
+            display: flex;
+            gap: 10px;
+            margin: -20px 0px;
+            padding: 0px;
+            
+        }
+    }
+    .bg4-color {
+        background-color: rgb(255, 250, 246);
+        padding: 200px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
             max-width: 900px;
             width: 100%;
+        }
+        @media only screen and (max-width: 700px) {
+            padding: 50px 50px;
         }
     }
 
@@ -325,30 +372,55 @@
         text-align: center;
     }
 }
-.keyCA {
-    background-color: #f0ddcb;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 60px;
-    @media only screen and (max-width: 700px) {
-        padding: 20px 0px;
-    }
-}
+
 [data-aos].compCont1 {
     visibility: visible;
 }
 
-.compCont3CA {
-    margin-top: 0px;
-    padding: 200px 50px;
-    width: 100%;
+.bg4rows2 {
+    background-color: rgb(255, 255, 255);
+    padding: 150px 50px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    text-align: left;
-    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
     @media only screen and (max-width: 700px) {
-        padding: 50px 40px;
+        padding: 50px 0px;
+        flex-direction: column;
+    }
+    h3{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        @media only screen and (max-width: 900px) {
+            padding: 50px 30px;
+            flex-direction: column;
+        }
+        .bg4Inner {
+            max-width: 700px;
+            border: rgb(255, 246, 234) solid 2px;
+            padding: 50px;
+            flex-direction: column;
+            h3{
+                text-align: left;
+                display: flex;
+                justify-content: left;
+                margin-bottom: 0px;
+            }
+           h4{
+            margin: 0px;
+            @media only screen and (max-width: 900px) {
+                font-size: 28px;
+            }
+           }
+        }
     }
 }

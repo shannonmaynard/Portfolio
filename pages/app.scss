@@ -33,6 +33,7 @@ div.desc {
 @import "/pages/BuddingWriters/BuddingWriters.scss";
 @import "../comps/TitleNDesc/TitleNDesc.scss";
 @import "../pages/Projects/Projects.scss";
+@import "../pages/Epub/Epub.scss";
 @import "../pages/CommAid/CommAid.scss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap");
@@ -91,7 +92,7 @@ h3 {
 }
 h4 {
   color: black;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 35px;
   font-family: "EB Garamond", sans-serif;
   //text-transform: uppercase;
@@ -208,13 +209,13 @@ p {
   text-align-last: left;
   line-height: 26px;
   color: rgb(60, 60, 60);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ul li, ol li{
   font-weight: 300;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -229,3 +230,7 @@ a {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap");
+.eLkJwd {
+
+  border: 0px;
+}

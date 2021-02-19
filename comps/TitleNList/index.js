@@ -20,10 +20,11 @@ const Cont = styled.div`
   }
 */
 const Img = styled.img`
-  flex: 4;
+  flex: 3;
   width: 100%;
   height: auto;
   padding: 25px;
+  max-width: 700px;
   @media only screen and (max-width: 700px) {
     width: 100%;
     padding: 0px;
@@ -36,7 +37,8 @@ const ImgCont = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
-  flex: 4;
+  flex: 3;
+  max-width: 600px;
   
   @media only screen and (max-width: 700px) {
     padding: 0px;

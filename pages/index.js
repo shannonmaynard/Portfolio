@@ -11,6 +11,10 @@ const H1 = styled.div`
   font-weight: 500;
   font-size: 50px;
   font-family: "EB Garamond", sans-serif;
+  @media only screen and (max-width: 700px){
+    font-size: 40px;
+    text-align: center;
+  }
 `;
 const H5 = styled.div`
   width: 100%;
@@ -19,6 +23,10 @@ const H5 = styled.div`
   font-weight: 300;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
+  @media only screen and (max-width: 700px){
+
+    text-align: center;
+  }
 `;
 
 

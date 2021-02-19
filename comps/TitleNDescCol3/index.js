@@ -9,7 +9,7 @@ const BigCont = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 900px) {
     padding:  0px 50px;
     margin: 0px;
     flex-direction: column;
@@ -21,7 +21,7 @@ const H3 = styled.h3`
   align-items: flex-start;
   display: flex;
   text-align: left;
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 900px) {
     padding: 0px;
     margin-bottom: 0px;
   }
@@ -30,9 +30,10 @@ const Img = styled.img`
   width: 60vw;
   max-width: 900px;
   height: auto;
+
   padding: 10px;
   border: solid 1px rgb(230, 230, 230);
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 900px) {
     width: 90vw;
     height: auto;
     border: none;
@@ -40,7 +41,7 @@ const Img = styled.img`
 `;
 const P = styled.p`
   max-width: 700px;
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 900px) {
     padding: 0px 10px;
   }
 `;
@@ -48,6 +49,7 @@ const P = styled.p`
 const Info2 = styled.div`
   width: 100%;
   text-align: left;
+ 
 `;
 
 const Cont1 = styled.div`
@@ -60,7 +62,7 @@ const InnerCont = styled.div`
   display: flex;
   flex-direction: row;
   gap: 50px;
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 900px) {
     padding: 0px 0px;
     margin: 0px;
     flex-direction: column;

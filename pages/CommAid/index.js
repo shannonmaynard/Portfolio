@@ -45,6 +45,11 @@ const Img2 = styled.img`
   width: 100%;
   border: solid 1px rgb(230, 230, 230);
 `;
+
+const ImgBanner = styled.img`
+  width: 100%;
+
+`;
 const Img4 = styled.img`
   width: 80vw;
   max-width: 900px;
@@ -71,7 +76,7 @@ export default function Home({ margin }) {
     <div className="contentsCA">
       <Categories></Categories>
       <Menu></Menu>
-      <Img2 src="/CommaidImg.png" />
+      <ImgBanner src="/CommaidImg.png" />
       <div className="projTitleCA">
         <img src="cmaid/Logo.svg" alt="sdfsdf" />
         <h1>CommAid</h1>
@@ -154,7 +159,6 @@ export default function Home({ margin }) {
         </div>
       </div>
       <H2>Research & Analysis</H2>
-
       <div className="bg1">
         <TitleNDescCol
           flexImg={2}
@@ -191,7 +195,7 @@ export default function Home({ margin }) {
           "
           titleOrg="The Organization"
           paraOrg="Here we gathered information on what would be a typical worker in a non-profit organization. This provided insight into a manager at a non-profit would need and want in using a website like CommAid, allowing us to tailer it to them."
-          src="cmAid/Persona1.png"
+          src="cmaid/Persona1.png"
         ></TitleNDescCol3>
       </div>
       <div className="bg2">
@@ -237,46 +241,111 @@ export default function Home({ margin }) {
           <h3>05 - Low Fidelity</h3>
           <p>
             The first step in the design was to create a low fidelity version on
-            sketch, which I did mainly myself. This version was later changed as we found problems with
-            usability
+            sketch. This version was later changed as we found problems with
+            usability after conducting user testing.
           </p>
           <img src="cmaid/invision.png"></img>
         </div>
       </div>
       <div className="bg4-color">
         <div>
-          
           <TitleNDescCol2
-          h3="06 - The Logo"
-          h5="First Stage In Branding"
-          p="My task at this stage was to create a logo that would repesent the different facets of our app."
-        ></TitleNDescCol2>
-         <TitleNList
-          p2="Logo Explained"
-          b1="1. "
-          b2="2. "
-          b3="3. "
-          li1="Its supposed to represent community love and giving. The green part on top of heart is community holding hands and hugging the heart. The yellow heart is happiness and the peoples hearts in the community"
-          li2="Comm = community. CommAid is short for community aid."
-          li3="This tag is to give a bit of explanation on the CommAids goals."
-          fontSize="10px"
-          src="/cmaid/caLogoExplained.svg"
-        ></TitleNList>
+            h3="06 - The Logo"
+            h5="First Stage In Branding"
+            p="My task at this stage was to create a logo that would repesent the different facets of our app."
+          ></TitleNDescCol2>
+          <TitleNList
+            p2="Logo Explained"
+            b1="1. "
+            b2="2. "
+            b3="3. "
+            li1="Its supposed to represent community love and giving. The green part on top of heart is community holding hands and hugging the heart. The yellow heart is happiness and the peoples hearts in the community"
+            li2="Comm = community. CommAid is short for community aid."
+            li3="This tag is to give a bit of explanation on the CommAids goals."
+            fontSize="10px"
+            src="/cmaid/caLogoExplained.svg"
+          ></TitleNList>
         </div>
       </div>
-
       <div className="compCont1CA">
-      <TitleNDescCol
+        <TitleNDescCol
           flexImg={4}
           flexDir="column"
           flexInfo={2}
           h3="08 - Style Guide"
           h5="User Goals"
-          p="Here myself and another teamate put together a styleguide for our website. I was in charge of the logo and typography."
+          p="Here myself and another teamate put together a styleguide for our website so that the look and feel of our website would remain consistent, while keeping in mind our users preferences, such as easy navigation, bright colors and friendly interface. I was in charge of the logo and typography."
           src="cmaid/styleGuide.png"
         ></TitleNDescCol>
       </div>
-
+      <div className="bg1">
+        <TitleNDescCol
+          flexImg={2}
+          flexDir="column"
+          flexInfo={2}
+          h3="09 - High Fidelity"
+          p="Our next step in the design process was to create a high fidelity version on figma after doing internal user testing. This allowed us to spot some problems with our low fidelity version and make appropriate adjustments before starting high fidelity version. We went through multiple iterations before arriving at our final user-tested and prototyped end verison."
+          src="cmaid/high-fidelity.png"
+          viewProject="View High Fidelity"
+          flexLink="flex"
+        ></TitleNDescCol>
+      </div>
+      <H2>Testing And Web Development</H2>
+      <div className="bg4rows2">
+  
+        <div>
+          <div className="bg4Inner">
+          <h3>10 - User Testing </h3>
+            <p>
+              After our high fidelity's first iteration, we moved onto to
+              testing it out! To figure out what problems lay in our design, we
+              conducted user testing with 6 different participants. Each had
+              some experience with volunteering and could therefore provide
+              accurate feedback.
+              <br></br>
+              <br></br>
+              During testings, we asked users to perform certain tasks and
+              observed how easy it was for them to complete, and tracked their
+              paths to see where they veered off track. All of this provided us
+              insight into things we needed to change.
+              <br></br>
+              <br></br>
+              After each participant finished the testing, we also asked them to
+              fill out a survey so that we could more deeply understand their
+              thoughts on the app.
+            </p>
+          </div>
+          <div className="bg4Inner">
+            <h4>Implementing Changes</h4>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg5">
+        <div>
+          <h3>11 - Web Development</h3>
+          <div className="bg4Inner">
+            <p>
+              After the design was complete, we moved onto developing it using NextJs. Our approach was to split up the work.
+            </p>
+            <br></br> <br></br>
+            <div className="ol">
+              <h6>Step 1: </h6> <p>Create Reusable Components</p>
+              </div>
+              <div className="ol">
+              <h6>Step 2: </h6> <p>Put components onto pages</p>
+              </div>
+              <div className="ol">
+              <h6>Step 3: </h6> <p>Create axios async calls to backend</p>
+            </div>
+            <br></br> <br></br>
+            <p>At every step in our process during every step, we also debugged. For my part, I created the landing page, Application form page for volunteers, the login pages and helped teamates with other pages as needed.</p>
+            <Btn btn="View CommAid Live" bgcolor="black" borderhov="black" border="black solid 2px" color="black"></Btn>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

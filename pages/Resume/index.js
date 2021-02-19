@@ -7,28 +7,30 @@ import styled from "styled-components";
 const Cont = styled.div`
   width: 100vw;
   height: 100vh;
+  background-color: black;
+`;
+const BigCont = styled.div`
+  background-color: black;
 `;
 const Res = styled.embed`
-width: 100vw;
-height: 100vh;
-@media only screen and (max-width: 700px) {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -30px;
+  @media only screen and (max-width: 700px) {
     width: 100vw;
-height: 100vh;
+    height: 100vh;
   }
 `;
 
 const Resume = () => {
   return (
-    <div>
-   <Categories/>
-   <Menu/>
+    <BigCont>
+      <Categories />
+      <Menu />
       <Cont>
-    
-
-        <Res src="Resume-Shannon-Maynard.pdf"></Res>    
-  
+        <Res src="Resume-Shannon-Maynard.pdf"></Res>
       </Cont>
-    </div>
+    </BigCont>
   );
 };
 

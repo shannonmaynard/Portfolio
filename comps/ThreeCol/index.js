@@ -11,6 +11,7 @@ const MainCont = styled.div`
   width: 100%;
   align-items: center;
   gap: 30px;
+  padding: 50px 0px;
 `;
 
 const Cont = styled.div`

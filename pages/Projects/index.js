@@ -16,7 +16,7 @@ const Projects = () => {
 
             <div className="projRows">
               <div>
-                <MajorImgs imgWidth="100%" src="epubImg.png"/>
+                <MajorImgs imgWidth="100%" src="epubImg.png" href="/Epub"/>
               </div>
               <div>
                 <MajorImgs src="/CommaidImg.png" href="/CommAid"/>
@@ -24,7 +24,7 @@ const Projects = () => {
             </div>
             <div className="projRows">
               <div>
-                <MajorImgs src="/mag.png" href="/"/>
+                <MajorImgs src="/mag.png" href="/Print"/>
               </div>
 
               <div>

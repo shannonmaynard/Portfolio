@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-
+import Btn from "../Btn";
 const BigCont = styled.div`
   padding: 200px 50px;
   width: fit-content;
@@ -55,13 +55,16 @@ const H3Desk = styled.h3`
     padding: 20px;
     display: none;
     margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 `;
 
 const P = styled.p`
   max-width: 700px;
+  margin-top: 0px;
   @media only screen and (max-width: 700px) {
     padding: 0px 0px;
+    margin-top: 0px;
   }
 `;
 
@@ -69,6 +72,7 @@ const P2 = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 700px) {
     padding: 0px 10px;
+    margin-top: 0px;
   }
 `;
 
@@ -76,6 +80,7 @@ const Img = styled.img`
   width: 100%;
   height: auto;
   padding: 25px;
+  background-color: white;
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 700px) {
     width: 100%;
@@ -92,6 +97,25 @@ const ImgCont = styled.div`
   flex: ${(props) => (props.flexImg ? props.flexImg : "4")};
 `;
 
+const H5 = styled.h5`
+padding: 15px;
+border: 2px solid black;
+width: fit-content;
+font-weight: 400;
+margin-top: 0px;
+display: ${(props) => (props.flexLink ? props.flexLink : "none")};
+:hover{
+  color: white;
+  background-color: black;
+  font-weight: 300;
+  border: 2px solid black;
+}
+`;
+const H5Small = styled.h5`
+margin-top: 0px;
+`;
+
+
 const TitleNDescCol = ({
   h3,
   p,
@@ -103,6 +127,8 @@ const TitleNDescCol = ({
   flex,
   maxWidth,
   bgcolor,
+  viewProject, 
+  flexLink
 }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -122,9 +148,10 @@ const TitleNDescCol = ({
         </ImgCont>
         <Info flexInfo={flexInfo}>
           <H3Desk>{h3}</H3Desk>
-          <h5>{h5}</h5>
+          <H5Small>{h5}</H5Small>
           <P>{p}</P>
-
+          <br></br>
+          <H5 flexLink={flexLink}>{viewProject}</H5>
           <P2>{p3}</P2>
         </Info>
       </Cont>
