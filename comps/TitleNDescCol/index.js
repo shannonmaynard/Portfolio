@@ -109,6 +109,7 @@ display: ${(props) => (props.flexLink ? props.flexLink : "none")};
   background-color: black;
   font-weight: 300;
   border: 2px solid black;
+  padding: 15px;
 }
 `;
 const H5Small = styled.h5`

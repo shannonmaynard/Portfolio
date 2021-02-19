@@ -83,14 +83,14 @@ const Epub = () => {
         <br></br>
         <ContLinks>
           <a
-            href="https://indd.adobe.com/view/de8fc323-d2aa-43fa-957a-4391c52745a6"
+            href="https://indd.adobe.com/view/28d31d63-53c3-4a49-ab69-1aa7379a1ca7"
             target="_blank"
           >
             <Btn>View Epub Online</Btn>
           </a>
           <br></br> <br></br> <br></br>
           <a
-            href="https://indd.adobe.com/view/de8fc323-d2aa-43fa-957a-4391c52745a6"
+            href="https://drive.google.com/file/d/1xktBsIBLpbr7hmPH9x1hUEUYLH8DUuyc/view?usp=sharing"
             target="_blank"
           >
             <Btn2>Download Epub Link</Btn2>
