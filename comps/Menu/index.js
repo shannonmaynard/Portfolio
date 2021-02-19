@@ -17,7 +17,6 @@ const Menu = () => {
   const [a, setA] = useState(false);
   return (
     <div>
-      <Categories></Categories>
       <ContFill></ContFill>
     </div>
   );

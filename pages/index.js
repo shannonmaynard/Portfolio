@@ -1,24 +1,39 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Categories from "../comps/Categories";
-import styled from 'styled-components';
+import styled from "styled-components";
+import Menu from "../comps/Menu";
+import Footer from '../comps/Footer';
 
-const Menu = styled.div`
-  background-color: black;
+const H1 = styled.div`
   width: 100%;
-  height: 183px;
-
-  @media only screen and (max-width: 700px) {
-    height: 434px;
-  }
+  align-items: 100%;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "EB Garamond", sans-serif;
 `;
+const H5 = styled.div`
+  width: 100%;
+  align-items: 100%;
+  color: #555555;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+`;
+
 
 export default function Home({ isVisible }) {
   return (
     <div className="About">
-     
       <Categories></Categories>
-       <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <Menu></Menu>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="AboutMeBig">
         <div className="contentsAboutMe">
           <div className="div">
@@ -27,10 +42,9 @@ export default function Home({ isVisible }) {
             </div>
             <div className="info">
               <div className="title">
-                <h1>
-                  Shannon Maynard
-                </h1>
-                <h4>UX/UI Designer</h4>
+                <H1>Shannon Maynard</H1>
+                <H5>UX/UI Designer</H5>
+                <br></br>
               </div>
               <div className="img2">
                 <img className="img2-2" src="/Me.png" />
@@ -43,15 +57,13 @@ export default function Home({ isVisible }) {
                 <br></br>
                 I'm incredibly passionate about all things design and love the
                 challenge of creating user interfaces that delight my audience.
-                <br></br>
-                <br></br>
               </p>
             </div>
           </div>
-        </div>   
-      
+        </div>
       </div>
-     
+      
+ <Footer/>
     </div>
   );
 }
