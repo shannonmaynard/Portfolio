@@ -21,6 +21,9 @@ const H4 = styled.div`
 const P = styled.p`
   width: 100%;
   max-width: 700px;
+  padding: 0px 50px;
+  text-align: center;
+  text-align-last: center;
 `;
 const Img = styled.img`
   width: 40vw;
@@ -40,6 +43,7 @@ const ImgTarget = styled.img`
 `;
 const Img2 = styled.img`
   width: 100%;
+  border: solid 1px rgb(230, 230, 230);
 `;
 const Img4 = styled.img`
   width: 80vw;
@@ -190,185 +194,89 @@ export default function Home({ margin }) {
           src="cmAid/Persona1.png"
         ></TitleNDescCol3>
       </div>
-
-
-
-      <div className="deliverablesCA">
-        <ThreeCol></ThreeCol>
-      </div>
-
-      <div className="compCont1CA">
-        <TitleNDesc
-          h3="01 - User survey"
-          p="The first step we took after meeting our Budding Writers client was to have them to fill out a survey we made. This was to get a general idea of their wants and needs for the project as well as key features to include.All of this let us build a picture of the website in our minds of a grassroots user-friendly website."
-          src="bw/survey.png"
-          keyH3="Key Findings"
-          keyP="Website and branding should be grassroots with a sense of community. 
-        Organized for a friendly user experience."
-        ></TitleNDesc>
-      </div>
-      <div className="compCont1CA">
-        <TitleNDesc
-          h3="02 - Competitive Analysis"
-          p="Now that we knew what our client wanted, we started taking a look at what other companies of a similar nature were doing to discover Strenghts, Weaknesses, Opportunities and Threats."
-          p3="Through this, we discovered the Budding Writers strengths and what we could take and improve from our competitors.
-        "
-          src="bw/swot.png"
-        ></TitleNDesc>
-      </div>
-      <div className="keyCA">
-        <KeyFindings
-          li1="Strengths: strong community, loyal customers."
-          li2="Opportunity: no bookstore's in area with modern website"
-          li3="Competition Takeaway: Indigo user-friendly online bookstore joined with grassroots feel for rest of website."
-        ></KeyFindings>
-      </div>
-      <div
-        className="compCont1CA"
-        data-aos="fade-up"
-        data-aos-mirror="false"
-        data-aos-delay="300"
-      >
-        <h3>03 - User Personas</h3>
-        <P>
-          We then created a user persona based off of our research to get a
-          picture of the two most regular customers would look like. This
-          allowed us to find out their likes and dislikes as users.
-        </P>
-        <br></br>
-        <br></br>
-        <div className="compContInnerCA">
-          <div className="personasCA">
-            <div className="rowCA">
-              <Img src="bw/persona1.png" />
-              <br></br> <br></br>
+      <div className="bg2">
+        <TitleNDescCol
+          flexImg={2}
+          flexDir="column"
+          flexInfo={2}
+          h3="04 - User Survey"
+          p="After user personas, we took our next step: getting feedback from actual users on what they would find most important when using a volunteering app with the purpose of finding volunteering opportunities. We asked 8 people to fill out a survey for their responses."
+          src="cmaid/survey.png"
+        ></TitleNDescCol>
+        <div className="key1CA">
+          <h4>Key Findings</h4>
+          <div className="keyInnerCA">
+            <div className="keyRow">
+              <h5>Student Needs</h5>
+              <li>Easy Interface</li>
+              <li>Locations near them</li>
+              <li>Filtering system</li>
             </div>
-          </div>
-          <div className="personasCA">
-            <div className="rowCA">
-              <Img src="bw/persona2.png" />
+            <div className="keyRow">
+              <h5>Organization Needs</h5>
+              <li>Find more Volunteers</li>
+              <li>See volunteers experience</li>
+              <li>Manage volunteers</li>
             </div>
           </div>
         </div>
       </div>
-      <div className="compCont2CA">
-        <TitleNDescCol
-          flexImg={4}
-          flexDir="column"
-          flexInfo={2}
-          h3="04 - Task Model"
-          h5="User Goals"
-          p="After visualizing our users, we moved onto their user task. We started asking ourselves, what is their goal when using the website? And how do we create a product that will assist them in completing their goal?"
-          src="bw/task-model.png"
-        ></TitleNDescCol>
-      </div>
       <br></br>
-      <H2 margin="200px 0px">Design</H2>
-      <div className="compCont3CA">
-        <TitleNDescCol2
-          h3="05 - The Logo"
+      <div className="bg3">
+        <P>
+          All of our research allowed us to put together a list of features we
+          would include into the website.
+        </P>
+      </div>
+      <div className="deliverablesCA">
+        <ThreeCol></ThreeCol>
+      </div>
+      <H2>Design</H2>
+      <div className="bg4">
+        <div>
+          <h3>05 - Low Fidelity</h3>
+          <p>
+            The first step in the design was to create a low fidelity version on
+            sketch, which I did mainly myself. This version was later changed as we found problems with
+            usability
+          </p>
+          <img src="cmaid/invision.png"></img>
+        </div>
+      </div>
+      <div className="bg4-color">
+        <div>
+          
+          <TitleNDescCol2
+          h3="06 - The Logo"
           h5="First Stage In Branding"
-          p="Finally, after we were clear on who are audience was, their goals and our positioning message, we finally started on the design. Our first step: creating a logo. For this, we had to think about how we could represent all three aspects of our clients business: coffee, reading and writing.
-          "
+          p="My task at this stage was to create a logo that would repesent the different facets of our app."
         ></TitleNDescCol2>
-        <TitleNList
+         <TitleNList
           p2="Logo Explained"
           b1="1. "
           b2="2. "
           b3="3. "
-          li1="A feather pen (representing the writing part) which is stirring into a cup of coffee (representing the cafe). Unfortunately we couldn't a clearer way of include books in the logo as well, without it becoming messy. The overall visual is an earthy, elegant yet whimsical design."
-          li2="Our two fonts chosen are Zapfino for the words Budding Writers, and Bodoni Book for the tag."
-          li3="Here we try and emulate the Zapfino strokes in the design of our logo (such as in the cup handle) to tie the logo and typeface together."
+          li1="Its supposed to represent community love and giving. The green part on top of heart is community holding hands and hugging the heart. The yellow heart is happiness and the peoples hearts in the community"
+          li2="Comm = community. CommAid is short for community aid."
+          li3="This tag is to give a bit of explanation on the CommAids goals."
           fontSize="10px"
-          src="bw/bwlogoExplained.svg"
+          src="/cmaid/caLogoExplained.svg"
         ></TitleNList>
-      </div>
-
-      <div className="compCont1CA">
-        <TitleNDescCol
-          flexImg={4}
-          flexDir="column"
-          flexInfo={2}
-          h3="06 - Style Tiles"
-          h5="The Look and Feel"
-          p=" Next up was creating a style tile that would give a bit of insight into the look and feel of our website. The colors, typography interactive elements and the types of images that would be used were put together so that the project would have a consitent feel. One aspect that our client (teacher) was very impressed with was our choice in typography.
-          "
-          src="bw/styletile.png"
-        ></TitleNDescCol>
-      </div>
-      <br></br>
-      <H2 margin="200px 0px">Website Layout</H2>
-      <div className="compCont1CA">
-        <TitleNDescCol
-          flexImg={4}
-          flexDir="column"
-          flexInfo={2}
-          h3="07 - Site Map"
-          h5="Mapping the Website"
-          p=" With the clear design vision and user characteristics and goals as well as our clients goals decided, I proceeded in creating a visual representation of all our information: the site map. This allowed me and my team to keep a clear idea of how and what the website would look like, while keeping in mind our users and client goals.
-          "
-          src="bw/sitemap.png"
-        ></TitleNDescCol>
-      </div>
-      <div className="compCont1CA">
-        <TitleNDescCol
-          flexImg={4}
-          flexDir="column"
-          flexInfo={2}
-          h3="08 - Content Inventory"
-          h5="The Content Details"
-          p="Having built up our plan step by step, here we finally got into the specifics. Here, the details were fleshed out, allowing all team members to keep up to date on what content would go on each page."
-          src="bw/contInventory.png"
-        ></TitleNDescCol>
-      </div>
-      <div
-        className="animated"
-        className="compCont1"
-        data-aos="fade-up"
-        data-aos-mirror="false"
-        data-aos-delay="300"
-      >
-        <h4>and finally...</h4>
-      </div>
-
-      <div
-        className="compCont1CA"
-        data-aos="fade-up"
-        data-aos-mirror="false"
-        data-aos-delay="300"
-      >
-        {" "}
-        <h3>09 - Building the Website</h3>
-        <div className="compContInnerCA">
-          <div className="personasCA">
-            <div className="rowCA">
-              <Img4 src="bw/implementation.png" />
-            </div>
-          </div>
         </div>
-        <h5>My Contribution</h5>
-        <P>
-          Due to our many of student deadlines, my team and I split up the work.
-          For my part, I focused on the building the landing page, the book
-          store page, the book product page and in creation of the menus pages.
-        </P>
-        <a href="http://buddingwriterst9.altervista.org/" target="_blank">
-          <Btn btn="View Live Project"></Btn>
-        </a>
       </div>
-      <hr></hr>
-      <div className="compCont3CA">
-        <TitleNDescCol
+
+      <div className="compCont1CA">
+      <TitleNDescCol
           flexImg={4}
-          maxWidth="700px"
           flexDir="column"
-          flex="none"
           flexInfo={2}
-          h3="What I learned"
-          p="I learned how difficult it can be to modify wordpress templates with css and html. I learned that a good wordpress website with fully functional e-commerce takes time, and that most of the time spent on building a wordpress website is in the planning and research stages. Given more time, i'd tweak the design, fix css issues and make eCommerce fully functional."
-          src="bwlogo.svg"
+          h3="08 - Style Guide"
+          h5="User Goals"
+          p="Here myself and another teamate put together a styleguide for our website. I was in charge of the logo and typography."
+          src="cmaid/styleGuide.png"
         ></TitleNDescCol>
       </div>
+
     </div>
   );
 }

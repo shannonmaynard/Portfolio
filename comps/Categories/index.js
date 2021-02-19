@@ -67,7 +67,7 @@ const Categories = () => {
               <a href="/Projects">Work</a>
             </li>
             <li>
-              <a href="/Projects">Resume</a>
+              <a href="/Resume">Resume</a>
             </li>
           </ul>
         </div>

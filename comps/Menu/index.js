@@ -4,13 +4,11 @@ import Hamburger from "../Hamburger";
 import Categories from "../Categories";
 
 const ContFill = styled.div`
-  height: 187px;
+  height: 195px;
   width: 100%;
   display: flex;
-  
-  background-color: blue;
   @media only screen and (max-width: 700px) {
-    height: 536px;
+    height: 128px;
   }
 `;
 
