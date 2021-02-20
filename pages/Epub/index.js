@@ -141,7 +141,7 @@ const Epub = () => {
             My EPUB project was inspired by a true story. At the beginning of
             the year in the month of september, my younger sister got herself a
             pet hamster. On the first day she brought her hamster, that she
-            named Peanut, home Peanut almost escaped. She'd opened the the cage
+            named Peanut, home, Peanut almost escaped. She'd opened the the cage
             for just a second, and peanut took the chance to escape. She ran
             extremely quickly, and before we knew it, she'd fit herself into a
             small hole that led inside of the fireplace. We all started
