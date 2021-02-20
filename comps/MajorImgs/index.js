@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Cont = styled.div`
   flex: 1;
   overflow: hidden;
-  //max-width: 500px;
+  max-width: 400px;
   height: 100%;
   width: auto;
   align-items: ${(props) => (props.alignItems ? props.alignItems : "center")};
@@ -12,12 +12,12 @@ const Cont = styled.div`
     props.justifyContent ? props.justifyContent : "center"};
   display: flex;
   background-color: #191919;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 10px;
   border: solid 6px black;
   box-shadow: 5px 5px 12px rgba(50, 50, 50, 0.38);
   position: relative;
-  @media only screen and (max-width:700px){
+  @media only screen and (max-width: 700px) {
     margin-bottom: 10px;
   }
 `;
@@ -46,12 +46,40 @@ const ViewWork = styled.div`
   right: 0px;
   width: 100%;
   bottom: 0px;
-
+  z-index: 2;
   padding-top: 1px;
   height: 20%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 `;
 
+const ContSmall = styled.div`
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  padding: 10px;
+  padding-bottom: 30px;
+
+`;
+const BigCont = styled.div`
+  display: flex;
+  
+
+  flex-direction: column;
+`;
+
+const H5 = styled.h5`
+  color: black;
+  font-weight: 400;
+  margin:0px;
+  font-size: 18px;
+`;
+const P = styled.p`
+  color: black;
+  font-weight: 200;
+  font-size: 14px;
+  margin:0px;
+
+`;
 const MajorImgs = ({
   src,
   justifyContent,
@@ -59,38 +87,38 @@ const MajorImgs = ({
   alignItems,
   imgWidth,
   scale,
-  viewWork,
-  href
+  projectType,
+  href,
+  projectDesc
 }) => {
   const [hover, setHover] = useState(false);
 
   return (
-    <div>
+    <BigCont>
       <Cont>
         <Dark></Dark>
-        <Img
-          imgWidth={imgWidth}
-          imgHeight={imgHeight}
-          justifyContent={justifyContent}
-          alignItems={alignItems}
-          src={src}
-          scale={scale}
-        ></Img>
-        <ViewWork>
-          <ul>
-            <li>
-              <a href={href}>{viewWork}</a>
-            </li>
-          </ul>
-        </ViewWork>
+        <a href={href}>
+          <Img
+            imgWidth={imgWidth}
+            imgHeight={imgHeight}
+            justifyContent={justifyContent}
+            alignItems={alignItems}
+            src={src}
+            scale={scale}
+          ></Img>
+        </a>
+   
       </Cont>
-    </div>
+      <ContSmall>
+        <H5>{projectType}</H5>
+        <P>{projectDesc}</P>
+      </ContSmall>
+    </BigCont>
   );
 };
 
 MajorImgs.defaultProps = {
   viewWork: "View Work",
-
 };
 
 export default MajorImgs;

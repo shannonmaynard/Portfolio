@@ -214,10 +214,20 @@ p {
 
 ul li, ol li{
   font-weight: 300;
-  font-size: 14px;
+  font-size: 15px;
+
+  line-height: 26px;
+
   font-family: "Poppins", sans-serif;
 }
 
+li{  font-weight: 300;
+  font-size: 14px;
+
+  text-align-last: left;
+  line-height: 22px;
+
+  font-family: "Poppins", sans-serif;}
 a {
   color: inherit;
   text-decoration: none;
