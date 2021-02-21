@@ -45,9 +45,6 @@ const P = styled.div`
   align-items: flex-start;
 `;
 
-const P2 = styled.p`
-  margin-top: 0px;
-`;
 const Li = styled.li``;
 
 const Epub = () => {
@@ -93,7 +90,7 @@ const Epub = () => {
 
         <div className="info1">
           <div className="epubTasks">
-            <P2>
+            <p>
               <h3>Project Task/Requirements</h3>
               <br></br>
               <br></br>
@@ -113,7 +110,7 @@ const Epub = () => {
               <br></br>
               To design and implement an e-book/e-publication with interactive
               features, such as (but not limited to):
-            </P2>
+            </p>
             <Li>audio and videos</Li>
             <Li>buttons and navigation</Li>
             <Li>external links</Li>
@@ -136,78 +133,86 @@ const Epub = () => {
         </div>
 
         <div className="info2">
-          <P2>
-            <h3>Ideation</h3>
-            <br></br> <br></br>
-            <b>Ideation: The Story of the Original Peanut</b>
-            <br></br> <br></br>
-            My EPUB project was inspired by a true story. At the beginning of
-            the year in the month of september, my younger sister got herself a
-            pet hamster. On the first day she brought her hamster, that she
-            named Peanut, home, Peanut almost escaped. She'd opened the the cage
-            for just a second, and peanut took the chance to escape. She ran
-            extremely quickly, and before we knew it, she'd fit herself into a
-            small hole that led inside of the fireplace. We all started
-            immediately freaking out.
-            <br></br>
-            <br></br>
-            After a bit of panic, we pulled off a metal piece that was closing
-            off the fire place and after taking a look inside and saw her at the
-            very back, next to a different hole that led who knew where. She
-            seemed very scared, so going in, we knew we had one chance to grab
-            her. So we led her closer to us with a trail of food, then when the
-            moment was right, we grabbed her!
-            <br></br>
-            <br></br>
-            <b>Bringing the Scene to Life: a Children's Book</b> <br></br>
-            <br></br>
-            That scene stuck with me, and when I was thinking about ideas for
-            this project, I thought about this scene. This led to me fleshing
-            out idea of, what if Peanut actually did escape? If she hadn't died,
-            what would be her life outside? As I was aiming to do a children's
-            book, these wild imaginations seemed like an interesting idea. So, I
-            turned these thoughts into a concrete idea. I knew it would work
-            well, as many children have hamsters as their first pet. If they
-            were to play my game, they could sympathize and have fun while
-            helping Peanut in her outside adventures.
-          </P2>
+          <div>
+            <p>
+              <h3>Ideation</h3>
+              <br></br> <br></br>
+              <b>Ideation: The Story of the Original Peanut</b>
+              <br></br> <br></br>
+              My EPUB project was inspired by a true story. At the beginning of
+              the year in the month of september, my younger sister got herself
+              a pet hamster. On the first day she brought her hamster, that she
+              named Peanut, home, Peanut almost escaped. She'd opened the the
+              cage for just a second, and peanut took the chance to escape. She
+              ran extremely quickly, and before we knew it, she'd fit herself
+              into a small hole that led inside of the fireplace. We all started
+              immediately freaking out.
+              <br></br>
+              <br></br>
+              After a bit of panic, we pulled off a metal piece that was closing
+              off the fire place and after taking a look inside and saw her at
+              the very back, next to a different hole that led who knew where.
+              She seemed very scared, so going in, we knew we had one chance to
+              grab her. So we led her closer to us with a trail of food, then
+              when the moment was right, we grabbed her!
+              <br></br>
+              <br></br>
+              <b>Bringing the Scene to Life: a Children's Book</b> <br></br>
+              <br></br>
+              That scene stuck with me, and when I was thinking about ideas for
+              this project, I thought about this scene. This led to me fleshing
+              out idea of, what if Peanut actually did escape? If she hadn't
+              died, what would be her life outside? As I was aiming to do a
+              children's book, these wild imaginations seemed like an
+              interesting idea. So, I turned these thoughts into a concrete
+              idea. I knew it would work well, as many children have hamsters as
+              their first pet. If they were to play my game, they could
+              sympathize and have fun while helping Peanut in her outside
+              adventures.
+            </p>
+          </div>
         </div>
         <div className="chara">
-          <div className="epubRowChara">
-            <div className="charaCont">
-              <h3>The Characters:</h3>
-              <br></br>
-              <h5> Hero and Villain</h5>
-              <br></br>
-              <img className="charaImg" src="/charas.png" />
-            </div>
-            <br></br> <br></br> <br></br>
-            <div className="charaCont1">
-              <h4 className="charaMobileH4">The Cats</h4>
-              <div className="charaRow">
-                <img className="charaImg2" src="/cats.jpeg" />
-                <div>
-                  <h4 className="charaDeskH4">The Cats</h4>
-                  <p className="p">
-                    Based on the real life cats of my older sister. They're
-                    unamed in the book but in real life go by Boo and Harley;
-                    two strays with a scarred past that were adopted later in
-                    their life.
-                  </p>
-                </div>
-              </div>
+          <div className="charaCont">
+            <h3>The Characters:</h3>
+            <br></br>
+            <h4>
+       
+              Peanut <h3> Vs.</h3> The Neighbourhood Cats
+            </h4>
+       
+            <img className="charaImg" src="/charas.png" />
+          </div>
+          <br></br> <br></br> <br></br>
+        </div>
+
+        <div className="chara"></div>
+      </div>
+      <br></br> <br></br> <br></br> <br></br>
+      <div className="charaBigCont">
+        <div className="charaCont1">
+          <h4 className="charaMobileH4">The Cats</h4>
+          <div className="charaRow">
+            <img className="charaImg2" src="/cats.jpeg" />
+            <div className="epubInfo">
+              <h4 className="charaDeskH4">The Cats</h4>
+              <p className="p">
+                Based on the real life cats of my older sister. They're unamed
+                in the book but in real life go by Boo and Harley; two strays
+                with a scarred past that were adopted later in their life.
+              </p>
             </div>
           </div>
-          <br></br> <br></br> <br></br> <br></br>
-          <div className="charaCont2">
+          <div className="charaCont1">
             <h4 className="charaMobileH4">Hamster Peanut</h4>
             <div className="charaRow">
               <img className="charaImg2" src="/peanut.png" />
-              <div className="p">
-                <h4 className="charaDeskH4">Peanut</h4>
+              <div className="epubInfo">
+                <h4 className="charaDeskH4">Hamster Peanut</h4>
                 <p className="p">
-                  Based on the real life hamster Peanut, bought from a local
-                  small pet store at a young age by my younger sister.
+                  Based on the real life cats of my older sister. They're unamed
+                  in the book but in real life go by Boo and Harley; two strays
+                  with a scarred past that were adopted later in their life.
                 </p>
               </div>
             </div>

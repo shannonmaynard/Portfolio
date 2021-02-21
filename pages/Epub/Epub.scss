@@ -76,7 +76,7 @@
             font-weight: 400;
         }
         .info1 {
-            background-color: rgb(244, 246, 255);
+            background: linear-gradient(20deg, #a6c6fb, #c9c9fc5d);
             width: 100%;
             padding: 150px 50px;
             display: flex;
@@ -89,131 +89,121 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items: flex-start;
+                h3 {
+                    @media only screen and (max-width: 700px) {
+                        text-align: left;
+                        line-height: 40px;
+                    }
+                }
             }
         }
         .info2 {
-            padding: 150px 50px;
+            background: linear-gradient(20deg, #a6c6fb8d, #c9c9fc96);
             width: 100%;
-            max-width: 800px;
+           justify-content: center;
+            display: flex;
+            div {
+                padding: 150px 50px;
+                width: 100%;
+                max-width: 800px;
+                h3 {
+                    @media only screen and (max-width: 700px) {
+                        text-align: left;
+                        line-height: 40px;
+                        justify-content: flex-start;
+                    }
+                }
+            }
         }
         .chara {
+            background: linear-gradient(20deg, #a6c6fb44, #c9c9fc4d);
             width: 100%;
-            background-color: white;
+           justify-content: center;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
             .charaCont {
                 width: 100%;
                 padding: 100px 50px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
 
                 h3 {
                     margin: 0px;
                     color: rgb(35, 35, 35);
                     font-weight: 600;
+                
                 }
 
-                h5 {
+                h4 {
                     margin-top: 0px;
                     color: rgb(35, 35, 35);
+                    font-size: 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
                 .charaImg {
                     width: 70vw;
                     max-width: 1000px;
                     border-radius: 15px;
+                    margin: 0px;
                 }
 
                 p {
                 }
             }
-            .charaCont1 {
-                .charaMobileH4 {
-                    display: none;
-                    @media only screen and (max-width: 700px) {
-                        display: flex;
-                        justify-content: center;
-                    }
-                }
-                .charaImg2 {
-                    min-width: 300px;
-                    max-width: 500px;
-                }
-            }
-            .epubRowChara {
-                display: flex;
-                align-items: center;
-
-                flex-direction: column;
-                padding: 0px 50px;
-                width: 100%;
-                .charaImg2 {
-                    width: 60vw;
-
-                    border-radius: 50%;
-                    max-width: 350px;
-                    p {
-                        max-width: 800px;
-                    }
-                }
-            }
-            .charaCont2 {
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-
-                padding: 0px 50px;
-                .charaMobileH4 {
-                    display: none;
-                    @media only screen and (max-width: 700px) {
-                        display: flex;
-                    }
-                }
-                .charaImg2 {
-                    border-radius: 50%;
-
-                    width: 100%;
-                    min-width: 300px;
-                    max-width: 350px;
-                    .p {
-                        max-width: 400px;
-                    }
-                }
-            }
         }
     }
 }
-.charaRow,
-.epubRowChara {
+
+.charaBigCont {
+    width: 100%;
+}
+.charaCont1 {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 50px;
     align-items: center;
-    p {
-        margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+.charaMobileH4 {
+    display: none;
+    @media only screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
     }
 }
 .charaRow {
-    .p {
-        max-width: 400px;
-    }
-    .charaDeskH4 {
-        display: flex;
-        margin-left: 50px;
-        @media only screen and (max-width: 700px) {
-            display: none;
-        }
-    }
-
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     @media only screen and (max-width: 700px) {
-        display: flex;
         flex-direction: column;
     }
 }
-.charaImg2,
-.p {
-    flex: 1;
-    min-width: 100px;
+
+.epubInfo {
 }
+.charaDeskH4 {
+    @media only screen and (max-width: 700px) {
+        display: none;
+    }
+}
+
 .p {
-    max-width: 400px;
+    max-width: 600px;
+}
+
+.charaImg2 {
+    min-width: 300px;
+    max-width: 350px;
+    border-radius: 50%;
+    margin-right: 50px;
+    height: 100%;
 }
