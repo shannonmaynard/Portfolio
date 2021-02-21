@@ -54,12 +54,15 @@ const Epub = () => {
   return (
     <div className="epubCont">
       <Categories></Categories>
-
-      <img className="epubImg" src="/epubImg.png" />
+      <div id="menu"></div>
+      <img className="epubImg" src="/peanutBanner.png" />
       <div className="epubCont">
         <div className="titleEpub">
           <h3>A Peanut's Adventures</h3>
           <h5>Interactive Epub - A Childrens book</h5>
+        </div>
+        <div className="gifCont">
+          <img src="/game.gif" className="epubImg2"></img>
         </div>
         <div className="viewEpub">
           <p>
@@ -90,10 +93,12 @@ const Epub = () => {
 
         <div className="info1">
           <div className="epubTasks">
-            <h3>Project Task/Requirements</h3>
-            <br></br>
-            <br></br>
             <P2>
+              <h3>Project Task/Requirements</h3>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <b>Interactive Epub Requirements</b>
               <br></br>
               <br></br>
@@ -118,9 +123,7 @@ const Epub = () => {
             <Li>html articles</Li>
             <Li>galleries</Li>
             <Li>slideshows</Li>
-            <Li>scrollable areas</Li>
-            <Li>Interactive branching</Li>
-            <Li>and more!</Li>
+
             <br></br>
             <br></br>
             <b>Plot</b>
@@ -180,26 +183,29 @@ const Epub = () => {
             </div>
             <br></br> <br></br> <br></br>
             <div className="charaCont1">
-              <h4>The Cats</h4>
+              <h4 className="charaMobileH4">The Cats</h4>
               <div className="charaRow">
                 <img className="charaImg2" src="/cats.jpeg" />
-
-                <p className="p">
-                  Based on the real life cats of my older sister. They're unamed
-                  in the book but in real life go by Boo and Harley; two strays
-                  with a scarred past that were adopted later in their life.
-                </p>
+                <div>
+                  <h4 className="charaDeskH4">The Cats</h4>
+                  <p className="p">
+                    Based on the real life cats of my older sister. They're
+                    unamed in the book but in real life go by Boo and Harley;
+                    two strays with a scarred past that were adopted later in
+                    their life.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <br></br> <br></br> <br></br> <br></br>
-          <div className="epubRowChara1">
-            <h4>Hamster Peanut</h4>
+          <div className="charaCont2">
+            <h4 className="charaMobileH4">Hamster Peanut</h4>
             <div className="charaRow">
               <img className="charaImg2" src="/peanut.png" />
               <div className="p">
-            
-                <p>
+                <h4 className="charaDeskH4">Peanut</h4>
+                <p className="p">
                   Based on the real life hamster Peanut, bought from a local
                   small pet store at a young age by my younger sister.
                 </p>
