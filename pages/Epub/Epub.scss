@@ -100,7 +100,7 @@
         .info2 {
             background: linear-gradient(20deg, #a6c6fb8d, #c9c9fc96);
             width: 100%;
-           justify-content: center;
+            justify-content: center;
             display: flex;
             div {
                 padding: 150px 50px;
@@ -116,9 +116,9 @@
             }
         }
         .chara {
-            background: linear-gradient(20deg, #a6c6fb44, #c9c9fc4d);
+           
             width: 100%;
-           justify-content: center;
+            justify-content: center;
             display: flex;
             .charaCont {
                 width: 100%;
@@ -126,20 +126,29 @@
                 align-items: center;
                 display: flex;
                 flex-direction: column;
-
+                .charaImgCont{
+                    .h4Vs {
+                    margin-top: 0px;
+                    top: 0px;
+                    color: white;
+                    z-index: 3;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
                 h3 {
-                    margin: 0px;
-                    color: rgb(35, 35, 35);
+                    margin: 10px;
+                    color: rgb(65, 99, 212);
                     font-weight: 600;
-                
                 }
 
                 h4 {
                     margin-top: 0px;
-                    color: rgb(35, 35, 35);
+                    color: rgb(0, 0, 0);
                     font-size: 24px;
                     display: flex;
                     align-items: center;
+                    margin: 0px;
                     justify-content: center;
                 }
 
@@ -148,23 +157,39 @@
                     max-width: 1000px;
                     border-radius: 15px;
                     margin: 0px;
+                    position: relative;
                 }
 
+                }
                 p {
                 }
             }
         }
     }
 }
+.charaMobileH4-2{
+    text-align: left;
+    
+}
+.umbrella{
+    width: 100%;
+    border-radius: 15px;
 
+}
 .charaBigCont {
     width: 100%;
+    padding: 150px 0px;
+}
+
+.charaBigCont2 {
+    width: 100%;
+    padding: 100px 0px;
 }
 .charaCont1 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+
     align-items: center;
     display: flex;
     justify-content: center;
@@ -182,6 +207,7 @@
     width: 100%;
     align-items: center;
     display: flex;
+    padding: 0px 50px;
     justify-content: center;
     @media only screen and (max-width: 700px) {
         flex-direction: column;
@@ -201,9 +227,10 @@
 }
 
 .charaImg2 {
-    min-width: 300px;
-    max-width: 350px;
+    min-width: 200px;
+    max-width: 300px;
     border-radius: 50%;
+    width: 100%;
     margin-right: 50px;
     height: 100%;
 }

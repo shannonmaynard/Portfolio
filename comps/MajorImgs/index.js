@@ -78,6 +78,8 @@ const P = styled.p`
   font-weight: 200;
   font-size: 14px;
   margin:0px;
+  text-align:left;
+  text-align-last: left;
 
 `;
 const MajorImgs = ({
