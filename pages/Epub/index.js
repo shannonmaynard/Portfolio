@@ -176,8 +176,9 @@ const Epub = () => {
             <div className="charaImgCont">
               <div className="h4Vs">
                 <h4>Peanut</h4> <h3>Vs</h3> <h4>The Neighbourhood Cats</h4>
+                
               </div>
-
+              <br></br> <br></br><br></br> <br></br>
               <img className="charaImg" src="/charas.png" />
             </div>
           </div>
@@ -245,25 +246,25 @@ const Epub = () => {
           </div>
         </div>
         <div className="charaBigCont2">
-        <div className="charaCont1">
-          <div className="charaRow">
-            <div className="epubInfo">
-              <h4 className="charaDeskH4-2">Step 2: Taking pictures</h4>
-              <p className="p">
-                As my design would be based off of real characters (peanut and
-                the cats) I wanted to use images of them. Though I had quite a
-                few already, it still wasn’t enough for the amount of poses I
-                needed from them. So, I proceeded to conduct multiple
-                photoshoots of both Peanut and the cats, to get what I needed.
-                <br></br>
-                <br></br>
-                One thing I did know was that I wanted my scenarios to be in
-                nature, as hamsters are wild creatures so nature is their
-                natural habitat.
-              </p>
+          <div className="charaCont1">
+            <div className="charaRow">
+              <div className="epubInfo">
+                <h4 className="charaDeskH4-2">Step 2: Taking pictures</h4>
+                <p className="p">
+                  As my design would be based off of real characters (peanut and
+                  the cats) I wanted to use images of them. Though I had quite a
+                  few already, it still wasn’t enough for the amount of poses I
+                  needed from them. So, I proceeded to conduct multiple
+                  photoshoots of both Peanut and the cats, to get what I needed.
+                  <br></br>
+                  <br></br>
+                  One thing I did know was that I wanted my scenarios to be in
+                  nature, as hamsters are wild creatures so nature is their
+                  natural habitat.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
         </div>
         <br></br> <br></br> <br></br> <br></br> <br></br>
         <div className="charaCont1">
@@ -310,11 +311,15 @@ const Epub = () => {
                     together on Adobe Audition. This stage took the longest, and
                     is still an ongoing process. specifics.
                   </p>
+
+                  <br></br><br></br><br></br><br></br><br></br>
+                  <h4 className="last">
+                    Finally, I published it online through Indesign
+                  </h4>
                 </div>
               </div>
             </div>
           </div>
-          <h4>Finally, I published it online through Indesign</h4>
         </div>
       </div>
     </div>
