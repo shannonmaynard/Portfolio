@@ -13,13 +13,7 @@ import TitleNDescCol3 from "../../comps/TitleNDescCol3";
 import ThreeCol from "../../comps/ThreeCol";
 import Footer from "../../comps/Footer";
 
-const P = styled.p`
-  width: 100%;
-  max-width: 700px;
-  padding: 0px 50px;
-  text-align: center;
-  text-align-last: center;
-`;
+
 
 const ImgBanner = styled.img`
   width: 100%;
@@ -199,10 +193,10 @@ export default function Home({ margin }) {
       </div>
       <br></br>
       <div className="bg3">
-        <P>
+        <p className="p-bg3">
           All of our research allowed us to put together a list of features we
           would include into the website.
-        </P>
+        </p>
       </div>
       <div className="deliverablesCA">
         <ThreeCol></ThreeCol>
