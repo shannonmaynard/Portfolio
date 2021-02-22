@@ -26,7 +26,7 @@ const HamCont = styled.div`
   @media only screen and (max-width: 700px) {
     display: flex;
     position: fixed;
-    top: 35px;
+    top: 15px;
     right: 10px;
     transform: scale(.9);
   }
