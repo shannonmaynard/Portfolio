@@ -36,7 +36,7 @@ const ThreeCol = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <MainCont className="animated" data-aos="fade-up" data-aos-delay="300" data-aos-mirror="true">
+    <MainCont className="animated" data-aos="fade-up" data-aos-delay="200" data-aos-mirror="true">
       <h3>Website Features</h3>
       <Cont className="featuresContCA">
         <ListCont>

@@ -37,7 +37,7 @@ const KeyFindings = ({li1, li2, li3 }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="300">
+    <BigCont className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
       <Key>Key Takeaways</Key>
       <ol>
         <P><b>1. </b>{li1}</P>

@@ -130,7 +130,7 @@ const TitleNList = ({
       className="animated"
       data-aos="fade-up"
       data-aos-mirror="true"
-      data-aos-delay="300"
+      data-aos-delay="200"
     >
       <H3>{h3}</H3>
 

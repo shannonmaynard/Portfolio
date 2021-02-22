@@ -86,7 +86,7 @@ const TitleNDescCol2 = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex }) => {
       className="animated"
       data-aos="fade-up"
       data-aos-mirror="true"
-      data-aos-delay="300"
+      data-aos-delay="200"
     >
       <Cont1>
         <H3>{h3}</H3>

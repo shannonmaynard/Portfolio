@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Btn from "../Btn";
 const BigCont = styled.div`
-  padding: 200px 50px;
+  padding: 0px 0px;
   width: fit-content;
   align-items: center;
   @media only screen and (max-width: 700px) {
-    padding: 50px;
+    padding: 0px 0px;
   }
 `;
 
@@ -109,7 +109,7 @@ display: ${(props) => (props.flexLink ? props.flexLink : "none")};
   background-color: black;
   font-weight: 300;
   border: 2px solid black;
-  padding: 15px;
+
 }
 `;
 const H5Small = styled.h5`
@@ -139,7 +139,7 @@ const TitleNDescCol = ({
       className="animated"
       data-aos="fade-up"
       data-aos-mirror="true"
-      data-aos-delay="300"
+      data-aos-delay="200"
       maxWidth={maxWidth}
     >
       <H3>{h3}</H3>

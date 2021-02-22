@@ -8,7 +8,7 @@ const Desc = styled.div`
 `;
 
 const ProjectDesc1 = ({learnings, projectPhases, projDesc}) =>{
-return <Desc className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="300">
+return <Desc className="animated"data-aos="fade-up" data-aos-mirror="true" data-aos-delay="200">
           <h4>Project Description</h4>
           <p>
               {projDesc}

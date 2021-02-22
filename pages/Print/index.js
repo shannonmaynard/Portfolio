@@ -4,6 +4,7 @@ import MajorImgs from "../../comps/MajorImgs";
 import Menu from "../../comps/Menu";
 import styled from "styled-components";
 import BtnBlack from "../../comps/BtnBlack";
+import Footer from '../../comps/Footer';
 const Btn = styled.a`
   border: solid 2px black;
   background-color: rgb(0, 0, 0, 0);
@@ -58,6 +59,7 @@ const Print = () => {
           hrefPrev="CommAid"
         />
       </a>
+      <Footer/>
     </div>
   );
 };

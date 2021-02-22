@@ -127,6 +127,7 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
+        padding: 150px 50px;
     }
     .bg2 {
         background-color: white;
@@ -134,12 +135,13 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        .key1CA {
+        padding: 100px 50px;
+        #key1CA {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding-bottom: 100px;
-
+            padding: 150px 50px;
             .keyInnerCA {
                 display: flex;
                 flex-direction: row;
@@ -244,10 +246,9 @@
     }
     .compCont1CA {
         margin-top: 0px;
-
         width: 100%;
         display: flex;
-
+        padding: 150px 50px;
         flex-direction: column;
         text-align: left;
         justify-content: space-between;

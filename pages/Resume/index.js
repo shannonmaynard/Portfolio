@@ -3,7 +3,7 @@ import Categories from "../../comps/Categories";
 import MajorImgs from "../../comps/MajorImgs";
 import Menu from "../../comps/Menu";
 import styled from "styled-components";
-
+import Footer from '../../comps/Footer';
 const Cont = styled.div`
   width: 100vw;
   height: 100vh;
@@ -30,6 +30,7 @@ const Resume = () => {
       <Cont>
         <Res src="Resume-Shannon-Maynard.pdf"></Res>
       </Cont>
+      <Footer/>
     </BigCont>
   );
 };

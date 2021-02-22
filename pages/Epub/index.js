@@ -4,6 +4,7 @@ import MajorImgs from "../../comps/MajorImgs";
 import Menu from "../../comps/Menu";
 import styled from "styled-components";
 import BtnBlack from "../../comps/BtnBlack";
+import Footer from '../../comps/Footer';
 
 const Btn = styled.a`
   border: solid 2px black;
@@ -328,8 +329,9 @@ const Epub = () => {
         </div>
       </div>
       <BtnBlack href="CommAid" displayPrev="none">
-        View Next Project
+
       </BtnBlack>
+      <Footer/>
     </div>
   );
 };

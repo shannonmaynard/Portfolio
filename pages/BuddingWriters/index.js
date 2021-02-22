@@ -8,7 +8,7 @@ import Btn from "../../comps/Btn";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import BtnBlack from "../../comps/BtnBlack";
-
+import Footer from '../../comps/Footer';
 const P = styled.p`
   width: 100%;
   max-width: 700px;
@@ -253,9 +253,10 @@ export default function Home({ margin }) {
         data-aos-mirror="false"
         data-aos-delay="500"
       >
-        <h3>and finally...</h3>
+        <h3 className="finally">and finally...</h3>
       </div>
-      <br></br>   <br></br> <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
+
+      <br></br>
       <div
         className="compCont1"
         data-aos="fade-up"
@@ -272,7 +273,6 @@ export default function Home({ margin }) {
         </div>
 
         <P>
-     
           <h5>My Contribution</h5>
           Due to our many of student deadlines, my team and I split up the work.
           For my part, I focused on the building the landing page, the book
@@ -291,12 +291,13 @@ export default function Home({ margin }) {
           flexDir="column"
           flex="none"
           flexInfo={2}
-          h3="What I learned"
+          h3="What I Learned"
           p="I learned how difficult it can be to modify wordpress templates with css and html. I learned that a good wordpress website with fully functional e-commerce takes time, and that most of the time spent on building a wordpress website is in the planning and research stages. Given more time, i'd tweak the design, fix css issues and make eCommerce fully functional."
           src="bwlogo.svg"
         ></TitleNDescCol>
-        <BtnBlack btn="View Next Project" hrefPrev="/Print" display="none"/>
       </div>
+      <BtnBlack btn="View Next Project" hrefPrev="/Print" display="none" />
+      <Footer/>
     </div>
   );
 }

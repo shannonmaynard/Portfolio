@@ -77,7 +77,7 @@ const TitleNDescCol3 = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex, paraOrg, 
       className="animated"
       data-aos="fade-up"
       data-aos-mirror="true"
-      data-aos-delay="300"
+      data-aos-delay="200"
     >
       <H3>{h3}</H3>
 

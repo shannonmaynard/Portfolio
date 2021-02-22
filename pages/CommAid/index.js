@@ -11,7 +11,7 @@ import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import TitleNDescCol3 from "../../comps/TitleNDescCol3";
 import ThreeCol from "../../comps/ThreeCol";
-
+import Footer from '../../comps/Footer';
 
 const P = styled.p`
   width: 100%;
@@ -24,7 +24,6 @@ const P = styled.p`
 const ImgBanner = styled.img`
   width: 100%;
 `;
-
 
 const Menu = styled.div`
   background-color: black;
@@ -55,7 +54,7 @@ export default function Home({ margin }) {
           className="animated"
           data-aos="fade-up"
           data-aos-mirror="true"
-          data-aos-delay="300"
+          data-aos-delay="200"
           id="row1CA"
         >
           <h3>About the Project</h3>
@@ -174,7 +173,13 @@ export default function Home({ margin }) {
           p="After user personas, we took our next step: getting feedback from actual users on what they would find most important when using a volunteering app with the purpose of finding volunteering opportunities. We asked 8 people to fill out a survey for their responses."
           src="cmaid/survey.png"
         ></TitleNDescCol>
-        <div className="key1CA">
+        <div
+          id="key1CA"
+          className="animated"
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-delay="200"
+        >
           <h4>Key Findings</h4>
           <div className="keyInnerCA">
             <div className="keyRow">
@@ -204,7 +209,12 @@ export default function Home({ margin }) {
       </div>
       <H2>Design</H2>
       <div className="bg4">
-        <div>
+        <div
+          className="animated"
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-delay="200"
+        >
           <h3>05 - Low Fidelity</h3>
           <p>
             The first step in the design was to create a low fidelity version on
@@ -260,7 +270,12 @@ export default function Home({ margin }) {
       </div>
       <H2>Testing And Web Development</H2>
       <div className="bg4rows2">
-        <div>
+        <div
+          className="animated"
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-delay="200"
+        >
           <div className="bg4Inner">
             <h3>10 - User Testing </h3>
             <p>
@@ -294,7 +309,12 @@ export default function Home({ margin }) {
         </div>
       </div>
       <div className="bg5">
-        <div>
+        <div
+          className="animated"
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-delay="200"
+        >
           <h3>11 - Web Development</h3>
           <div className="bg4Inner">
             <p>
@@ -325,11 +345,13 @@ export default function Home({ margin }) {
               borderhov="black"
               border="black solid 2px"
               color="black"
+              padding="17px"
             ></Btn>
           </div>
         </div>
       </div>
-     <BtnBlack href="/Print" hrefPrev="/Epub"/>
+      <BtnBlack href="/Print" hrefPrev="/Epub" />
+      <Footer/>
     </div>
   );
 }
