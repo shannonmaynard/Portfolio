@@ -160,7 +160,7 @@ h6 {
   .ArtCol1 {
     display: none;
   }
-
+  
   .ArtCol3 {
     display: flex;
     width: 100%;
@@ -210,6 +210,10 @@ p {
   line-height: 26px;
   color: rgb(60, 60, 60);
   font-family: "Poppins", sans-serif;
+  @media only screen and (max-width: 700px) {
+    text-align: left;
+text-align-last: left;
+  }
 }
 
 ul li, ol li{

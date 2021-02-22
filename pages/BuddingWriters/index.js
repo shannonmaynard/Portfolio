@@ -132,8 +132,8 @@ export default function Home({ margin }) {
       <div className="compCont1">
         <TitleNDesc
           h3="02 - Competitive Analysis"
-          p="Now that we knew had a starting idea of what our client wanted, we began looking at what our direct and indirect competitors were doing to discover Strenghts, Weaknesses, Opportunities and Threats."
-          p3="Through this, we discovered what made Budding Writers special, as well as what we could take and improve from our competitors."
+          p="Now that we knew had a starting idea of what our client wanted, we began looking at what our direct and indirect competitors were doing, to discover Strenghts, Weaknesses, Opportunities and Threats."
+          p3="Through this, we discovered what made Budding Writers special, as well as what our competitors were doing for inspiration."
           src="bw/swot.png"
         ></TitleNDesc>
       </div>
@@ -155,7 +155,7 @@ export default function Home({ margin }) {
           <h3>03 - User Personas</h3>
           <P>
             We then created a user persona based off of our research to get a
-            picture of the two most regular customers would look like. This
+            picture of their two most common types of customers. This
             allowed us to find out their likes and dislikes as users.
           </P>
         </div>
@@ -216,7 +216,7 @@ export default function Home({ margin }) {
           flexInfo={2}
           h3="06 - Style Tiles"
           h5="The Look and Feel"
-          p=" Next up was creating a style tile that would give a bit of insight into the look and feel of our website. The colors, typography interactive elements and the types of images that would be used were put together so that the project would have a consitent feel. One aspect that our client (teacher) was very impressed with was our choice in typography.
+          p=" Next up was creating a style tile that would give a bit of insight into the look and feel of our website. The colors, typography, interactive elements and the types of images that would be used were put together so that the project would have a consistent feel. One aspect that our client (teacher) was very impressed with was our choice in typography.
           "
           src="bw/styletile.png"
         ></TitleNDescCol>
@@ -230,7 +230,7 @@ export default function Home({ margin }) {
           flexInfo={2}
           h3="07 - Site Map"
           h5="Mapping the Website"
-          p=" With the clear design vision and user characteristics and goals as well as our clients goals decided, I proceeded in creating a visual representation of all our information: the site map. This allowed me and my team to keep a clear idea of how and what the website would look like, while keeping in mind our users and client goals.
+          p=" With a clear design vision, understanding of our users characteristics and goals, as well as our clients needs in mind, my team and I proceeded in creating a visual representation of all our information: the site map. This allowed us to understand and keep track of the website layout and flow.
           "
           src="bw/sitemap.png"
         ></TitleNDescCol>
@@ -242,7 +242,7 @@ export default function Home({ margin }) {
           flexInfo={2}
           h3="08 - Content Inventory"
           h5="The Content Details"
-          p="Having built up our plan step by step, here we finally got into the specifics. Here, the details were fleshed out, allowing all team members to keep up to date on what content would go on each page."
+          p="Having built up our plan step by step, here we finally got into the specifics. The details were hashed out, allowing all team members to keep up to date on what content would go on each page."
           src="bw/contInventory.png"
         ></TitleNDescCol>
       </div>

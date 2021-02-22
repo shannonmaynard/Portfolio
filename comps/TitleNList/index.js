@@ -83,7 +83,7 @@ const P = styled.p`
   margin: 0px;
   text-align: left;
   @media only screen and (max-width: 700px) {
-    padding: 10px;
+    padding: 0px;
   }
 `;
 
@@ -102,6 +102,11 @@ const Ol = styled.ol`
   display: flex;
   gap: 10px;
   margin-top: 25px;
+  @media only screen and (max-width: 700px) {
+    width: 100%;
+    padding-left: 0px;
+
+  }
 `;
 
 const TitleNList = ({

@@ -11,7 +11,7 @@ import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import TitleNDescCol3 from "../../comps/TitleNDescCol3";
 import ThreeCol from "../../comps/ThreeCol";
-import Footer from '../../comps/Footer';
+import Footer from "../../comps/Footer";
 
 const P = styled.p`
   width: 100%;
@@ -268,7 +268,7 @@ export default function Home({ margin }) {
           href="https://www.figma.com/proto/R10YSuSRGPS50PKD7zHXVm/CommAid%2FModified?node-id=1%3A188&scaling=scale-down"
         ></TitleNDescCol>
       </div>
-      <H2>Testing And Web Development</H2>
+      <H2>Testing and Development</H2>
       <div className="bg4rows2">
         <div
           className="animated"
@@ -323,13 +323,19 @@ export default function Home({ margin }) {
             </p>
             <br></br> <br></br>
             <div className="ol">
-              <h6>Step 1: </h6> <p>Create Reusable Components</p>
+              <p>
+                <b>Step 1: </b> Create Reusable Components
+              </p>
             </div>
             <div className="ol">
-              <h6>Step 2: </h6> <p>Put components onto pages</p>
+              <p>
+                <b>Step 2: </b> Put components onto pages
+              </p>
             </div>
             <div className="ol">
-              <h6>Step 3: </h6> <p>Create axios async calls to backend</p>
+              <p>
+                <b>Step 3: </b> Create axios async calls to backend
+              </p>
             </div>
             <br></br> <br></br>
             <p>
@@ -350,8 +356,20 @@ export default function Home({ margin }) {
           </div>
         </div>
       </div>
+      <div className="compCont4">
+        <TitleNDescCol
+          flexImg={4}
+          maxWidth="700px"
+          flexDir="column"
+          flex="none"
+          flexInfo={2}
+          h3="What I Learned"
+          p="I learned a lot about what it means to be a front-end developer. It doesn't just require styling, but being able to connect the users information that they input to a databse. I also learned about how important it is to put in the work first in your UI design first before diving into coding. If you don't things will progress in a direction in your project that you won't like, and the more you try to fix things in a rush as deadlines approach, the more chaos you can cause. Lastly, I also learned about how important it is to have a motivated team that keeps in communication with each other. Without that, your project will always have problems as each member takes it in a different direction."
+          src="bwlogo.svg"
+        ></TitleNDescCol>
+      </div>
       <BtnBlack href="/Print" hrefPrev="/Epub" />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

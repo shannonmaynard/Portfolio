@@ -51,15 +51,27 @@ const Print = () => {
       <Categories></Categories>
       <div id="menu"></div>
 
-      <a href="/BuddingWriters">
+  
+      <div className="epubCont">
+        <div className="titleEpub">
+          <h3>Print Magazine Layout</h3>
+          <h5>An Indesign Project - Rome: Beautiful Remains of a Great Empire</h5>
+        </div>
+        <div className="gifCont">
+          <img src="/mag.png" className="epubImg2"></img>
+        </div>
+        <br></br><br></br><br></br>
+        <p>this page is in working progress...</p>
+        <br></br><br></br><br></br>
         <BtnBlack
           btnPrev="View Previous Project"
           btn="View Next Project"
           href="BuddingWriters"
           hrefPrev="CommAid"
         />
-      </a>
+
       <Footer/>
+    </div>
     </div>
   );
 };
