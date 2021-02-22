@@ -398,7 +398,7 @@
     }
     div {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 50px;
         @media only screen and (max-width: 900px) {
             padding: 50px 30px;
@@ -421,6 +421,23 @@
                 font-size: 28px;
             }
            }
+        }
+    }
+}
+.nextProj{
+    padding: 100px 100px;
+    button{
+        border: solid 2px black;
+        background-color: rgb(0, 0, 0, 0);
+        color: black;
+        padding: 15px 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        :hover {
+          cursor: pointer;
+          background-color: black;
+          color: white;
+          font-weight: 300;
         }
     }
 }

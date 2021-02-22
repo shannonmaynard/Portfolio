@@ -3,6 +3,7 @@ import Categories from "../../comps/Categories";
 import MajorImgs from "../../comps/MajorImgs";
 import Menu from "../../comps/Menu";
 import styled from "styled-components";
+import BtnBlack from "../../comps/BtnBlack";
 
 const Btn = styled.a`
   border: solid 2px black;
@@ -176,9 +177,9 @@ const Epub = () => {
             <div className="charaImgCont">
               <div className="h4Vs">
                 <h4>Peanut</h4> <h3>Vs</h3> <h4>The Neighbourhood Cats</h4>
-                
               </div>
-              <br></br> <br></br><br></br> <br></br>
+              <br></br> <br></br>
+              <br></br> <br></br>
               <img className="charaImg" src="/charas.png" />
             </div>
           </div>
@@ -312,7 +313,11 @@ const Epub = () => {
                     is still an ongoing process. specifics.
                   </p>
 
-                  <br></br><br></br><br></br><br></br><br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                   <h4 className="last">
                     Finally, I published it online through Indesign
                   </h4>
@@ -322,6 +327,9 @@ const Epub = () => {
           </div>
         </div>
       </div>
+      <BtnBlack href="CommAid" displayPrev="none">
+        View Next Project
+      </BtnBlack>
     </div>
   );
 };

@@ -223,7 +223,7 @@
 }
 
 .p {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .charaImg2 {
@@ -240,4 +240,10 @@
     display: flex;
     flex-direction: flex-start;
 
+}
+.nextProj{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
 }

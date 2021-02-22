@@ -7,11 +7,13 @@ import KeyFindings from "../../comps/Key";
 import Btn from "../../comps/Btn";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
+import BtnBlack from "../../comps/BtnBlack";
 
 const P = styled.p`
   width: 100%;
   max-width: 700px;
 `;
+
 const Img = styled.img`
   width: 40vw;
   max-width: 700px;
@@ -142,14 +144,14 @@ export default function Home({ margin }) {
           li3="Competition Takeaway: Indigo user-friendly online bookstore joined with grassroots feel for rest of website."
         ></KeyFindings>
       </div>
+      <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
       <div
         className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="300"
+        data-aos-delay="500"
       >
         <div className="persInfo">
-         
           <h3>03 - User Personas</h3>
           <P>
             We then created a user persona based off of our research to get a
@@ -174,6 +176,7 @@ export default function Home({ margin }) {
           </div>
         </div>
       </div>
+      <br></br> <br></br>
       <div className="compCont2">
         <TitleNDescCol
           flexImg={4}
@@ -206,7 +209,6 @@ export default function Home({ margin }) {
           src="bw/bwlogoExplained.svg"
         ></TitleNList>
       </div>
-
       <div className="compCont1">
         <TitleNDescCol
           flexImg={4}
@@ -220,7 +222,7 @@ export default function Home({ margin }) {
         ></TitleNDescCol>
       </div>
       <br></br>
-      <H2 margin="200px 0px">Website Layout</H2>
+      <H2 margin="0px 0px">Website Layout</H2>
       <div className="compCont1">
         <TitleNDescCol
           flexImg={4}
@@ -249,16 +251,16 @@ export default function Home({ margin }) {
         className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="300"
+        data-aos-delay="500"
       >
-        <h4 className="alter">and finally...</h4>
+        <h3>and finally...</h3>
       </div>
-
+      <br></br>   <br></br> <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
       <div
         className="compCont1"
         data-aos="fade-up"
         data-aos-mirror="false"
-        data-aos-delay="300"
+        data-aos-delay="500"
       >
         <h3>09 - Building the Website</h3>
         <div className="compContInner">
@@ -270,7 +272,7 @@ export default function Home({ margin }) {
         </div>
 
         <P>
-          {" "}
+     
           <h5>My Contribution</h5>
           Due to our many of student deadlines, my team and I split up the work.
           For my part, I focused on the building the landing page, the book
@@ -282,7 +284,7 @@ export default function Home({ margin }) {
         </P>
       </div>
       <hr></hr>
-      <div className="compCont3">
+      <div className="compCont4">
         <TitleNDescCol
           flexImg={4}
           maxWidth="700px"
@@ -293,6 +295,7 @@ export default function Home({ margin }) {
           p="I learned how difficult it can be to modify wordpress templates with css and html. I learned that a good wordpress website with fully functional e-commerce takes time, and that most of the time spent on building a wordpress website is in the planning and research stages. Given more time, i'd tweak the design, fix css issues and make eCommerce fully functional."
           src="bwlogo.svg"
         ></TitleNDescCol>
+        <BtnBlack btn="View Next Project" hrefPrev="/Print" display="none"/>
       </div>
     </div>
   );

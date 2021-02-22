@@ -83,7 +83,7 @@
     }
     .compCont1 {
         margin-top: 0px;
-        padding: 200px 50px;
+        padding: 100px 50px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -107,7 +107,7 @@
             display: flex;
             flex-direction: row;
             gap: 14px;
-            
+        
             @media only screen and (max-width: 700px) {
                 flex-direction: column; 
          
@@ -119,13 +119,14 @@
                     
                     display: flex;
                     height: 100%;
+                    
                 }
             }
         }
     }
 }
 .compCont2 {
-    padding: 200px 50px;
+    padding: 50px 50px;
     width: 100%;
     align-items: center;
     display: flex;
@@ -203,7 +204,21 @@
 
   .compCont3 {
     margin-top: 0px;
-    padding: 200px 50px;
+    padding: 100px 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    
+    @media only screen and (max-width: 700px) {
+        padding: 50px 40px;
+   }}
+
+   .compCont4 {
+    margin-top: 0px;
+    padding: 0px 50px;
     width: 100%;
     display: flex;
     align-items: center;

@@ -5,19 +5,14 @@ import TitleNDesc from "../../comps/TitleNDesc";
 import TitleNList from "../../comps/TitleNList";
 import KeyFindings from "../../comps/Key";
 import Btn from "../../comps/Btn";
+import BtnBlack from "../../comps/BtnBlack";
 import BtnWhite from "../../comps/BtnWhite";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import TitleNDescCol3 from "../../comps/TitleNDescCol3";
 import ThreeCol from "../../comps/ThreeCol";
 
-const H4 = styled.div`
-  width: 100%;
-  font-size: 40px;
-  margin: 100px 0px;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-`;
+
 const P = styled.p`
   width: 100%;
   max-width: 700px;
@@ -25,39 +20,11 @@ const P = styled.p`
   text-align: center;
   text-align-last: center;
 `;
-const Img = styled.img`
-  width: 40vw;
-  max-width: 700px;
-  height: auto;
-  padding: 10px;
-  border: solid 1px rgb(230, 230, 230);
-  @media only screen and (max-width: 700px) {
-    width: 90vw;
-    height: 100%;
-  }
-`;
-const ImgTarget = styled.img`
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-`;
-const Img2 = styled.img`
-  width: 100%;
-  border: solid 1px rgb(230, 230, 230);
-`;
 
 const ImgBanner = styled.img`
   width: 100%;
+`;
 
-`;
-const Img4 = styled.img`
-  width: 80vw;
-  max-width: 900px;
-  @media only screen and (max-width: 700px) {
-    width: 90vw;
-    height: 100%;
-  }
-`;
 
 const Menu = styled.div`
   background-color: black;
@@ -293,10 +260,9 @@ export default function Home({ margin }) {
       </div>
       <H2>Testing And Web Development</H2>
       <div className="bg4rows2">
-  
         <div>
           <div className="bg4Inner">
-          <h3>10 - User Testing </h3>
+            <h3>10 - User Testing </h3>
             <p>
               After our high fidelity's first iteration, we moved onto to
               testing it out! To figure out what problems lay in our design, we
@@ -319,7 +285,10 @@ export default function Home({ margin }) {
           <div className="bg4Inner">
             <h4>Implementing Changes</h4>
             <p>
-              
+              Each round of testing showed us different problems that lay in our
+              design. As we discovered these problems, we went about trying to
+              first solve the less complicated problems before moving onto the
+              bigger ones.
             </p>
           </div>
         </div>
@@ -329,24 +298,38 @@ export default function Home({ margin }) {
           <h3>11 - Web Development</h3>
           <div className="bg4Inner">
             <p>
-              After the design was complete, we moved onto developing it using NextJs. Our approach was to split up the work.
+              After the design was complete, we moved onto developing it using
+              NextJs. Our approach was to split up the work.
             </p>
             <br></br> <br></br>
             <div className="ol">
               <h6>Step 1: </h6> <p>Create Reusable Components</p>
-              </div>
-              <div className="ol">
+            </div>
+            <div className="ol">
               <h6>Step 2: </h6> <p>Put components onto pages</p>
-              </div>
-              <div className="ol">
+            </div>
+            <div className="ol">
               <h6>Step 3: </h6> <p>Create axios async calls to backend</p>
             </div>
             <br></br> <br></br>
-            <p>At every step in our process during every step, we also debugged. For my part, I created the landing page, Application form page for volunteers, the login pages and helped teamates with other pages as needed.</p>
-            <Btn href="https://takfive-frontend-git-main.takefive.vercel.app/VolunteerListingPage" btn="View CommAid Live" bgcolor="black" borderhov="black" border="black solid 2px" color="black"></Btn>
+            <p>
+              At every step in our process during every step, we also debugged.
+              For my part, I created the landing page, Application form page for
+              volunteers, the login pages and helped teamates with other pages
+              as needed.
+            </p>
+            <Btn
+              href="https://takfive-frontend-git-main.takefive.vercel.app/VolunteerListingPage"
+              btn="View CommAid Live"
+              bgcolor="black"
+              borderhov="black"
+              border="black solid 2px"
+              color="black"
+            ></Btn>
           </div>
         </div>
       </div>
+     <BtnBlack href="/Print" hrefPrev="/Epub"/>
     </div>
   );
 }
