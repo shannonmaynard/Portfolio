@@ -47,8 +47,9 @@
         background-color: rgb(121, 177, 141);
         width: 100%;
         flex-direction: row;
-        gap: 200px;
+        gap: 100px;
         padding: 50px;
+        min-width: 400px;
         justify-content: center;
         background-image: url("../../public/cmaid/hill.svg");
         background-repeat: no-repeat;
@@ -56,13 +57,17 @@
         background-size: 100%;
         @media only screen and (max-width: 700px) {
             flex-direction: column;
+            min-width: 100%;
         }
         #row1CA {
             max-width: 650px;
             width: fit-content;
             display: flex;
-
+            
             flex-direction: column;
+            @media only screen and (max-width: 700px) {
+                max-width: 100%;
+            }
             h3 {
                 color: #222222;
             }
@@ -146,7 +151,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-           
+
             padding: 150px 50px;
             padding-bottom: 0px;
             @media only screen and (max-width: 700px) {
@@ -172,7 +177,6 @@
                         margin-bottom: 0px;
                     }
                 }
-                
             }
         }
     }
@@ -183,19 +187,16 @@
         flex-direction: column;
         width: 100%;
         padding: 150px 50px;
-        .p-bg3{
+        .p-bg3 {
             width: 100%;
             max-width: 100%;
             padding: 0px 50px;
             display: flex;
             justify-content: center;
-            
-          
         }
         @media only screen and (max-width: 700px) {
             padding: 50px 0px;
             text-align: left;
-
         }
     }
     .deliverablesCA {
