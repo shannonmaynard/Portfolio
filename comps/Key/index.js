@@ -14,12 +14,12 @@ margin-bottom: 20px;
 `;
 
 const BigCont = styled.div`
- padding: 50px;
+ padding: 30px;
 
   @media only screen and (max-width: 700px) {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 30px;
   }
 `;
 

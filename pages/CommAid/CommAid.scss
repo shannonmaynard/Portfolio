@@ -47,8 +47,8 @@
         background-color: rgb(121, 177, 141);
         width: 100%;
         flex-direction: row;
-        gap: 100px;
-        padding: 50px;
+        gap: 50px;
+        padding: 30px;
         min-width: 400px;
         justify-content: center;
         background-image: url("../../public/cmaid/hill.svg");
@@ -63,7 +63,7 @@
             max-width: 650px;
             width: fit-content;
             display: flex;
-            
+
             flex-direction: column;
             @media only screen and (max-width: 700px) {
                 max-width: 100%;
@@ -89,6 +89,13 @@
             width: max-content;
             flex-direction: column;
             min-width: 300px;
+            padding: 0px;
+            @media only screen and (max-width: 700px) {
+                margin-top: 0px;
+                width: 100%;
+                max-width: 650px;
+                padding: 30;
+            }
             h3 {
                 color: #222222;
             }
@@ -119,11 +126,6 @@
                     color: rgb(255, 255, 255);
                 }
             }
-            @media only screen and (max-width: 700px) {
-                margin-top: 0px;
-                width: 100%;
-                max-width: 650px;
-            }
         }
     }
     .bg1 {
@@ -132,9 +134,9 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        padding: 200px 50px;
+        padding: 200px 30px;
         @media only screen and (max-width: 700px) {
-            padding: 50px 50px;
+            padding: 50px 30px;
         }
     }
     .bg2 {
@@ -143,16 +145,16 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        padding: 200px 50px;
+        padding: 200px 30px;
         @media only screen and (max-width: 700px) {
-            padding: 50px 50px;
+            padding: 50px 30px;
         }
         #key1CA {
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            padding: 150px 50px;
+            padding: 150px 30px;
             padding-bottom: 0px;
             @media only screen and (max-width: 700px) {
                 flex-direction: column;
@@ -186,29 +188,30 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        padding: 150px 50px;
+        padding: 150px 20px;
+        @media only screen and (max-width: 700px) {
+            padding: 50px 20px;
+            text-align: left;
+        }
         .p-bg3 {
             width: 100%;
             max-width: 100%;
-            padding: 0px 50px;
+            padding: 0px 20px;
             display: flex;
             justify-content: center;
-        }
-        @media only screen and (max-width: 700px) {
-            padding: 50px 0px;
-            text-align: left;
+            
         }
     }
     .deliverablesCA {
         background-color: rgb(255, 255, 255);
-        padding: 200px 50px;
+        padding: 200px 30px;
         @media only screen and (max-width: 700px) {
-            padding: 0px 50px;
+            padding: 0px 30px;
         }
     }
     .bg4 {
         background-color: rgb(255, 255, 255);
-        padding: 200px 50px;
+        padding: 200px 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -224,17 +227,17 @@
             background-color: rgb(255, 250, 245);
         }
         @media only screen and (max-width: 700px) {
-            padding: 50px 50px;
+            padding: 50px 30px;
         }
     }
     .bg5 {
         background-color: rgb(255, 250, 245);
-        padding: 200px 50px;
+        padding: 200px 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
         @media only screen and (max-width: 700px) {
-            padding: 50px 50px;
+            padding: 50px 30px;
         }
         p {
             max-width: 700px;
@@ -255,7 +258,7 @@
     }
     .bg4-color {
         background-color: rgb(255, 250, 246);
-        padding: 200px 50px;
+        padding: 200px 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -264,7 +267,7 @@
             width: 100%;
         }
         @media only screen and (max-width: 700px) {
-            padding: 50px 50px;
+            padding: 50px 30px;
         }
     }
 
@@ -275,15 +278,15 @@
         margin-top: 0px;
         width: 100%;
         display: flex;
-        padding: 200px 50px;
+        padding: 200px 30px;
         flex-direction: column;
         text-align: left;
         justify-content: space-between;
         @media only screen and (max-width: 700px) {
-            padding: 50px 50px;
+            padding: 50px 30px;
         }
         .bigCont1-CA {
-            padding: 200px 50px;
+            padding: 200px 30px;
         }
         .bigCont2-CA {
             padding-top: 40px;
@@ -348,7 +351,7 @@
     }
 }
 .compCont2CA {
-    padding: 200px 50px;
+    padding: 200px 30px;
     width: 100%;
     align-items: center;
     display: flex;
@@ -356,7 +359,7 @@
     flex-direction: column;
     background: rgb(255, 255, 255);
     @media only screen and (max-width: 700px) {
-        padding: 50px 20px;
+        padding: 50px 30px;
     }
 }
 .projSceneCA {
@@ -385,7 +388,7 @@
 @media only screen and (max-width: 700px) {
     div {
         .rowsCA {
-            padding: 40px 20px;
+            padding: 40px 30px;
             gap: 0px;
             flex-direction: column;
             align-items: center;
@@ -410,7 +413,7 @@
 
 .bg4rows2 {
     background-color: rgb(255, 255, 255);
-    padding: 200px 50px;
+    padding: 200px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -418,7 +421,7 @@
     justify-content: center;
 
     @media only screen and (max-width: 700px) {
-        padding: 50px 50px;
+        padding: 50px 30px;
         flex-direction: column;
     }
     h3 {
@@ -438,10 +441,8 @@
         .bg4Inner {
             max-width: 700px;
             border: rgb(255, 246, 234) solid 2px;
-            padding: 50px;
             flex-direction: column;
             @media only screen and (max-width: 900px) {
-                padding: 20px;
                 border: none;
             }
             h3 {

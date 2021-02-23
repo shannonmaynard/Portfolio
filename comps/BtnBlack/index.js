@@ -42,7 +42,7 @@ const A = styled.a`
 
 const Cont = styled.div`
   width: 100%;
-  padding: 50px;
+  padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

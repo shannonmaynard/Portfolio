@@ -19,7 +19,7 @@ const Cont = styled.div`
 */
 
 const Info = styled.div`
-  padding: 0px 50px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
   flex: ${(props) => (props.flexInfo ? props.flexInfo : "3")};
@@ -35,7 +35,7 @@ const H3 = styled.h3`
 
   @media only screen and (max-width: 700px) {
     display: flex;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 0px;
   }
 `;
@@ -58,7 +58,7 @@ const Img = styled.img`
   height: 80%;
   @media only screen and (max-width: 700px) {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
   }
 `;
 const ImgCont = styled.div`

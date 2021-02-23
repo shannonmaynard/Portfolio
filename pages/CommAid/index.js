@@ -302,6 +302,9 @@ export default function Home({ margin }) {
           </div>
         </div>
       </div>
+
+
+      
       <div className="bg5">
         <div
           className="animated"

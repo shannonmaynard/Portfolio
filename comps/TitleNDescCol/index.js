@@ -36,7 +36,7 @@ const Info = styled.div`
   flex: ${(props) => (props.flexInfo ? props.flexInfo : "3")};
   justify-content: flex-end;
   @media only screen and (max-width: 700px) {
-    padding: 10px;
+    padding-bottom: 10px;
     width: 100%;
   }
 `;
@@ -44,7 +44,7 @@ const Info = styled.div`
 const H3 = styled.h3`
   display: none;
   @media only screen and (max-width: 700px) {
-    padding: 20px;
+    padding-bottom: 20px;
     margin-bottom: 0px;
     display: flex;
   }
@@ -52,7 +52,7 @@ const H3 = styled.h3`
 const H3Desk = styled.h3`
   display: flex;
   @media only screen and (max-width: 700px) {
-    padding: 20px;
+
     display: none;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -79,7 +79,7 @@ const P2 = styled.p`
 const Img = styled.img`
   width: 100%;
   height: auto;
-  padding: 25px;
+  padding-bottom: 25px;
   background-color: white;
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 700px) {

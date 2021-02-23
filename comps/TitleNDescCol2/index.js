@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const BigCont = styled.div`
-  padding: 0px 50px;
+  padding: 0px 20px;
   flex-direction: column;
   margin-bottom: 50px;
   width: 100%;

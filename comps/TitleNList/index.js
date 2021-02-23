@@ -63,7 +63,7 @@ const H3 = styled.h3`
   display: none;
   @media only screen and (max-width: 700px) {
     display: flex;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     width: 100%;
     justify-content: center;

@@ -6,7 +6,7 @@ const Button = styled.button`
   border: white solid 2px;
   color: white;
   margin: 40px 0px;
-  padding: 20px;
+  padding: 30;
  :focus {outline:0;}
   :hover {
     border: black white 2px;

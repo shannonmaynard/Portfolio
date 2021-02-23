@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const BigCont = styled.div`
-  padding: 0px 50px;
+  padding: 0px 20px;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
   @media only screen and (max-width: 900px) {
-    padding:  0px 50px;
+    padding: 0px 20px;
     margin: 0px;
     flex-direction: column;
   }
@@ -22,8 +22,7 @@ const H3 = styled.h3`
   display: flex;
   text-align: left;
   @media only screen and (max-width: 900px) {
-    padding: 0px;
-    margin-bottom: 0px;
+   
   }
 `;
 const Img = styled.img`
@@ -37,19 +36,19 @@ const Img = styled.img`
     width: 90vw;
     height: auto;
     border: none;
+    padding: 0px;
   }
 `;
 const P = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 900px) {
-    padding: 0px 10px;
+    padding: 0px;
   }
 `;
 
 const Info2 = styled.div`
   width: 100%;
   text-align: left;
- 
 `;
 
 const Cont1 = styled.div`
@@ -69,7 +68,18 @@ const InnerCont = styled.div`
   }
 `;
 
-const TitleNDescCol3 = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex, paraOrg,  titleOrg}) => {
+const TitleNDescCol3 = ({
+  h3,
+  p,
+  p3,
+  src,
+  flexImg,
+  flexInfo,
+  h5,
+  flex,
+  paraOrg,
+  titleOrg,
+}) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -82,7 +92,9 @@ const TitleNDescCol3 = ({ h3, p, p3, src, flexImg, flexInfo, h5, flex, paraOrg, 
       <H3>{h3}</H3>
 
       <InnerCont>
-        <div><Img src={src}></Img></div>
+        <div>
+          <Img src={src}></Img>
+        </div>
         <div>
           <Cont1>
             <Info2 flexImg={flexImg} flex={flex}>

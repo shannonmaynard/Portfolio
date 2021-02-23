@@ -29,7 +29,7 @@ const Imgs = styled.img`
 const LeftCont = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
   width: 40%;
   align-items: center;
   justify-content: flex-start;

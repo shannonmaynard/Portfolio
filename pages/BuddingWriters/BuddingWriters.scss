@@ -27,7 +27,7 @@
         width: 100%;
         flex-direction: row;
         gap: 50px;
-        padding: 50px;
+        padding: 30;
         justify-content: center;
         background-image: url('../../public/bw/bookshelf.png');
         background-blend-mode: overlay;
@@ -83,7 +83,7 @@
     }
     .compCont1 {
         margin-top: 0px;
-        padding: 200px 50px;
+        padding: 200px 30px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -91,7 +91,7 @@
         text-align: left;
         justify-content: space-between;
         @media only screen and (max-width: 700px) {
-            padding: 0px 50px;
+            padding: 0px 20px;
             width: 100%;
             img{
                 padding: 20px 20px;
@@ -126,7 +126,7 @@
     }
 }
 .compCont2 {
-    padding: 50px 50px;
+    padding: 50px 20px;
     width: 100%;
     align-items: center;
     display: flex;
@@ -204,7 +204,7 @@
 
   .compCont3 {
     margin-top: 0px;
-    padding: 200px 50px;
+    padding: 200px 20px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -218,7 +218,7 @@
 
    .compCont4 {
     margin-top: 0px;
-    padding: 150px 50px;
+    padding: 150px 30px;
     width: 100%;
     display: flex;
     padding-bottom: 0px;
@@ -228,7 +228,7 @@
     justify-content: space-between;
     
     @media only screen and (max-width: 700px) {
-        
+        padding: 50px 30px;
    }}
 
 .finally{
