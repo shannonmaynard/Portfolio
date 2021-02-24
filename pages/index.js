@@ -3,15 +3,16 @@ import { useRouter } from "next/router";
 import Categories from "../comps/Categories";
 import styled from "styled-components";
 import Menu from "../comps/Menu";
-import Footer from '../comps/Footer';
+import Footer from "../comps/Footer";
 
 const H1 = styled.div`
   width: 100%;
   align-items: 100%;
   font-weight: 500;
   font-size: 50px;
+  color: rgb(0, 0, 0);
   font-family: "EB Garamond", sans-serif;
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 700px) {
     font-size: 40px;
     text-align: center;
   }
@@ -19,41 +20,68 @@ const H1 = styled.div`
 const H5 = styled.div`
   width: 100%;
   align-items: 100%;
-  color: #555555;
+  color: rgb(0, 0, 0);
   font-weight: 300;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  @media only screen and (max-width: 700px){
-
+  @media only screen and (max-width: 700px) {
     text-align: center;
   }
 `;
-
 
 export default function Home({ isVisible }) {
   return (
     <div className="About">
       <Categories></Categories>
-      <Menu></Menu>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
+      <div id="test">
+        <div className="containerTest">
+          <div>
+            <div
+              className="animated"
+              data-aos="fade-down"
+              data-aos-mirror="true"
+              data-aos-delay="200"
+            >
+              <h1 className="text">Hi,</h1>
+              <h1 id="myname">my name is</h1>
+            </div>
+            <div
+              className="animated"
+              data-aos="fade-up"
+              data-aos-speed="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-delay="400"
+            >
+              <h1 className="text">Shannon</h1>
+            </div>
+
+            <div
+              id="jobPos"
+              className="animated"
+              data-aos="fade-up"
+              data-aos-speed="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-delay="600"
+            >
+              <h1 id="h1JobPost">I'm a UX/UI Designer</h1>
+            </div>
+          </div>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      </div>
+
       <div className="AboutMeBig">
         <div className="contentsAboutMe">
           <div className="div">
             <div className="img">
               <img src="/Me.png" />
             </div>
+
             <div className="info">
-              <div className="title">
-                <H1>Shannon Maynard</H1>
-                <H5>UX/UI Designer</H5>
-                <br></br>
-              </div>
               <div className="img2">
                 <img className="img2-2" src="/Me.png" />
               </div>
@@ -70,8 +98,8 @@ export default function Home({ isVisible }) {
           </div>
         </div>
       </div>
-      
- <Footer/>
+
+      <Footer />
     </div>
   );
 }

@@ -41,6 +41,7 @@
         flex-direction: column;
         gap: 0px;
         padding: 65px;
+        margin-bottom: 0px;
     }
     .rowsCA {
         display: flex;
@@ -135,6 +136,7 @@
         flex-direction: column;
         width: 100%;
         padding: 200px 30px;
+        margin-top: 0px;
         @media only screen and (max-width: 700px) {
             padding: 50px 30px;
         }
@@ -182,174 +184,167 @@
             }
         }
     }
-    .bg3 {
-        background-color: rgb(255, 250, 246);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        padding: 150px 20px;
-        @media only screen and (max-width: 700px) {
-            padding: 50px 20px;
-            text-align: left;
-        }
-        .p-bg3 {
-            width: 100%;
-            max-width: 100%;
-            padding: 0px 20px;
-            display: flex;
-            justify-content: center;
-            
-        }
-    }
-    .deliverablesCA {
-        background-color: rgb(255, 255, 255);
-        padding: 200px 30px;
-        @media only screen and (max-width: 700px) {
-            padding: 0px 30px;
-        }
-    }
-    .bg4 {
-        background-color: rgb(255, 255, 255);
-        padding: 200px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
-        p {
-            max-width: 700px;
-            text-align: left;
-            text-align-last: left;
-        }
-        img {
-            max-width: 1000px;
-            width: 90vw;
-            background-color: rgb(255, 250, 245);
-        }
-        @media only screen and (max-width: 700px) {
-            padding: 50px 30px;
-        }
-    }
-    .bg5 {
-        background-color: rgb(255, 250, 245);
-        padding: 200px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        @media only screen and (max-width: 700px) {
-            padding: 50px 30px;
-        }
-        p {
-            max-width: 700px;
-            text-align: left;
-            text-align-last: left;
-        }
-        img {
-            max-width: 1000px;
-            width: 90vw;
-            background-color: rgb(255, 250, 245);
-        }
-        .ol {
-            display: flex;
-            gap: 10px;
-            margin: -20px 0px;
-            padding: 0px;
-        }
-    }
-    .bg4-color {
-        background-color: rgb(255, 250, 246);
-        padding: 200px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        img {
-            max-width: 900px;
-            width: 100%;
-        }
-        @media only screen and (max-width: 700px) {
-            padding: 50px 30px;
-        }
-    }
-
-    h2 {
-        margin-bottom: 0px;
-    }
-    .compCont1CA {
-        margin-top: 0px;
+    .p-bg3 {
         width: 100%;
+        max-width: 100%;
+        padding: 0px 20px;
         display: flex;
-        padding: 200px 30px;
-        flex-direction: column;
+        justify-content: center;
+    }
+}
+.deliverablesCA {
+    background-color: rgb(255, 255, 255);
+    padding: 200px 30px;
+    @media only screen and (max-width: 700px) {
+        padding: 0px 30px;
+    }
+}
+.bg4 {
+    background-color: rgb(255, 255, 255);
+    padding: 200px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        max-width: 700px;
         text-align: left;
-        justify-content: space-between;
-        @media only screen and (max-width: 700px) {
-            padding: 50px 30px;
-        }
-        .bigCont1-CA {
-            padding: 200px 30px;
-        }
-        .bigCont2-CA {
-            padding-top: 40px;
+        text-align-last: left;
+    }
+    img {
+        max-width: 1000px;
+        width: 90vw;
+        background-color: rgb(255, 250, 245);
+    }
+    @media only screen and (max-width: 700px) {
+        padding: 50px 30px;
+    }
+}
+.bg5 {
+    background-color: rgb(255, 250, 245);
+    padding: 200px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 700px) {
+        padding: 50px 30px;
+    }
+    p {
+        max-width: 700px;
+        text-align: left;
+        text-align-last: left;
+    }
+    img {
+        max-width: 1000px;
+        width: 90vw;
+        background-color: rgb(255, 250, 245);
+    }
+    .ol {
+        display: flex;
+        gap: 10px;
+        margin: -20px 0px;
+        padding: 0px;
+    }
+}
+.bg4-color {
+    background-color: rgb(255, 250, 246);
+    padding: 200px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        max-width: 900px;
+        width: 100%;
+    }
+    @media only screen and (max-width: 700px) {
+        padding: 50px 30px;
+    }
+}
 
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+.compCont1CA {
+    margin-top: 0px;
+
+    display: flex;
+    padding: 200px 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    justify-content: space-between;
+    @media only screen and (max-width: 700px) {
+        padding: 50px 30px;
+    }
+    .bigCont1-CA {
+        padding: 200px 30px;
+    }
+    .bigCont2-CA {
+        padding-top: 40px;
+
+        .h3Mobile {
+            display: none;
+        }
+        .h3DeskCA {
+            display: flex;
+        }
+        @media only screen and (max-width: 700px) {
+            padding: 50px 40px;
             .h3Mobile {
-                display: none;
-            }
-            .h3DeskCA {
                 display: flex;
             }
-            @media only screen and (max-width: 700px) {
-                padding: 50px 40px;
-                .h3Mobile {
-                    display: flex;
-                }
-                .h3Desk {
-                    display: none;
-                }
+            .h3Desk {
+                display: none;
             }
         }
+    }
 
-        .innerCont1CA {
-            display: flex;
+    .innerCont1CA {
+        display: flex;
+        flex-direction: column;
+    }
+    .contCA {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+        @media only screen and (max-width: 700px) {
             flex-direction: column;
         }
-        .contCA {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 20px;
-
-            @media only screen and (max-width: 700px) {
-                flex-direction: column;
-            }
+    }
+    .contCA2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        @media only screen and (max-width: 700px) {
+            flex-direction: column;
         }
-        .contCA2 {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 20px;
-            @media only screen and (max-width: 700px) {
-                flex-direction: column;
-            }
-        }
-        .compContInnerCA {
-            width: max-content;
-            display: flex;
-            flex-direction: row;
-            gap: 14px;
+    }
+    .compContInnerCA {
+        width: max-content;
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
 
-            @media only screen and (max-width: 700px) {
-                flex-direction: column;
-            }
-            .personasCA {
-                width: 100%;
-                .rowCA {
-                    display: flex;
-                    height: 100%;
-                }
+        @media only screen and (max-width: 700px) {
+            flex-direction: column;
+        }
+        .personasCA {
+            width: 100%;
+            .rowCA {
+                display: flex;
+                height: 100%;
             }
         }
     }
 }
+
 .compCont2CA {
     padding: 200px 30px;
     width: 100%;
@@ -413,13 +408,13 @@
 
 .bg4rows2 {
     background-color: rgb(255, 255, 255);
-    padding: 200px 30px;
+    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     justify-content: center;
-
+    align-items: center;
     @media only screen and (max-width: 700px) {
         padding: 50px 30px;
         flex-direction: column;
@@ -434,29 +429,16 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+        width: 100%;
+        align-items: center;
         @media only screen and (max-width: 900px) {
             padding: 50px 0px;
             flex-direction: column;
         }
-        .bg4Inner {
-            max-width: 700px;
-            border: rgb(255, 246, 234) solid 2px;
-            flex-direction: column;
-            @media only screen and (max-width: 900px) {
-                border: none;
-            }
-            h3 {
-                text-align: left;
-                display: flex;
-                justify-content: left;
-                margin-bottom: 0px;
-            }
-            h4 {
-                margin: 0px;
-                @media only screen and (max-width: 900px) {
-                    font-size: 28px;
-                }
-            }
+        p{
+            padding: 0px;
+            width: 100%;
+            
         }
     }
 }
@@ -475,5 +457,17 @@
             color: white;
             font-weight: 300;
         }
+    }
+}
+.bg3 {
+    background-color: rgb(255, 250, 246);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 150px 30px;
+    @media only screen and (max-width: 700px) {
+        padding: 50px 30px;
+        text-align: left;
     }
 }
