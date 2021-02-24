@@ -213,16 +213,16 @@
         }
         @media only screen and (max-width: 700px) {
             font-size: 4vw;
-            margin-top: 10px;
+            margin-top: 20px;
             transition: .5s;
         }
     }
     .text {
-        background: linear-gradient(to right, #ddb575 0%, #ffecb4 33%, #ffeeeb 66%, #ddb575 100%);
+        background: linear-gradient(to 70deg, #ddb575 0%, #ffecb4 33%, #ffeeeb 66%, #ddb575 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-size: 10vw;
@@ -231,6 +231,8 @@
         animation-timing-function: ease-in-out;
         background-size: 300% auto;
         animation: textShine 7s ease-in-out infinite alternate;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true', GradientType=1, startColorstr='#ddb575, ', endColorstr='#ddb575')";
+
         @media only screen and (max-width: 1750px) {
             font-size: 12vw;
             transition: 1s;
@@ -255,7 +257,7 @@
         }
         @media only screen and (max-width: 700px) {
             font-size: 3.5vw;
-            margin-top: 10px;
+            margin-top: 20px;
         }
     }
 }
