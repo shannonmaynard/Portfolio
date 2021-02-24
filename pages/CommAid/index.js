@@ -12,7 +12,7 @@ import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import TitleNDescCol3 from "../../comps/TitleNDescCol3";
 import ThreeCol from "../../comps/ThreeCol";
 import Footer from "../../comps/Footer";
-
+import ImgDescBelowSide from "../../comps/ImgDescBelowSide";
 
 
 const ImgBanner = styled.img`
@@ -28,8 +28,6 @@ const Menu = styled.div`
     height: 134px;
   }
 `;
-
-const H2 = styled.h2``;
 
 export default function Home({ margin }) {
   return (
@@ -118,7 +116,7 @@ export default function Home({ margin }) {
           </a>
         </div>
       </div>
-      <H2>Research & Analysis</H2>
+      <h2>Research & Analysis</h2>
       <div className="bg1">
         <TitleNDescCol
           flexImg={2}
@@ -201,7 +199,7 @@ export default function Home({ margin }) {
       <div className="deliverablesCA">
         <ThreeCol></ThreeCol>
       </div>
-      <H2>Design</H2>
+      <h2>Design</h2>
       <div className="bg4">
         <div
           className="animated"
@@ -262,49 +260,36 @@ export default function Home({ margin }) {
           href="https://www.figma.com/proto/R10YSuSRGPS50PKD7zHXVm/CommAid%2FModified?node-id=1%3A188&scaling=scale-down"
         ></TitleNDescCol>
       </div>
-      <H2>Testing and Development</H2>
-      <div className="bg4rows2">
-        <div
-          className="animated"
-          data-aos="fade-up"
-          data-aos-mirror="true"
-          data-aos-delay="200"
-        >
-          <div className="bg4Inner">
-            <h3>10 - User Testing </h3>
-            <p>
-              After our high fidelity's first iteration, we moved onto to
-              testing it out! To figure out what problems lay in our design, we
-              conducted user testing with 6 different participants. Each had
-              some experience with volunteering and could therefore provide
-              accurate feedback.
-              <br></br>
-              <br></br>
-              During testings, we asked users to perform certain tasks and
-              observed how easy it was for them to complete, and tracked their
-              paths to see where they veered off track. All of this provided us
-              insight into things we needed to change.
-              <br></br>
-              <br></br>
-              After each participant finished the testing, we also asked them to
-              fill out a survey so that we could more deeply understand their
-              thoughts on the app.
-            </p>
-          </div>
-          <div className="bg4Inner">
-            <h4>Implementing Changes</h4>
-            <p>
-              Each round of testing showed us different problems that lay in our
-              design. As we discovered these problems, we went about trying to
-              first solve the less complicated problems before moving onto the
-              bigger ones.
-            </p>
-          </div>
-        </div>
+      <h2>Testing and Development</h2>
+
+      <div className="compCont1CA">
+        <ImgDescBelowSide
+          flexImg={4}
+          flexDir="column"
+          flexInfo={2}
+          h3="10 - User Testing"
+          h5="Finding Bugs"
+          p="After our high fidelity's first iteration, we moved onto to
+          testing it out! To figure out what problems lay in our design, we
+          conducted user testing with 6 different participants. Each had
+          some experience with volunteering and could therefore provide
+          accurate feedback. During testings, we asked users to perform certain tasks and
+          observed how easy it was for them to complete, and tracked their
+          paths to see where they veered off track. All of this provided us
+          insight into things we needed to change."
+          p3="  After each participant finished the testing, we also asked them to
+          fill out a survey so that we could more deeply understand their
+          thoughts on the app."
+          p4="Each round of testing showed us different problems that lay in
+          our design. As we discovered these problems, we went about
+          trying to first solve the less complicated problems before
+          moving onto the bigger ones."
+          p4Title="Implementing Changes"
+          src="cmaid/user-testing.png"
+        ></ImgDescBelowSide>
+  
       </div>
 
-
-      
       <div className="bg5">
         <div
           className="animated"

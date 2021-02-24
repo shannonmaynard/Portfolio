@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const BigCont = styled.div`
-  padding: 0px 20px;
+  padding: 0px 30px;
   flex-direction: column;
   margin-bottom: 20px;
   width: 100%;
@@ -10,7 +10,7 @@ const BigCont = styled.div`
   align-items: center;
   display: flex;
   @media only screen and (max-width: 900px) {
-    padding: 0px 20px;
+
     margin: 0px;
     flex-direction: column;
   }
@@ -30,19 +30,19 @@ const Img = styled.img`
   max-width: 900px;
   height: auto;
 
-  padding: 10px;
+
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 900px) {
     width: 90vw;
     height: auto;
     border: none;
-    padding: 0px;
+
   }
 `;
 const P = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 900px) {
-    padding: 0px;
+  
   }
 `;
 
@@ -62,7 +62,7 @@ const InnerCont = styled.div`
   flex-direction: row;
   gap: 50px;
   @media only screen and (max-width: 900px) {
-    padding: 0px 0px;
+
     margin: 0px;
     flex-direction: column;
   }

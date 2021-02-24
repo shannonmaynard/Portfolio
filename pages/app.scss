@@ -150,10 +150,29 @@ h6 {
   }
 }
 
+img{
+  -webkit-user-drag: none;
+}
+
+h4 {
+  margin: 0px;
+  @media only screen and (max-width: 900px) {
+      font-size: 28px;
+      text-align: left;
+      width: 100%;
+   
+      p{
+       
+      }
+      
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .ArtCol3 {
     display: none;
   }
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -204,14 +223,15 @@ body {
 
 p {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 17px;
   text-align: justify; /* For Edge */
   text-align-last: left;
-  line-height: 26px;
+  line-height: 32px;
   color: rgb(60, 60, 60);
   font-family: "Poppins", sans-serif;
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     text-align: left;
+    margin-top: 0px;
 text-align-last: left;
   }
 }

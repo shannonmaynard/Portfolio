@@ -5,21 +5,26 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(90deg, #f1f2f7, #d9d9dc);
+    padding: 0px;
+    display: flex;
+    color: white;
+    background: black;
+    margin: 0px;
     @media only screen and (max-width: 700px) {
         padding-top: 200px;
-        
     }
     .AboutMeBig {
         width: 100%;
-       padding: 70px 0px;
+        padding: 70px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background: linear-gradient(90deg, #fffdf8 , #ffead5 );
         align-items: center;
         @media only screen and (max-width: 700px) {
             padding: 0px;
         }
+        
         .contentsAboutMe {
             display: flex;
             margin-top: -200px;
@@ -27,14 +32,13 @@
             width: 100%;
             justify-content: center;
             height: fit-content;
-            padding:200px 20px;
+            padding: 200px 20px;
             //box-shadow: 1px 1px 200px rgba(57, 57, 57, 0.199);
             height: 100%;
             align-items: center;
             @media only screen and (max-width: 700px) {
-             
-                margin-top: -300px;
-                padding: 20px 0px;
+                padding: 0px 20px;
+                margin-top: 0px;
             }
             .div {
                 display: flex;
@@ -46,7 +50,7 @@
                 padding-top: 130px;
                 max-width: 1000px;
                 padding-bottom: 130px;
-             
+                color: white;
                 .img {
                     //background-color:blue;
                     width: fit-content;
@@ -59,6 +63,7 @@
                         min-width: 200px;
                         -webkit-user-drag: none;
                         border-radius: 50%;
+                        border: 1px rgb(173, 173, 173) solid;
                     }
                 }
 
@@ -67,14 +72,14 @@
                     flex-direction: column;
                     height: 100%;
                     width: 100%;
-
+                    
                     // background-color: black;
                     justify-content: flex-start;
                     h1 {
-                        color: rgb(24, 27, 31);
                         font-size: 40px;
                         top: 0px;
                         width: 100%;
+                
                         font-weight: 700;
                         font-family: "Poppins", sans-serif;
                         text-align: left;
@@ -85,25 +90,30 @@
                             text-align: center;
                         }
                     }
-                    h4 {
-                        color: rgba(24, 27, 31, 0.863);
-                        font-weight: 600;
-                        font-size: 18px;
+                    h3 {
+                       width: 100%;
+                       display: flex;
                         justify-content: flex-start;
+                        margin-bottom: 0px;
                         @media only screen and (max-width: 700px) {
                             text-align: center;
+                            justify-content: center;
+                            margin-bottom: 0px;
+                            font-size: 40px;
                         }
                     }
                     p {
-                        color: rgba(24, 27, 31, 0.589);
+                        color: rgb(0, 0, 0);
                         justify-content: flex-start;
                         text-align: left;
                     }
                     .img2 {
                         display: none;
+                        
                         @media only screen and (max-width: 700px) {
                             display: flex;
                             width: 100%;
+                            
                         }
                     }
                     p {
@@ -112,16 +122,14 @@
             }
         }
     }
-    
 }
 @media only screen and (min-width: 700px) {
     .div {
-
         min-width: 500px;
-
     }
-    .img2-2{
+    .img2-2 {
         min-width: 400px;
+        
     }
 }
 @media only screen and (max-width: 700px) {
@@ -130,7 +138,7 @@
     }
     .div {
         display: flex;
-        
+
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -138,19 +146,126 @@
 
     .img {
         display: none;
+        
     }
     .img2 {
         width: 100%;
         align-items: center;
         justify-content: center;
+        
         img {
             display: flex;
             height: auto;
             border-radius: 50%;
             width: 100%;
-            padding: 10%;
-            max-width: 500px;
-
+            margin: 10%;
+            max-width: 400px;
+            border: 1px rgb(173, 173, 173) solid;
+            
         }
     }
+}
+.containerTest {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 200px;
+    padding-bottom: 100px;
+    height: fit-content;
+    @media only screen and (max-width: 700px) {
+        padding: 0px;
+        padding-bottom: 100px;
+    }
+    
+    h1 {
+        font-weight: 200;
+        margin-bottom: 30px;
+        margin-top: -10px;
+        font-size: 40px;
+        display: flex;
+        align-items: flex-end;
+        gap: 30px;
+        color: white;
+    }
+    .hi {
+        font-size: 9vw;
+        font-weight: 500;
+        color: #ddb575;
+        margin: 0px;
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+    }
+    #myname {
+        height: fit-content;
+        font-size: 2vw;
+        align-items: flex-end;
+        height: 100%;
+        margin: 0px;
+        transition: .5s;
+        margin-top: -40px;
+        @media only screen and (max-width: 1000px) {
+            margin-top: 5px;
+            transition: .5s;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 4vw;
+            margin-top: 10px;
+            transition: .5s;
+        }
+    }
+    .text {
+        background: linear-gradient(to right, #ddb575 0%, #ffecb4 33%, #ffe8e4 66%, #ddb575 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 10vw;
+        margin: 0px;
+        margin-bottom: -30px;
+        animation-timing-function: ease-in-out;
+        background-size: 300% auto;
+        animation: textShine 7s ease-in-out infinite alternate;
+        @media only screen and (max-width: 1750px) {
+            font-size: 12vw;
+            transition: 1s;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 19vw;
+            transition: 1s;
+        }
+    }
+}
+#jobPos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    #h1JobPost {
+        display: flex;
+        font-size: 2vw;
+        color: white;
+        margin-top: -10px;
+        @media only screen and (max-width: 1000px) {
+            margin-top: 10px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 3.5vw;
+            margin-top: 10px;
+        }
+    }
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
 }

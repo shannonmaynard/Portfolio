@@ -8,7 +8,7 @@ import Btn from "../../comps/Btn";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import BtnBlack from "../../comps/BtnBlack";
-import Footer from '../../comps/Footer';
+import Footer from "../../comps/Footer";
 const P = styled.p`
   width: 100%;
   max-width: 700px;
@@ -86,7 +86,7 @@ export default function Home({ margin }) {
           </p>
         </div>
         <div className="row2">
-          <h4>Roles</h4>
+          <h4>Roles</h4> <br></br>
           <h5>My Role</h5>
           <p>
             All things UX and UI. User research and analysis, brainstorming,
@@ -138,11 +138,24 @@ export default function Home({ margin }) {
         ></TitleNDesc>
       </div>
       <div className="key">
-        <KeyFindings
-          li1="Strengths: strong community, loyal customers."
-          li2="Opportunity: no bookstore's in area with modern website"
-          li3="Competition Takeaway: Indigo user-friendly online bookstore joined with grassroots feel for rest of website."
-        ></KeyFindings>
+        <div className="findings">
+          <div className="findingsRow">
+            <img src="loyalty.png" className="findingsImg1" />
+            <p>Strengths: strong community, loyal customers.</p>
+          </div>
+          <div className="findingsRow">
+            <img src="website.png" className="findingsImg2" />
+            <p>Opportunity: no bookstore's in area with modern website</p>
+          </div>
+
+          <div className="findingsRow">
+            <img src="competitors.png" className="findingsImg3" />
+            <p>
+              Competition Takeaway: Indigo user-friendly online bookstore joined
+              with grassroots feel for rest of website.
+            </p>
+          </div>
+        </div>
       </div>
       <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
       <div
@@ -155,8 +168,8 @@ export default function Home({ margin }) {
           <h3>03 - User Personas</h3>
           <P>
             We then created a user persona based off of our research to get a
-            picture of their two most common types of customers. This
-            allowed us to find out their likes and dislikes as users.
+            picture of their two most common types of customers. This allowed us
+            to find out their likes and dislikes as users.
           </P>
         </div>
 
@@ -255,7 +268,6 @@ export default function Home({ margin }) {
       >
         <h3 className="finally">and finally...</h3>
       </div>
-
       <br></br>
       <div
         className="compCont1"
@@ -297,7 +309,7 @@ export default function Home({ margin }) {
         ></TitleNDescCol>
       </div>
       <BtnBlack btn="View Next Project" hrefPrev="/Print" display="none" />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

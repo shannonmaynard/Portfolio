@@ -1,60 +1,61 @@
 .contMajorProj {
     width: 100%;
- 
+    background: linear-gradient(90deg, #fffdf8, #ffead5);
     height: 100%;
     display: flex;
     padding-bottom: 10px;
-    .contents{
+    .contents {
         width: 100%;
-    .contentsProjects {
-        display: flex;
-        width: 85%;
-        max-width: 1500px;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        h1 {
-            text-align: center;
-            width: 100%;
-  
-            @media only screen and (max-width: 700px){
-                font-size: 30px;
-            }
-        }
-        .imgsCont {
+        .contentsProjects {
             display: flex;
-            gap: 30px;
-            flex-direction: column;
-            margin-top: 0px;
-            align-items: flex-start;
-            padding-left: 10px;
+            width: 85%;
+            max-width: 1500px;
+            height: 100%;
+            align-items: center;
             justify-content: center;
-            @media only screen and (max-width: 700px){
-                gap: 10px;
+            flex-direction: column;
+            h1 {
+                text-align: center;
+                width: 100%;
+
+                @media only screen and (max-width: 700px) {
+                    font-size: 30px;
+                }
             }
-            .projRows {
-                gap: 20px;
+            .imgsCont {
                 display: flex;
-                flex-direction: row;
+                gap: 30px;
+                flex-direction: column;
+                margin-top: 0px;
+                align-items: flex-start;
+                padding-left: 10px;
+                justify-content: center;
                 @media only screen and (max-width: 700px) {
                     gap: 10px;
-                flex-direction: column;
-           }
-                div {
-                    flex: 1;
+                }
+                .projRows {
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    @media only screen and (max-width: 700px) {
+                        gap: 10px;
+                        flex-direction: column;
+                    }
+                    div {
+                        flex: 1;
+                    }
                 }
             }
         }
     }
-}}
+}
 @media only screen and (max-width: 700px) {
     .contentsProjects {
         .imgsCont {
             display: flex;
             width: 100%;
             flex-direction: column;
-      
+
             align-items: center;
             justify-content: center;
             .projRows {
@@ -68,5 +69,5 @@
         }
     }
 }
-.contents{
+.contents {
 }

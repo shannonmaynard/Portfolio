@@ -14,13 +14,14 @@
     top:0;
     background-color: rgba(0, 0, 0, 0.804);
     backdrop-filter: blur(25px);
+    
 
     .menuHeader {
         width: 100%;
         align-items: center;
         justify-content: center;
         padding: 0px;
-        color: white;
+        color: rgb(0, 0, 0);
         flex: 4;
         height: 100%;
         margin-top: 1%;
@@ -96,7 +97,7 @@
         text-align: left;
         flex-direction: column;
         padding-bottom: 10px;
-        
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.151);
         .menuHeader{
             display: flex;
             text-align: center;
