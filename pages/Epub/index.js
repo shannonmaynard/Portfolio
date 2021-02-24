@@ -98,7 +98,7 @@ const Epub = () => {
               <b>Interactive Epub Requirements</b>
               <br></br>
               <br></br>
-              At least 12-15 articles (pages) with varying content/length
+              At least 12-15 articles (pages) with varying content
               (depending on interactive elements and scope of
               interaction,animation,etc.) Intuitive navigation between pages,
               content, and states.
