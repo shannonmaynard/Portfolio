@@ -57,6 +57,7 @@ const Img = styled.img`
   width: 40px;
   cursor: pointer;
   border-radius: 9px;
+  margin: 10px;
 `;
 
 const Footer = () => {
