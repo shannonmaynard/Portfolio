@@ -26,7 +26,7 @@ const H5 = styled.div`
   border: solid 1px #333333;
   border-radius: 5px;
   min-width: 100px;
-  margin: 7px;
+  margin: 4px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   transition: 0.3s;
