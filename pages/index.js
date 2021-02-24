@@ -29,11 +29,13 @@ const H5 = styled.div`
   text-align: center;
   font-family: "Poppins", sans-serif;
   transition: 0.3s;
+  cursor: pointer;
   :hover {
     transform: scale(1.07);
     transition: 0.3s;
     box-shadow: 1px 1px 3px grey;
     font-weight: 600;
+    cursor: pointer;
   }
   @media only screen and (max-width: 700px) {
     text-align: center;
@@ -87,24 +89,34 @@ export default function Home({ isVisible }) {
 
       <div className="AboutMeBig">
         <div className="contentsAboutMe">
-          <div className="div">
-            <div className="img">
-              <img src="/Me.png" />
-            </div>
-            <div className="info">
-              <h3>About Me</h3>
-              <div className="img2">
-                <img className="img2-2" src="/Me.png" />
+          <div
+            className="animated"
+            data-aos="fade-up"
+            data-aos-speed="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-delay="600"
+          >
+            <div className="div">
+              <div className="img">
+                <img src="/Me.png" />
               </div>
-              <p>
-                My name is <b>Shannon Maynard</b> and I'm currently a student in
-                my final semester at BCIT in the Digital Design and Development
-                Diploma Program where I'm learning and practicing working on
-                creating dynamic cross-platform applications. <br></br>
-                <br></br>
-                I'm incredibly passionate about all things design and love the
-                challenge of creating user interfaces that delight my audience.
-              </p>
+              <div id="info">
+                <h3>About Me</h3>
+                <div className="img2">
+                  <img className="img2-2" src="/Me.png" />
+                </div>
+                <p>
+                  My name is <b>Shannon Maynard</b> and I'm currently a student
+                  in my final semester at BCIT in the Digital Design and
+                  Development Diploma Program where I'm learning and practicing
+                  working on creating dynamic cross-platform applications.{" "}
+                  <br></br>
+                  <br></br>
+                  I'm incredibly passionate about all things design and love the
+                  challenge of creating user interfaces that delight my
+                  audience.
+                </p>{" "}
+              </div>
             </div>
           </div>
           <div className="tags">
@@ -122,6 +134,8 @@ export default function Home({ isVisible }) {
             <H5>SCSS</H5>
             <H5>HTML</H5>
             <H5>CSS</H5>
+            <H5>Heat Mapping</H5>
+            <H5>SEO Optimazation</H5>
           </div>
         </div>
       </div>

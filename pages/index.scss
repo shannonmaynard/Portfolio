@@ -67,7 +67,7 @@
                     }
                 }
 
-                .info {
+                #info {
                     display: flex;
                     flex-direction: column;
                     height: 100%;
@@ -218,7 +218,7 @@
         }
     }
     .text {
-        background: linear-gradient(to right, #ddb575 0%, #ffecb4 33%, #ffe8e4 66%, #ddb575 100%);
+        background: linear-gradient(to right, #ddb575 0%, #ffecb4 33%, #ffeeeb 66%, #ddb575 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
