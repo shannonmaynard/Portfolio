@@ -126,7 +126,7 @@ export default function Home({ isVisible }) {
                     href="http://www.linkedin.com/in/shannon-maynard-7004a6198"
                     target="_blank"
                   >
-                    <Img className="linkedIn" src="/linkedIn2.png" />
+                    <Img className="linkedIn" src="/linkedIn2.svg" />
                   </a>
                   <a href="mailto:smaynard@my.bcit.ca">
                     <Img src="Mail2.svg"></Img>
