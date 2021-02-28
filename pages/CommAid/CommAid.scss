@@ -1,6 +1,13 @@
 .contentsCA {
     width: 100%;
 
+    .banner {
+        width: 100%;
+        position: relative;
+        display: flex;
+        z-index: 3;
+    }
+
     .projTitleCA {
         display: flex;
         justify-content: center;
@@ -8,10 +15,12 @@
         width: 100%;
         align-items: center;
         height: 100%;
+        z-index: 3;
         padding: 200px 10px;
         text-align: center;
         width: 100%;
-        gap: 0px;
+        position: relative;
+        background-color: white;
         height: fit-content;
         h2 {
             width: 100%;
@@ -34,21 +43,13 @@
             width: 20vw;
         }
     }
-    h2 {
-        background: #222222;
-        color: #ddb575;
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        padding: 65px;
-        margin-bottom: 0px;
-    }
+
     .rowsCA {
         display: flex;
-        background-color: rgb(121, 177, 141);
+        background-color: rgb(95, 150, 113);
         width: 100%;
         flex-direction: row;
-        gap: 50px;
+       
         padding: 30px;
         min-width: 400px;
         justify-content: center;
@@ -56,6 +57,7 @@
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
+        
         @media only screen and (max-width: 700px) {
             flex-direction: column;
             min-width: 100%;
@@ -64,9 +66,10 @@
             max-width: 650px;
             width: fit-content;
             display: flex;
-
+            margin: 20px;
             flex-direction: column;
             @media only screen and (max-width: 700px) {
+                width: 100%;
                 max-width: 100%;
             }
             h3 {
@@ -75,13 +78,16 @@
             h4 {
                 color: #222222;
                 margin-bottom: 0px;
+                font-weight: 500;
                 @media only screen and (max-width: 700px) {
-                    font-size: 24px;
+                    font-size: 28px;
+                    margin-bottom: 10px;
                 }
             }
             p {
                 color: rgb(255, 255, 255);
                 max-width: 700px;
+                font-weight: 200;
             }
         }
         #row2CA {
@@ -91,11 +97,11 @@
             flex-direction: column;
             min-width: 300px;
             padding: 0px;
+            margin: 20px;
             @media only screen and (max-width: 700px) {
                 margin-top: 0px;
                 width: 100%;
-                max-width: 650px;
-                padding: 30;
+                max-width: 100%;
             }
             h3 {
                 color: #222222;
@@ -117,6 +123,7 @@
                 margin: 0px;
                 text-align: left;
                 max-width: 700px;
+                font-weight: 200;
             }
             ul,
             ol {
@@ -138,7 +145,7 @@
         padding: 200px 30px;
         margin-top: 0px;
         @media only screen and (max-width: 700px) {
-            padding: 50px 30px;
+            padding: 80px 30px;
         }
     }
     .bg2 {
@@ -149,7 +156,7 @@
         width: 100%;
         padding: 200px 30px;
         @media only screen and (max-width: 700px) {
-            padding: 50px 30px;
+            padding: 80px 30px;
         }
         #key1CA {
             display: flex;
@@ -158,16 +165,24 @@
 
             padding: 150px 30px;
             padding-bottom: 0px;
+            h4 {
+                width: 100%;
+                text-align: center;
+            }
             @media only screen and (max-width: 700px) {
                 flex-direction: column;
                 align-items: flex-start;
                 width: 100%;
                 padding: 50px 0px;
+                h4 {
+                    width: 100%;
+                    text-align: left;
+                }
             }
             .keyInnerCA {
                 display: flex;
                 flex-direction: row;
-                gap: 50px;
+
                 width: 100%;
                 @media only screen and (max-width: 700px) {
                     flex-direction: column;
@@ -177,6 +192,12 @@
                     display: flex;
                     width: fit-content;
                     flex-direction: column;
+                    margin: 25px;
+                    @media only screen and (max-width: 700px) {
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 25px 0px;
+                    }
                     h4 {
                         margin-bottom: 0px;
                     }
@@ -218,7 +239,7 @@
         background-color: rgb(255, 250, 245);
     }
     @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
+        padding: 80px 30px;
     }
 }
 .bg5 {
@@ -228,7 +249,7 @@
     flex-direction: column;
     align-items: center;
     @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
+        padding: 80px 30px;
     }
     p {
         max-width: 700px;
@@ -242,13 +263,15 @@
     }
     .ol {
         display: flex;
-        gap: 10px;
-        margin: -20px 0px;
+        margin: 0px 0px;
         padding: 0px;
+        p {
+            margin: 0px;
+        }
     }
 }
 .bg4-color {
-    background-color: rgb(255, 250, 246);
+    background-color: rgb(255, 255, 255);
     padding: 200px 30px;
     display: flex;
     flex-direction: column;
@@ -258,7 +281,7 @@
         width: 100%;
     }
     @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
+        padding: 80px 30px;
     }
 }
 
@@ -278,7 +301,7 @@ h2 {
     text-align: left;
     justify-content: space-between;
     @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
+        padding: 80px 30px;
     }
     .bigCont1-CA {
         padding: 200px 30px;
@@ -307,42 +330,8 @@ h2 {
         display: flex;
         flex-direction: column;
     }
-    .contCA {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 20px;
 
-        @media only screen and (max-width: 700px) {
-            flex-direction: column;
-        }
-    }
-    .contCA2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 20px;
-        @media only screen and (max-width: 700px) {
-            flex-direction: column;
-        }
-    }
-    .compContInnerCA {
-        width: max-content;
-        display: flex;
-        flex-direction: row;
-        gap: 14px;
-
-        @media only screen and (max-width: 700px) {
-            flex-direction: column;
-        }
-        .personasCA {
-            width: 100%;
-            .rowCA {
-                display: flex;
-                height: 100%;
-            }
-        }
-    }
+    
 }
 
 .compCont2CA {
@@ -354,7 +343,7 @@ h2 {
     flex-direction: column;
     background: rgb(255, 255, 255);
     @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
+        padding: 80px 30px;
     }
 }
 .projSceneCA {
@@ -384,7 +373,7 @@ h2 {
     div {
         .rowsCA {
             padding: 40px 30px;
-            gap: 0px;
+     
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -406,42 +395,7 @@ h2 {
     visibility: visible;
 }
 
-.bg4rows2 {
-    background-color: rgb(255, 255, 255);
-    padding: 0px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
-        flex-direction: column;
-    }
-    h3 {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    div {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        width: 100%;
-        align-items: center;
-        @media only screen and (max-width: 900px) {
-            padding: 50px 0px;
-            flex-direction: column;
-        }
-        p{
-            padding: 0px;
-            width: 100%;
-            
-        }
-    }
-}
+
 .nextProj {
     padding: 200px 200px;
     button {
@@ -465,9 +419,10 @@ h2 {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 150px 30px;
+
+    padding: 200px 30px;
     @media only screen and (max-width: 700px) {
-        padding: 50px 30px;
+        padding: 80px 30px;
         text-align: left;
     }
 }

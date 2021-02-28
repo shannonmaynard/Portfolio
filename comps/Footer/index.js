@@ -7,7 +7,11 @@ const H3 = styled.div`
   align-items: 100%;
   color: white;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 40px;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;   
   font-family: "EB Garamond", sans-serif;
 `;
 const ContactInfo = styled.div`
@@ -15,7 +19,7 @@ const ContactInfo = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+
 `;
 
 const FooterCont = styled.footer`
@@ -25,7 +29,7 @@ const FooterCont = styled.footer`
   align-items: center;
   background-color: #222222;
   padding: 40px;
-  gap: 30px;
+  position: relative;
   justify-content: center;
   text-align: center;
   @media only screen and (max-width: 700px) {
@@ -45,6 +49,12 @@ const H5Email = styled.h5`
 
 const A = styled.a``;
 
+const P = styled.p`
+font-size: 10px;
+position: absolute;
+bottom: 0px;
+`;
+
 const EmailCont = styled.div`
   width: fit-content;
   :hover {
@@ -58,6 +68,7 @@ const Img = styled.img`
   cursor: pointer;
   border-radius: 9px;
   margin: 7px;
+  
 `;
 
 const Footer = () => {
@@ -66,6 +77,7 @@ const Footer = () => {
   return (
     <FooterCont>
       <H3>Contact Me</H3>
+      <br></br>
       <ContactInfo>
         <A
           href="http://www.linkedin.com/in/shannon-maynard-7004a6198"
@@ -79,7 +91,7 @@ const Footer = () => {
           </A>
         </EmailCont>
       </ContactInfo>
-      @copyrights Shannon Maynard 2021
+     <P>@copyrights Shannon Maynard 2021</P> 
     </FooterCont>
   );
 };

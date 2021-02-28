@@ -14,12 +14,13 @@ const Cont = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 40px;
-
+  margin-right: 30px;
+ 
   align-items: center;
   @media only screen and (max-width: 700px) {
     flex-direction: column;
-    gap: 40px;
+    margin-right: 0px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -77,12 +78,12 @@ const P2 = styled.p`
 const Img = styled.img`
   width: 100%;
   height: auto;
-  padding: 20px;
+
   background-color: white;
-  border: solid 1px rgb(230, 230, 230);
+
   @media only screen and (max-width: 700px) {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     border: none;
   }
 `;
@@ -93,6 +94,11 @@ const ImgCont = styled.div`
   align-items: center;
   display: ${(props) => (props.flex ? props.flex : "flex")};
   flex: ${(props) => (props.flexImg ? props.flexImg : "4")};
+  margin-right: 50px;
+  @media only screen and (max-width: 700px) {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
 `;
 
 const H5 = styled.h5`

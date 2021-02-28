@@ -10,7 +10,6 @@ const BigCont = styled.div`
   align-items: center;
   display: flex;
   @media only screen and (max-width: 900px) {
-
     margin: 0px;
     flex-direction: column;
   }
@@ -22,7 +21,6 @@ const H3 = styled.h3`
   display: flex;
   text-align: left;
   @media only screen and (max-width: 900px) {
-   
   }
 `;
 const Img = styled.img`
@@ -30,19 +28,20 @@ const Img = styled.img`
   max-width: 900px;
   height: auto;
 
+  margin-right: 30px;
 
   border: solid 1px rgb(230, 230, 230);
   @media only screen and (max-width: 900px) {
     width: 90vw;
     height: auto;
     border: none;
-
+    margin-right: 0px;
+    margin-bottom: 30px;
   }
 `;
 const P = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 900px) {
-  
   }
 `;
 
@@ -60,9 +59,8 @@ const Cont1 = styled.div`
 const InnerCont = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 50px;
-  @media only screen and (max-width: 900px) {
 
+  @media only screen and (max-width: 900px) {
     margin: 0px;
     flex-direction: column;
   }

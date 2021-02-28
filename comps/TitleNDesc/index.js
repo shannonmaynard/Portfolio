@@ -19,13 +19,13 @@ const Cont = styled.div`
 */
 
 const Info = styled.div`
-  padding: 0px 20px;
+  padding: 0px 50px;
   display: flex;
   flex-direction: column;
   flex: ${(props) => (props.flexInfo ? props.flexInfo : "3")};
   justify-content: flex-end;
   @media only screen and (max-width: 700px) {
-    padding: 10px;
+    padding: 30px 0px;
     width: 100%;
   }
 `;
@@ -35,7 +35,7 @@ const H3 = styled.h3`
 
   @media only screen and (max-width: 700px) {
     display: flex;
-    padding: 30px;
+    padding: 30px 0px;
     margin-bottom: 0px;
   }
 `;
@@ -49,20 +49,25 @@ const H3Big = styled.h3`
 const P = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 700px) {
-    padding: 0px 10px;
+    padding: 30px 0px;
   }
 `;
 
 const Img = styled.img`
   width: 80%;
   height: 80%;
+  max-width: 700px;
+  margin-right: 30px;
   @media only screen and (max-width: 700px) {
     width: 100%;
-    padding: 30px;
+
+    margin-right: 0px;
+
   }
 `;
 const ImgCont = styled.div`
   display: flex;
+  justify-content: flex-end;
   flex: ${(props) => (props.flexImg ? props.flexImg : "2.5")};
 `;
 

@@ -54,7 +54,7 @@ const Categories = () => {
         <Hamburger />
       </HamCont>
       <div className="menuHeader">
-        <h4>Shannon's Portfolio</h4>
+      <a href="/"><h4>Shannon's Portfolio</h4></a>
       </div>
 
       <NavBox expanded={expanded}>

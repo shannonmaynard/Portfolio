@@ -3,6 +3,13 @@ import styled from "styled-components";
 
 const ListCont = styled.div`
   flex: 1;
+  margin-right: 30px;
+
+  
+  @media only screen and (max-width: 700px) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
 `;
 
 const MainCont = styled.div`
@@ -10,13 +17,20 @@ const MainCont = styled.div`
   flex-direction: column;
   width: 100%;
   align-items: center;
-  gap: 30px;
   padding: 50px 0px;
+  margin-right: 30px;
+  @media only screen and (max-width: 700px) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
 `;
 
 const Cont = styled.div`
   display: flex;
-  gap: 30px;
+
+  flex-direction: row;
+
+
   @media only screen and (max-width: 700px) {
     flex-direction: column;
   }
@@ -25,6 +39,7 @@ const Cont = styled.div`
 const Li = styled.li`
   margin-bottom: 5px;
   line-height: 22px;
+
 `;
 /*
   @media only screen and (max-width: 700px) {
@@ -38,7 +53,7 @@ const ThreeCol = () => {
   return (
     <MainCont className="animated" data-aos="fade-up" data-aos-delay="200" data-aos-mirror="true">
       <h3>Website Features</h3>
-      <Cont className="featuresContCA">
+      <Cont >
         <ListCont>
           <h5>Shared Features</h5>
 

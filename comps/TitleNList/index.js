@@ -7,7 +7,7 @@ const Cont = styled.div`
   width: 85vw;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+
   @media only screen and (max-width: 700px) {
     flex-direction: column;
     width: 100%;
@@ -39,11 +39,14 @@ const ImgCont = styled.div`
   display: flex;
   flex: 3;
   max-width: 600px;
+  margin-right: 30px;
   
   @media only screen and (max-width: 700px) {
     padding: 0px;
     margin: 0px;
     align-items: center;
+    margin-right: 0px;
+  margin-bottom: 30px;
   }
 `;
 
@@ -82,8 +85,11 @@ const P = styled.p`
   font-weight: 300;
   margin: 0px;
   text-align: left;
+  margin-right: 30px;
   @media only screen and (max-width: 700px) {
     padding: 0px;
+    margin-right: 0px;
+  margin-bottom: 30px;
   }
 `;
 
@@ -100,7 +106,7 @@ const H5 = styled.h5`
 const Ol = styled.ol`
   flex-direction: column;
   display: flex;
-  gap: 10px;
+ 
   margin-top: 25px;
   @media only screen and (max-width: 700px) {
     width: 100%;

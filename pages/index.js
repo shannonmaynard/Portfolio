@@ -54,7 +54,7 @@ export default function Home({ isVisible }) {
             <div
               className="animated"
               data-aos="fade-down"
-              data-aos-mirror="true"
+              data-aos-mirror="false"
               data-aos-delay="200"
             >
               <h1 className="text">Hi,</h1>
@@ -64,7 +64,7 @@ export default function Home({ isVisible }) {
               className="animated"
               data-aos="fade-up"
               data-aos-speed="ease-in-out"
-              data-aos-mirror="true"
+              data-aos-mirror="false"
               data-aos-delay="400"
             >
               <h1 className="text">Shannon</h1>
@@ -75,7 +75,7 @@ export default function Home({ isVisible }) {
               className="animated"
               data-aos="fade-up"
               data-aos-speed="ease-in-out"
-              data-aos-mirror="true"
+              data-aos-mirror="false"
               data-aos-delay="600"
             >
               <h1 id="h1JobPost">I'm a UX/UI Designer</h1>

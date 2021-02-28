@@ -4,11 +4,12 @@ import Hamburger from "../Hamburger";
 import Categories from "../Categories";
 
 const ContFill = styled.div`
-  height: 195px;
+  height: 110px;
   width: 100%;
   display: flex;
+  background-color: black;
   @media only screen and (max-width: 700px) {
-    height: 128px;
+    height: 99px;
   }
 `;
 
@@ -16,9 +17,9 @@ const Menu = () => {
   const [expanded, setExpanded] = useState(false);
   const [a, setA] = useState(false);
   return (
-    <div>
+
       <ContFill></ContFill>
-    </div>
+
   );
 };
 

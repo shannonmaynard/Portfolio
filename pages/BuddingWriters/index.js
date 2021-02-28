@@ -3,72 +3,51 @@ import Categories from "../../comps/Categories";
 import styled from "styled-components";
 import TitleNDesc from "../../comps/TitleNDesc";
 import TitleNList from "../../comps/TitleNList";
-import KeyFindings from "../../comps/Key";
 import Btn from "../../comps/Btn";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import BtnBlack from "../../comps/BtnBlack";
 import Footer from "../../comps/Footer";
+import Up from "../../comps/Up";
+import Menu from "../../comps/Menu";
+
+
 const P = styled.p`
   width: 100%;
-  max-width: 700px;
-`;
-
-const Img = styled.img`
-  width: 40vw;
-  max-width: 700px;
-  height: auto;
-  border: solid 1px rgb(230, 230, 230);
-  @media only screen and (max-width: 700px) {
-    width: 90vw;
-    height: 100%;
-  }
+  max-width: 800px;
 `;
 
 const Img2 = styled.img`
   width: 100%;
+  position: relative;
 `;
 const Img4 = styled.img`
-  width: 80vw;
-  max-width: 900px;
-  @media only screen and (max-width: 700px) {
-    width: 90vw;
-    height: 100%;
-  }
-`;
-
-const Menu = styled.div`
-  background-color: black;
   width: 100%;
-  height: 183px;
+  max-width: 900px;
 
+  align-self: flex-start;
   @media only screen and (max-width: 700px) {
-    height: 134px;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
   }
 `;
 
-const H2 = styled.h2`
-  background: #222222;
-  color: #ddb575;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  padding: 65px;
-  margin: ${(props) => (props.margin ? props.margin : "0px ")};
-`;
+
 
 export default function Home({ margin }) {
   return (
-    <div className="contentsBW">
+    <div className="contentsBW" id="top">
       <Categories></Categories>
       <Menu></Menu>
-      <Img2 src="/BWComputer.png" />
+      <img className="Img2" src="/BWComputer.png" />
+      <Up href="#top"/>
       <div className="projTitle">
         <h1>Budding Writers</h1>
         <h5>Cafe Bookstore</h5>
         <h6>Wordpress website - 2020</h6>
       </div>
-      <H2>Project Overview</H2>
+      <h2 className="h3Step">Project Overview</h2>
       <div className="rowsBW">
         <div className="row1">
           <h3>Project Scenario</h3>
@@ -121,7 +100,7 @@ export default function Home({ margin }) {
           li6="Contact Page"
         ></TitleNList>
       </div>
-      <H2>Research & Analysis</H2>
+      <h2 className="h3Step">Research</h2>
       <div className="compCont1">
         <TitleNDesc
           h3="01 - User survey"
@@ -138,6 +117,7 @@ export default function Home({ margin }) {
         ></TitleNDesc>
       </div>
       <div className="key">
+        <h3>Key Findings</h3>
         <div className="findings">
           <div className="findingsRow">
             <img src="loyalty.png" className="findingsImg1" />
@@ -158,36 +138,18 @@ export default function Home({ margin }) {
         </div>
       </div>
       <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
-      <div
-        className="compCont1"
-        data-aos="fade-up"
-        data-aos-mirror="false"
-        data-aos-delay="500"
-      >
-        <div className="persInfo">
-          <h3>03 - User Personas</h3>
-          <P>
-            We then created a user persona based off of our research to get a
-            picture of their two most common types of customers. This allowed us
-            to find out their likes and dislikes as users.
-          </P>
-        </div>
-
-        <br></br>
-        <br></br>
-        <div className="compContInner">
-          <div className="personas">
-            <div className="row">
-              <Img src="bw/persona1.png" />
-              <br></br> <br></br>
-            </div>
-          </div>
-          <div className="personas">
-            <div className="row">
-              <Img src="bw/persona2.png" />
-            </div>
-          </div>
-        </div>
+      <div className="compCont2">
+        <TitleNDescCol
+          flexImg={4}
+          flexDir="column"
+          flexInfo={2}
+          h3="03 - User Personas"
+          h5="About Our Users"
+          p="We then created a user persona based off of our research to get a
+          picture of their two most common types of customers. This allowed us
+          to find out their likes and dislikes as users."
+          src="bw/persona.png"
+        ></TitleNDescCol>
       </div>
       <br></br> <br></br>
       <div className="compCont2">
@@ -201,8 +163,9 @@ export default function Home({ margin }) {
           src="bw/task-model.png"
         ></TitleNDescCol>
       </div>
-      <br></br>
-      <H2 margin="200px 0px">Design</H2>
+
+    <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+      <h2 className="h3Step">Design</h2>
       <div className="compCont3">
         <TitleNDescCol2
           h3="05 - The Logo"
@@ -215,7 +178,7 @@ export default function Home({ margin }) {
           b1="1. "
           b2="2. "
           b3="3. "
-          li1="A feather pen (representing the writing part) which is stirring into a cup of coffee (representing the cafe). Unfortunately we couldn't a clearer way of include books in the logo as well, without it becoming messy. The overall visual is an earthy, elegant yet whimsical design."
+          li1="A feather pen (representing the writing part) which is stirring into a cup of coffee (representing the cafe). Unfortunately we couldn't find a clearer way of include books in the logo as well, without it becoming messy. The overall visual is an earthy, elegant yet whimsical design."
           li2="Our two fonts chosen are Zapfino for the words Budding Writers, and Bodoni Book for the tag."
           li3="Here we try and emulate the Zapfino strokes in the design of our logo (such as in the cup handle) to tie the logo and typeface together."
           fontSize="10px"
@@ -235,7 +198,7 @@ export default function Home({ margin }) {
         ></TitleNDescCol>
       </div>
       <br></br>
-      <H2 margin="0px 0px">Website Layout</H2>
+      <h2 className="h3Step">Planning</h2>
       <div className="compCont1">
         <TitleNDescCol
           flexImg={4}

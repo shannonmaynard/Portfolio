@@ -1,46 +1,33 @@
 import React, { useState } from "react";
 import Categories from "../../comps/Categories";
-import styled from "styled-components";
-import TitleNDesc from "../../comps/TitleNDesc";
 import TitleNList from "../../comps/TitleNList";
-import KeyFindings from "../../comps/Key";
 import Btn from "../../comps/Btn";
 import BtnBlack from "../../comps/BtnBlack";
-import BtnWhite from "../../comps/BtnWhite";
 import TitleNDescCol from "../../comps/TitleNDescCol";
 import TitleNDescCol2 from "../../comps/TitleNDescCol2";
 import TitleNDescCol3 from "../../comps/TitleNDescCol3";
 import ThreeCol from "../../comps/ThreeCol";
 import Footer from "../../comps/Footer";
 import ImgDescBelowSide from "../../comps/ImgDescBelowSide";
+import Up from "../../comps/Up";
+import Menu from '../../comps/Menu';
 
 
-const ImgBanner = styled.img`
-  width: 100%;
-`;
 
-const Menu = styled.div`
-  background-color: black;
-  width: 100%;
-  height: 183px;
-
-  @media only screen and (max-width: 700px) {
-    height: 134px;
-  }
-`;
 
 export default function Home({ margin }) {
   return (
-    <div className="contentsCA">
+    <div className="contentsCA" id="top">
       <Categories></Categories>
       <Menu></Menu>
-      <ImgBanner src="/CommaidImg.png" />
+      <img className="banner" src="/CommaidImg.png" />
+  
       <div className="projTitleCA">
         <img src="cmaid/Logo.svg" alt="sdfsdf" />
         <h1>CommAid</h1>
         <h6>A UX/UI and Web Development Project</h6>
       </div>
-      <h2>Project Overview</h2>
+      <h2 className="h3Step">Project Overview</h2>
       <div className="rowsCA">
         <div
           className="animated"
@@ -55,7 +42,7 @@ export default function Home({ margin }) {
             will help out local businesses or community. After bouncing ideas
             around, we thought up our app idea: an app to connect volunteers and
             organizations together.
-          </p>
+          </p>     <br></br>     <br></br>
           <h4>The Problem</h4>
           <p>
             BC High school graduation requirement of at least 30 hours of
@@ -116,7 +103,7 @@ export default function Home({ margin }) {
           </a>
         </div>
       </div>
-      <h2>Research & Analysis</h2>
+      <h2 className="h3Step">Research & Analysis</h2>
       <div className="bg1">
         <TitleNDescCol
           flexImg={2}
@@ -173,6 +160,7 @@ export default function Home({ margin }) {
           data-aos-delay="200"
         >
           <h4>Key Findings</h4>
+          <br></br>
           <div className="keyInnerCA">
             <div className="keyRow">
               <h5>Student Needs</h5>
@@ -199,7 +187,7 @@ export default function Home({ margin }) {
       <div className="deliverablesCA">
         <ThreeCol></ThreeCol>
       </div>
-      <h2>Design</h2>
+      <h2 className="h3Step">Design</h2>
       <div className="bg4">
         <div
           className="animated"
@@ -260,13 +248,13 @@ export default function Home({ margin }) {
           href="https://www.figma.com/proto/R10YSuSRGPS50PKD7zHXVm/CommAid%2FModified?node-id=1%3A188&scaling=scale-down"
         ></TitleNDescCol>
       </div>
-      <h2>Testing and Development</h2>
+      <h2  className="h3Step">Testing and Development</h2>
 
       <div className="compCont1CA">
         <ImgDescBelowSide
-          flexImg={4}
+          flexImg={2}
           flexDir="column"
-          flexInfo={2}
+          flexInfo={3}
           h3="10 - User Testing"
           h5="Finding Bugs"
           p="After our high fidelity's first iteration, we moved onto to
@@ -351,6 +339,7 @@ export default function Home({ margin }) {
         ></TitleNDescCol>
       </div>
       <BtnBlack href="/Print" hrefPrev="/Epub" />
+      <Up href="#top"/>
       <Footer />
     </div>
   );

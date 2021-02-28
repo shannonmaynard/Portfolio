@@ -29,13 +29,14 @@ div.desc {
 
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap");
 @import "../comps/Categories/Categories.scss";
+
 @import "../comps/MajorImgs/MajorImgs.scss";
 @import "/pages/BuddingWriters/BuddingWriters.scss";
 @import "../comps/TitleNDesc/TitleNDesc.scss";
 @import "../pages/Projects/Projects.scss";
 @import "../pages/Epub/Epub.scss";
 @import "../pages/CommAid/CommAid.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap");
 @import "../pages/index.scss";
 
@@ -44,6 +45,10 @@ div.desc {
 }
 .description {
   flex: 3;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .gifNDesc {
@@ -78,7 +83,7 @@ h2 {
 }
 h1 {
   font-size: 60px;
-  font-weight: 100;
+  font-weight: 300;
   color: black;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -98,7 +103,7 @@ h4 {
   //text-transform: uppercase;
 }
 
- .alter {
+.alter {
   width: 100%;
   font-size: 40px;
   margin: 200px 0px;
@@ -144,27 +149,23 @@ h6 {
     font-weight: 700;
     font-size: 32px;
 
-
-  text-align: left;
-
+    text-align: left;
   }
 }
 
-img{
+img {
   -webkit-user-drag: none;
+
 }
 
 h4 {
   margin: 0px;
   @media only screen and (max-width: 900px) {
-      font-size: 28px;
-      text-align: left;
-      width: 100%;
-   
-      p{
-       
-      }
-      
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+
+    
   }
 }
 
@@ -172,14 +173,13 @@ h4 {
   .ArtCol3 {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 700px) {
   .ArtCol1 {
     display: none;
   }
-  
+
   .ArtCol3 {
     display: flex;
     width: 100%;
@@ -194,9 +194,7 @@ h4 {
 }
 [data-aos].animated {
   visibility: visible;
-  
 }
-
 
 .clearfix:after {
   content: "";
@@ -220,24 +218,47 @@ body {
     Helvetica Neue, sans-serif;
 }
 
-
 p {
   font-weight: 300;
   font-size: 17px;
   text-align: justify; /* For Edge */
   text-align-last: left;
   line-height: 32px;
-  color: rgb(60, 60, 60);
+  color: rgb(71, 71, 71);
   font-family: "Poppins", sans-serif;
   @media only screen and (max-width: 800px) {
     text-align: left;
     margin-top: 0px;
-text-align-last: left;
+    text-align-last: left;
+  }
+}
+.h3Step {
+  background: #222222;
+  color: #ddb575;
+  display: flex;
+  flex-direction: column;
+
+  padding: 65px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  font-size: 45px;
+  display: flex;
+
+  text-align: center;
+  @media only screen and (max-width: 800px) {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0px;
+    padding: 40px 30px;
+    text-align-last: left;
+    font-size: 35px;
   }
 }
 
-ul li, ol li{
-  font-weight: 300;
+ul li,
+ol li {
+  font-weight: 200;
   font-size: 15px;
 
   line-height: 26px;
@@ -245,13 +266,15 @@ ul li, ol li{
   font-family: "Poppins", sans-serif;
 }
 
-li{  font-weight: 300;
+li {
+  font-weight: 300;
   font-size: 14px;
 
   text-align-last: left;
   line-height: 22px;
 
-  font-family: "Poppins", sans-serif;}
+  font-family: "Poppins", sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -265,6 +288,5 @@ a {
 
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap");
 .eLkJwd {
-
   border: 0px;
 }

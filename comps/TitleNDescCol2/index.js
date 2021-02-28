@@ -19,12 +19,15 @@ const Cont = styled.div`
   flex-direction: column;
   width: fit-content;
   max-width: 700px;
-  gap: 40px;
   text-align: left;
   justify-content: flex-start;
+  margin-right: 30px;
+
   @media only screen and (max-width: 700px) {
     flex-direction: column;
     width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -33,6 +36,10 @@ const Cont = styled.div`
 
   }
 */
+
+
+
+
 
 const Info = styled.div`
   display: flex;
@@ -52,7 +59,7 @@ const H3 = styled.h3`
   display: flex;
   text-align: left;
   @media only screen and (max-width: 700px) {
-    padding: 0px;
+    padding-bottom: 20px;
     margin-bottom: 0px;
   }
 `;
@@ -60,7 +67,6 @@ const H3 = styled.h3`
 const P = styled.p`
   max-width: 700px;
   @media only screen and (max-width: 700px) {
-    padding: 0px 10px;
   }
 `;
 
@@ -71,7 +77,6 @@ const Info2 = styled.div`
 
 const Cont1 = styled.div`
   flex: 1;
-  
 `;
 
 const InnerCont = styled.div`

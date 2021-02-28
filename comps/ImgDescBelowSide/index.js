@@ -14,12 +14,10 @@ const Cont = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 40px;
 
   align-items: center;
   @media only screen and (max-width: 700px) {
     flex-direction: column;
-    gap: 40px;
   }
 `;
 
@@ -75,24 +73,37 @@ const P2 = styled.p`
 const Img = styled.img`
   width: 100%;
   height: auto;
-  padding: 20px;
   background-color: white;
-  border: solid 1px rgb(230, 230, 230);
-  @media only screen and (max-width: 700px) {
-    width: 100%;
-    padding: 10px;
-    border: none;
-  }
+ 
 `;
-const ImgCont = styled.div`
+const ImgContMobile = styled.div`
   width: 100%;
   max-width: 700px;
-  justify-content: center;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  display: ${(props) => (props.flex ? props.flex : "none")};
+  flex: ${(props) => (props.flexImg ? props.flexImg : "4")};
+  @media only screen and (max-width: 700px) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+    display: flex;
+  }
+`;
+const ImgContDesk = styled.div`
+  width: 100%;
+  max-width: 700px;
+  justify-content: flex-start;
   align-items: center;
   display: ${(props) => (props.flex ? props.flex : "flex")};
   flex: ${(props) => (props.flexImg ? props.flexImg : "4")};
+  margin-left: 30px;
+  @media only screen and (max-width: 700px) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+    display: none;
+  }
 `;
-
 const H5 = styled.h5`
   padding: 15px;
   border: 2px solid black;
@@ -126,7 +137,7 @@ const ImgDescBelowSide = ({
   flexLink,
   href,
   p4,
-  p4Title
+  p4Title,
 }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -141,9 +152,6 @@ const ImgDescBelowSide = ({
     >
       <H3>{h3}</H3>
       <Cont>
-        <ImgCont flexImg={flexImg} flex={flex}>
-          <Img src={src}></Img>
-        </ImgCont>
         <Info flexInfo={flexInfo}>
           <H3Desk>{h3}</H3Desk>
           <H5Small>{h5}</H5Small>
@@ -153,15 +161,19 @@ const ImgDescBelowSide = ({
             <H5 flexLink={flexLink}>{viewProject}</H5>
           </a>
           <P2>{p3}</P2>
+          <ImgContMobile flexImg={flexImg} flex={flex}>
+            <Img src={src}></Img>
+          </ImgContMobile>
+          <p>
+            <b>{p4Title}</b>
+          </p>
+
+          <P2>{p4}</P2>
         </Info>
+        <ImgContDesk flexImg={flexImg} flex={flex}>
+            <Img src={src}></Img>
+          </ImgContDesk>
       </Cont>
-      <br></br>
-      <br></br> 
-      <p>
-        <b>{p4Title}</b>
-      </p>
-    
-      <P2>{p4}</P2>
     </BigCont>
   );
 };
