@@ -7,36 +7,32 @@
     justify-content: center;
     padding: 30px 50px;
 
-    -webkit-user-select: none;  /* Chrome all / Safari all */
-    -moz-user-select: none;     /* Firefox all */
-    -ms-user-select: none;      /* IE 10+ */
-    user-select: none;   
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
 
-    color: #DDB675;
+    color: #ddb675;
     font-family: "Poppins", sans-serif;
     align-items: center;
     justify-content: center;
     position: fixed;
-    top:0;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.804);
     backdrop-filter: blur(25px);
-    
 
     .menuHeader {
         width: 100%;
-      
-  
         padding: 0px;
         color: rgb(0, 0, 0);
         flex: 4;
         height: 100%;
-   
         font-weight: bolder;
-        h4{
+        h4 {
             width: max-content;
             font-weight: 400;
             text-align: center;
-            color: #DDB675;
+            color: #ddb675;
             font-size: 26px;
             padding: 0px;
             height: fit-content;
@@ -48,21 +44,19 @@
         justify-content: flex-end;
         width: 100%;
         align-items: center;
-        
 
         ul {
-      
             align-items: center;
             list-style-type: none;
             display: flex;
             flex-direction: row;
-         
 
             li {
                 margin-right: 30px;
                 position: relative;
                 padding-bottom: 5px;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
+                margin-top: 10px;
                 text-decoration: none;
                 font-size: 16px;
                 font-weight: 200;
@@ -70,7 +64,7 @@
                 text-align: center;
 
                 cursor: pointer;
-                
+
                 ::before {
                     content: "";
                     position: absolute;
@@ -78,7 +72,7 @@
                     height: 2px;
                     bottom: 0;
                     left: 0;
-                    background-color:#DDB675;
+                    background-color: #ddb675;
                     visibility: hidden;
                     transform: scaleX(0);
                     transition: all 0.3s ease-in-out 0s;
@@ -87,13 +81,10 @@
                     visibility: visible;
                     transform: scaleX(1);
                 }
-                
             }
         }
     }
 }
-
-
 
 @media only screen and (max-width: 700px) {
     .Menu {
@@ -105,40 +96,38 @@
         flex-direction: column;
         padding-bottom: 10px;
         box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.151);
-        .menuHeader{
+        .menuHeader {
             display: flex;
             text-align: left;
             margin: auto;
             margin-bottom: 30px;
-            justify-content: flex-start;
+            justify-content: center;
             padding-left: 30px;
-            
-            h4{
-                
+
+            h4 {
                 font-weight: 500;
                 font-size: 20px;
                 margin: 0px;
             }
         }
-      
+
         .navItems {
             width: 100%;
             flex: 1;
-           
+
             justify-content: flex-start;
-                align-items: left;
-                text-align: left;
+            align-items: left;
+            text-align: left;
             ul {
                 margin-top: 0px;
                 flex-direction: column;
-     
+
                 text-align: left;
-                li{
+                li {
                     font-size: 15px;
                     text-align: left;
                 }
             }
-
         }
     }
 }

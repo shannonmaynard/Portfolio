@@ -7,18 +7,12 @@ const NavBox = styled.div`
   position: relative;
   @media only screen and (max-width: 700px) {
     align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
     display: ${(props) => (props.expanded ? "flex" : "none")};
     height: ${(props) => (props.expanded ? "max-content" : "0px")};
 
   }
-`;
-
-const NavItems = styled.div`
-  width: 100%;
-  flex: 1;
-  justify-content: flex-start;
-  align-items: left;
-  text-align: left;
 `;
 
 const HamCont = styled.div`
@@ -32,14 +26,7 @@ const HamCont = styled.div`
   }
 `;
 
-const A = styled.a`
-font-weight: bold;
-`;
 
-const ContFill = styled.div`
-height: 187px;
-
-`;
 
 const Categories = () => {
   const [expanded, setExpanded] = useState(false);
