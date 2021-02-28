@@ -39,13 +39,6 @@ const FooterCont = styled.footer`
   }
 `;
 
-const H5Email = styled.h5`
-  color: rgb(0, 161, 215);
-  :hover {
-    cursor: pointer;
-    color: white;
-  }
-`;
 
 const A = styled.a``;
 
