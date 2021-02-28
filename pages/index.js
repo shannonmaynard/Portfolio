@@ -5,19 +5,20 @@ import styled from "styled-components";
 import Menu from "../comps/Menu";
 import Footer from "../comps/Footer";
 
-const H1 = styled.div`
-  width: 100%;
-  align-items: 100%;
-  font-weight: 500;
-  font-size: 50px;
-  color: rgb(0, 0, 0);
-  font-family: "EB Garamond", sans-serif;
-  @media only screen and (max-width: 700px) {
-    font-size: 40px;
-    text-align: center;
-  }
+const Img = styled.img`
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
 `;
-const H5 = styled.div`
+
+const H4 = styled.h4`
+font-size: 28px;
+border-top: 1px solid grey;
+padding-top: 30px;
+font-weight: 400;
+`;
+const Tag = styled.div`
   width: fit-content;
   padding: 10px;
   color: rgb(0, 0, 0);
@@ -116,27 +117,41 @@ export default function Home({ isVisible }) {
                   I'm incredibly passionate about all things design and love the
                   challenge of creating user interfaces that delight my
                   audience.
-                </p>{" "}
+                </p>
+                <br></br>
+                <H4>Get in touch with me!</H4>
+                <br></br>
+                <div>
+                  <a
+                    href="http://www.linkedin.com/in/shannon-maynard-7004a6198"
+                    target="_blank"
+                  >
+                    <Img className="linkedIn" src="/linkedIn2.png" />
+                  </a>
+                  <a href="mailto:smaynard@my.bcit.ca">
+                    <Img src="Mail2.svg"></Img>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
           <div className="tags">
-            <H5>Figma</H5>
-            <H5>Photoshop</H5>
-            <H5>Indesign</H5>
-            <H5>Invision</H5>
-            <H5>Wordpress</H5>
-            <H5>Illustrator</H5>
-            <H5>Adobe XD</H5>
-            <H5>After Effects</H5>
-            <H5>React</H5>
-            <H5>Github</H5>
-            <H5>NextJs</H5>
-            <H5>SCSS</H5>
-            <H5>HTML</H5>
-            <H5>CSS</H5>
-            <H5>Heat Mapping</H5>
-            <H5>SEO Optimazation</H5>
+            <Tag>Figma</Tag>
+            <Tag>Photoshop</Tag>
+            <Tag>Indesign</Tag>
+            <Tag>Invision</Tag>
+            <Tag>Wordpress</Tag>
+            <Tag>Illustrator</Tag>
+            <Tag>Adobe XD</Tag>
+            <Tag>After Effects</Tag>
+            <Tag>React</Tag>
+            <Tag>Github</Tag>
+            <Tag>NextJs</Tag>
+            <Tag>SCSS</Tag>
+            <Tag>HTML</Tag>
+            <Tag>CSS</Tag>
+            <Tag>Heat Mapping</Tag>
+            <Tag>SEO Optimazation</Tag>
           </div>
         </div>
       </div>
