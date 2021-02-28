@@ -14,7 +14,7 @@ const Img = styled.img`
 
 const H4 = styled.h4`
 font-size: 28px;
-border-top: 1px solid grey;
+border-top: 1px solid #DDB575;
 padding-top: 30px;
 font-weight: 400;
 `;
