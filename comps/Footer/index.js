@@ -13,6 +13,9 @@ const H3 = styled.div`
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;   
   font-family: "EB Garamond", sans-serif;
+  @media only screen and (max-width: 700px) {
+    font-size: 30px;
+  }
 `;
 const ContactInfo = styled.div`
   display: flex;

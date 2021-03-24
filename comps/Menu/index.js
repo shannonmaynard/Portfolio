@@ -7,7 +7,7 @@ const ContFill = styled.div`
   height: 110px;
   width: 100%;
   display: flex;
-  background-color: black;
+  background-color: #333639;
   @media only screen and (max-width: 700px) {
     height: 99px;
   }

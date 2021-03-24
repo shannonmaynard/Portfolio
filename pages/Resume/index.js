@@ -11,11 +11,13 @@ const Cont = styled.div`
 `;
 const BigCont = styled.div`
   background-color: white;
+  margin-bottom: 0px;
 `;
 const Res = styled.embed`
 margin-top: 30px;
   width: 100vw;
   height: 100vh;
+  margin-bottom: -10px;
   
   @media only screen and (max-width: 700px) {
     width: 100vw;
@@ -28,6 +30,7 @@ const Resume = () => {
   return (
     <BigCont>
       <Categories />
+      <br></br>
       <Menu />
       <Cont>
         <Res src="Resume-Shannon-Maynard.pdf"></Res>
