@@ -33,7 +33,7 @@ const Resume = () => {
       <br></br>
       <Menu />
       <Cont>
-        <br></br>
+      
         <Res src="Resume-Shannon-Maynard.pdf"></Res>
       </Cont>
       <Footer/>
