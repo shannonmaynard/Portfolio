@@ -4,7 +4,7 @@ import MajorImgs from "../../comps/MajorImgs";
 import Menu from "../../comps/Menu";
 import styled from "styled-components";
 import BtnBlack from "../../comps/BtnBlack";
-import Footer from '../../comps/Footer';
+import Footer from "../../comps/Footer";
 
 const Btn = styled.a`
   border: solid 2px black;
@@ -89,19 +89,16 @@ const Epub = () => {
         <H2>Project Details</H2>
         <div className="info1">
           <div className="epubTasks">
+            <h3 id="h3Tasks">Project Task/Requirements</h3>
             <p>
-              <h3>Project Task/Requirements</h3>
-              <br></br>
-              <br></br>
               <br></br>
               <br></br>
               <b>Interactive Epub Requirements</b>
               <br></br>
               <br></br>
-              At least 12-15 articles (pages) with varying content
-              (depending on interactive elements and scope of
-              interaction,animation,etc.) Intuitive navigation between pages,
-              content, and states.
+              At least 12-15 articles (pages) with varying content (depending on
+              interactive elements and scope of interaction,animation,etc.)
+              Intuitive navigation between pages, content, and states.
               <br></br>
               <br></br>
               <b>What Was Asked For the Project</b>
@@ -249,7 +246,7 @@ const Epub = () => {
         </div>
         <div className="charaBigCont2">
           <div className="charaCont1">
-            <div className="charaRow">
+            <div className="charaRow2">
               <div className="epubInfo">
                 <h4 className="charaDeskH4-2">Step 2: Taking pictures</h4>
                 <p className="p">
@@ -268,7 +265,7 @@ const Epub = () => {
             </div>
           </div>
         </div>
-        <br></br> <br></br> <br></br> <br></br> <br></br>
+   
         <div className="charaCont1">
           <div className="charaRow">
             <div className="epubInfo">
@@ -295,7 +292,7 @@ const Epub = () => {
 
           <div className="charaBigCont2">
             <div className="charaCont1">
-              <div className="charaRow">
+              <div className="charaRow2">
                 <div className="epubInfo">
                   <h4 className="charaDeskH4-2">Step 4: Starting Indesign</h4>
                   <p className="p">
@@ -328,10 +325,8 @@ const Epub = () => {
           </div>
         </div>
       </div>
-      <BtnBlack href="CommAid" displayPrev="none">
-
-      </BtnBlack>
-      <Footer/>
+      <BtnBlack href="CommAid" displayPrev="none"></BtnBlack>
+      <Footer />
     </div>
   );
 };
