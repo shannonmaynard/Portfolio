@@ -32,14 +32,6 @@ const HamCont = styled.div`
   }
 `;
 
-const A = styled.a`
-font-weight: bold;
-`;
-
-const ContFill = styled.div`
-height: 187px;
-
-`;
 
 const Categories = () => {
   const [expanded, setExpanded] = useState(false);
