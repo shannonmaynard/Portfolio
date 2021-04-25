@@ -10,7 +10,7 @@ const Cont = styled.div`
 
 `;
 const BigCont = styled.div`
-  background-color: white;
+  background-color: black;
   margin-bottom: 0px;
 `;
 const Res = styled.embed`
