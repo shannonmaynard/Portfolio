@@ -28,7 +28,7 @@ const Print = () => {
       <div className="epubCont">
         <div className="titleEpub">
           <H2>Collective Truthers</H2>
-          <h5>Wordpress website and branding Redesign</h5>
+          <h5>Wordpress website redesign and branding</h5>
         </div>
         <div className="gifCont">
           <Img1 src="/collectiveTruthersW.png" className="epubImg2"></Img1>
