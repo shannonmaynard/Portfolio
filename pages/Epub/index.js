@@ -171,13 +171,13 @@ const Epub = () => {
         <div className="chara">
           <div className="charaCont">
             <h3>The Characters:</h3>
-            <br></br>
+           
             <div className="charaImgCont">
               <div className="h4Vs">
                 <h4>Peanut</h4> <h3>Vs</h3> <h4>The Neighbourhood Cats</h4>
               </div>
-              <br></br> <br></br>
-              <br></br> <br></br>
+   
+              
               <img className="charaImg" src="/charas.png" />
             </div>
           </div>
