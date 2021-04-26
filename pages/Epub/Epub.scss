@@ -131,6 +131,7 @@
             .charaCont {
                 width: 100%;
                 padding: 200px 20px;
+                padding-bottom: 100px;
                 align-items: center;
                 display: flex;
                 flex-direction: column;
@@ -186,11 +187,14 @@
                     }
 
                     .charaImg {
-                        width: 70vw;
+                        width: 50vw;
                         max-width: 1000px;
                         border-radius: 15px;
                         margin: 0px;
                         position: relative;
+                        @media only screen and (max-width: 700px) {
+                            width: 90vw;
+                        }
                     }
                 }
             
@@ -265,6 +269,7 @@
 }
 
 .charaDeskH4 {
+    margin: 0px;
     @media only screen and (max-width: 700px) {
         display: none;
     }
@@ -275,12 +280,15 @@
 }
 
 .charaImg2 {
-    min-width: 200px;
-    max-width: 300px;
+    min-width: 100px;
+    max-width: 200px;
     border-radius: 50%;
     width: 100%;
     margin: 10px;
     height: 100%;
+    @media only screen and (max-width: 700px) {
+       
+    }
 }
 .last {
     font-size: 26px;
