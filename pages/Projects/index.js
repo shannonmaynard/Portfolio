@@ -37,10 +37,10 @@ const Projects = () => {
             <div className="projRows">
               <div>
                 <MajorImgs
-                  src="/mag.png"
+                  src="/collectiveTruthers.png"
                   href="/Print"
-                  projectDesc="Print Magazine Layout"
-                  projectType="Indesign Layout"
+                  projectDesc="Book Publishing Website Redesign & Branding"
+                  projectType="Collective Truthers"
                 />
               </div>
 
@@ -55,7 +55,11 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <br></br>  <br></br>  <br></br>
+        <br></br> <br></br> <br></br> <br></br>
+        <br></br> <br></br> <br></br>
+        <br></br> <br></br>
+        <br></br>
+        <br></br>
         <Footer />
       </div>
     </div>

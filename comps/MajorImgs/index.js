@@ -11,7 +11,7 @@ const Cont = styled.div`
   justify-content: ${(props) =>
     props.justifyContent ? props.justifyContent : "center"};
   display: flex;
-  background-color: #191919;
+  background-color: ${(props) => (props.bgcolor ? props.bgcolor : "#191919" )};
   border-radius: 15px;
   margin-right: 10px;
   border: solid 6px black;

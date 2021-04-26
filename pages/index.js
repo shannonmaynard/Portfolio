@@ -6,10 +6,11 @@ import Menu from "../comps/Menu";
 import Footer from "../comps/Footer";
 
 const Img = styled.img`
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 25px;
-  margin: 10px;
+  margin: 10px 0px;
+  margin-right: 10px;
 `;
 
 const H4 = styled.h4`
@@ -17,6 +18,8 @@ font-size: 28px;
 border-top: 1px solid #DDB575;
 padding-top: 30px;
 font-weight: 400;
+padding-bottom: 0px;
+margin-bottom: 0px;
 `;
 const Tag = styled.div`
   width: fit-content;
@@ -118,9 +121,9 @@ export default function Home({ isVisible }) {
                   challenge of creating user interfaces that delight my
                   audience.
                 </p>
-                <br></br>
-                <H4>Get in touch with me!</H4>
-                <br></br>
+                
+                <H4><br></br>Get in touch with me!</H4>
+               
                 <div>
                   <a
                     href="http://www.linkedin.com/in/shannon-maynard-7004a6198"

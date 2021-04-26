@@ -1,22 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const H3 = styled.div`
-  text-align: center;
-  width: 100%;
-  align-items: 100%;
-  color: white;
-  font-weight: 300;
-  font-size: 40px;
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;   
-  font-family: "EB Garamond", sans-serif;
-  @media only screen and (max-width: 700px) {
-    font-size: 30px;
-  }
-`;
+
 const ContactInfo = styled.div`
   display: flex;
   flex-direction: row;
@@ -72,8 +57,6 @@ const Footer = () => {
 
   return (
     <FooterCont>
-      <H3>Contact Me</H3>
-      <br></br>
       <ContactInfo>
         <A
           href="http://www.linkedin.com/in/shannon-maynard-7004a6198"
