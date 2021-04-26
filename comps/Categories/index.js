@@ -13,13 +13,7 @@ const NavBox = styled.div`
   }
 `;
 
-const NavItems = styled.div`
-  width: 100%;
-  flex: 1;
-  justify-content: flex-start;
-  align-items: left;
-  text-align: left;
-`;
+
 
 const HamCont = styled.div`
   display: none;
@@ -46,7 +40,7 @@ const Categories = () => {
         <Hamburger />
       </HamCont>
       <div className="menuHeader">
-      <a href="/"><h4>Shannon's Portfolio</h4></a>
+      <a href="/"><h4 id="logoName">Shannon's Portfolio</h4></a>
       </div>
 
       <NavBox expanded={expanded}>

@@ -11,7 +11,7 @@
     -moz-user-select: none; /* Firefox all */
     -ms-user-select: none; /* IE 10+ */
     user-select: none;
-    
+
     color: #ddb675;
     font-family: "Poppins", sans-serif;
     align-items: center;
@@ -27,19 +27,19 @@
         color: rgb(0, 0, 0);
         flex: 4;
         height: 100%;
+       
         font-weight: bolder;
-
-        #logoName {
+        :hover {
+            cursor: pointer;
+        }
+        h4 {
             width: max-content;
             font-weight: 400;
             text-align: center;
             color: #ddb675;
             font-size: 26px;
             padding: 0px;
-            height: fit-content; 
-            :hover {
-                cursor: pointer;
-            }
+            height: fit-content;
         }
     }
 
