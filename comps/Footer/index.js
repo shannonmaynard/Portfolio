@@ -65,7 +65,7 @@ const Footer = () => {
           <Img className="linkedIn" src="/linkedIn.png" />
         </A>
         <EmailCont>
-          <A href="mailto:smaynard@my.bcit.ca">
+          <A href="mailto:shannon.maynard@outlook.com">
             <Img src="Mail.svg"></Img>
           </A>
         </EmailCont>
