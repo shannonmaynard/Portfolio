@@ -9,16 +9,18 @@ const Button = styled.button`
   font-family: "Poppins", sans-serif;
   width: fit-content;
   font-weight: 400;
-  border: ${(props) => (props.border ? props.border : "solid #ddb575 2px")};
-  color: ${(props) => (props.color ? props.color : "#ddb575")};
+  border: none;
+  transition: 0.5s;
+  color: ${(props) => (props.color ? props.color : "white")};
   margin: 40px 0px;
+  background-color: ${(props) => (props.bgcolor ? props.bgcolor : "#1b344b")};
   :hover {
-    border: ${(props) =>
-      props.borderhov ? props.borderhov : "solid #ddb575 2px"};
+    border: none;
     color: white;
-    background-color: ${(props) => (props.bgcolor ? props.bgcolor : "#ddb575")};
+    background-color: ${(props) => (props.bgcolor ? props.bgcolor : "black")};
     cursor: pointer;
-    padding: ${(props) => (props.padding ? props.padding : "15px")}
+    padding: ${(props) => (props.padding ? props.padding : "15px 30px;")};
+    transition: 0.5s;
   }
 `;
 

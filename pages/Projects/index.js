@@ -38,7 +38,7 @@ const Projects = () => {
               <div>
                 <MajorImgs
                   src="/collectiveTruthers.png"
-                  href="/Print"
+                  href="/CollectiveTruthers"
                   projectDesc="Book Publishing Website Redesign & Branding"
                   projectType="Collective Truthers"
                 />

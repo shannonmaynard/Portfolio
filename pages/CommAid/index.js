@@ -338,7 +338,7 @@ export default function Home({ margin }) {
           src="bwlogo.svg"
         ></TitleNDescCol>
       </div>
-      <BtnBlack href="/Print" hrefPrev="/Epub" />
+      <BtnBlack href="/CollectiveTruthers" hrefPrev="/Epub" />
       <Up href="#top"/>
       <Footer />
     </div>

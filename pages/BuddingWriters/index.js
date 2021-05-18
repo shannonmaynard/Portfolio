@@ -271,7 +271,7 @@ export default function Home({ margin }) {
           src="bwlogo.svg"
         ></TitleNDescCol>
       </div>
-      <BtnBlack btn="View Next Project" hrefPrev="/Print" display="none" />
+      <BtnBlack btn="View Next Project" hrefPrev="/CollectiveTruthers" display="none" />
       <Footer />
     </div>
   );
