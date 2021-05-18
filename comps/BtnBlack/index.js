@@ -9,12 +9,12 @@ const Btn = styled.p`
   width: fit-content;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  transition: 0.5s;
+  transition: 0.3s;
   display: ${props=> props.display ? props.display : "flex"};
   :hover {
     background-color: black;
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
     font-weight: 300;
   }
 `;
@@ -26,7 +26,7 @@ const BtnPrev = styled.p`
   padding: 15px;
   width: fit-content;
   text-align: left;
-  transition: 0.5s;
+  transition: 0.3s;
   text-align-last: left;
   flex: 1;
   font-family: "Poppins", sans-serif;
@@ -36,7 +36,7 @@ const BtnPrev = styled.p`
     background-color: black;
     color: white;
     font-weight: 300;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 `;
 

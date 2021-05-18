@@ -13,7 +13,9 @@ const Btn = styled.a`
   padding: 15px 25px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  transition: 0.3s;
   :hover {
+    transition: 0.3s;
     cursor: pointer;
     background-color: black;
     color: white;
@@ -29,7 +31,9 @@ const Btn2 = styled.a`
   border-left: 1px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  transition: 0.3s;
   :hover {
+    transition: 0.3s;
     cursor: pointer;
     background-color: black;
     color: white;
