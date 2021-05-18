@@ -12,6 +12,7 @@ const H2 = styled.h2`
   flex-direction: column;
   margin: 0px;
   padding: 0px;
+  
 `;
 const P = styled.p`
   display: flex;
@@ -29,9 +30,12 @@ const A = styled.a`
   :hover {
   }
 `;
-
+const Div4 = styled.div`
+width: 100%;
+justify-content: space-between;
+`;
 const Div3 = styled.p`
-  padding: 20px;
+ padding: 20px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -48,7 +52,7 @@ const Div = styled.div`
   text-align-last: center;
   align-items: center;
   flex-direction: column;
-  background-color: #E6F7F5;
+  background-color: #e1f3f1;
 `;
 const Div2 = styled.div`
   max-width: 700px;
@@ -56,6 +60,7 @@ const Div2 = styled.div`
   padding: 100px 0px;
   font-weight: 400;
   justify-content: center;
+
 `;
 const Img1 = styled.img`
   height: auto;
@@ -92,11 +97,10 @@ const CollectiveTruthers = () => {
               for this book publishing company that would work well with their
               other affiliated website truthtellerspublishing.
             </P>
-            <a href="https://collectivetruthers.com/" target="_blank">
-              <Btn btn="View Live Project"></Btn>
-            </a>
+            
           </Div2>
         </Div>
+        <br></br>
     
         <Div3>
           <Div2>
@@ -117,18 +121,10 @@ const CollectiveTruthers = () => {
 
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <BtnBlack
-          btnPrev="View Previous Project"
-          btn="View Next Project"
-          href="BuddingWriters"
-          hrefPrev="CommAid"
-        />
-
+        
+<Div4>
+<BtnBlack href="/BuddingWriters" hrefPrev="/CommAid" />
+</Div4>
         <Footer />
       </div>
     </div>
