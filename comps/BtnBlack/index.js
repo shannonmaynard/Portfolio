@@ -49,7 +49,7 @@ const Cont = styled.div`
   padding: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
 
 const Cont2 = styled.div`

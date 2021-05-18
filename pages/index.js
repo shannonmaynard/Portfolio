@@ -21,6 +21,12 @@ font-weight: 400;
 padding-bottom: 0px;
 margin-bottom: 0px;
 `;
+const H42 = styled.h4`
+font-size: 28px;
+text-align: left;
+width: 100%;
+
+`;
 const Tag = styled.div`
   width: fit-content;
   padding: 10px;
@@ -117,9 +123,7 @@ export default function Home({ isVisible }) {
                   working on creating dynamic cross-platform applications.{" "}
                   <br></br>
                   <br></br>
-                  I'm incredibly passionate about all things design and love the
-                  challenge of creating user interfaces that delight my
-                  audience.
+                  I'm incredibly passionate in learning about what makes for the best user experience and creating user interfaces that delight my audience.
                 </p>
                 
                 <H4><br></br>Get in touch with me!</H4>
@@ -138,7 +142,9 @@ export default function Home({ isVisible }) {
               </div>
             </div>
           </div>
+         
           <div className="tags">
+          <H42>My Skills</H42><br></br>
             <Tag>Figma</Tag>
             <Tag>Photoshop</Tag>
             <Tag>Indesign</Tag>

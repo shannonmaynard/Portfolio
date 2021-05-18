@@ -11,6 +11,7 @@ const H2 = styled.h2`
   display: flex;
   flex-direction: column;
   margin: 0px;
+  margin-top: 100px;
   padding: 0px;
   
 `;
@@ -52,7 +53,8 @@ const Div = styled.div`
   text-align-last: center;
   align-items: center;
   flex-direction: column;
-  background-color: #e1f3f1;
+  background: linear-gradient(to top, rgba(225,243,241,1) 0%, rgba(240,249,248,1) 100%);
+
 `;
 const Div2 = styled.div`
   max-width: 700px;
@@ -81,7 +83,7 @@ const CollectiveTruthers = () => {
 
       <div className="epubCont">
         <div className="titleEpub">
-          <H2>Collective Truthers</H2>
+          <H2>COLLECTIVE TRUTHERS</H2>
           <h5>Wordpress website redesign and branding</h5>
         </div>
         <Div>
@@ -92,19 +94,20 @@ const CollectiveTruthers = () => {
             <P>
               Collective Truthers is a small book publishing company that
               targets first-time authors that have experienced something
-              incredible and desire to share their story with the world. My task
-              was to completely redesign their website, as well as create a logo
-              for this book publishing company that would work well with their
-              other affiliated website truthtellerspublishing.
+              incredible and desire to share their story with the world. 
+              <br></br>
+                   
+              My task was to redesign the Collective Truthers website and create a new and fully responsive version on wordpress.
+
+             I worked with a partner and first figured out clients wants and needs. From there, we researched our target audience and competition, and proceeded to create a brand image that fit with both our client and target audience. The design style also had to work with the design of their affiliated website truthtellerspublishing. In addition to design, I also had to reorganize the content of the old website to create a better information architecture flow.
             </P>
-            
           </Div2>
         </Div>
         <br></br>
     
         <Div3>
           <Div2>
-            <h4>Project Tasks</h4>
+            <h4>Project Deliverables</h4>
             <ol>
               <Li>Client Survey</Li>
               <Li>User Research and Competitive Analysis</Li>
