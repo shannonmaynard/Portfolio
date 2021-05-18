@@ -290,10 +290,10 @@ const Epub = () => {
             </div>
           </div>
 
-          <div className="charaBigCont2">
+          <div className="charaBigCont2" id="step4Indesign">
             <div className="charaCont1">
               <div className="charaRow2">
-                <div className="epubInfo">
+                <div className="epubInfo" id="step4InfoDiv">
                   <h4 className="charaDeskH4-2">Step 4: Starting Indesign</h4>
                   <p className="p">
                     After creating the scenes on photoshop, I started putting
