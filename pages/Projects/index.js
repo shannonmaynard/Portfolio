@@ -49,7 +49,7 @@ const Projects = () => {
                   src="/BWComputer.png"
                   href="/BuddingWriters"
                   projectDesc="Budding Writers Bookstore Cafe Website"
-                  projectType="Wordpress Webiste"
+                  projectType="WordPress Website"
                 />
               </div>
             </div>

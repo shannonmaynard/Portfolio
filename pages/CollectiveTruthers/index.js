@@ -84,7 +84,7 @@ const CollectiveTruthers = () => {
       <div className="epubCont">
         <div className="titleEpub">
           <H2>COLLECTIVE TRUTHERS</H2>
-          <h5>Wordpress website redesign and branding</h5>
+          <h5>WordPress website redesign and branding</h5>
         </div>
         <Div>
           <Div2>
@@ -97,7 +97,7 @@ const CollectiveTruthers = () => {
               incredible and desire to share their story with the world. 
               <br></br>
                    
-              My task was to redesign the Collective Truthers website and create a new and fully responsive version on wordpress.
+              My task was to redesign the Collective Truthers website and create a new and fully responsive version on WordPress.
 
              I worked with a partner and first figured out clients wants and needs. From there, we researched our target audience and competition, and proceeded to create a brand image that fit with both our client and target audience. The design style also had to work with the design of their affiliated website truthtellerspublishing. In addition to design, I also had to reorganize the content of the old website to create a better information architecture flow.
             </P>
@@ -117,7 +117,7 @@ const CollectiveTruthers = () => {
               <Li>Style Guide</Li>
               <Li>Author Pictures Photoshop Editing</Li>
               <Li>Sitemap</Li>
-              <Li>Wordpress Website Creation</Li>
+              <Li>WordPress Website Creation</Li>
             </ol>
           </Div2>
         </Div3>

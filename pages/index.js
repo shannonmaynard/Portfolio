@@ -149,7 +149,7 @@ export default function Home({ isVisible }) {
             <Tag>Photoshop</Tag>
             <Tag>Indesign</Tag>
             <Tag>Invision</Tag>
-            <Tag>Wordpress</Tag>
+            <Tag>WordPress</Tag>
             <Tag>Illustrator</Tag>
             <Tag>Adobe XD</Tag>
             <Tag>After Effects</Tag>

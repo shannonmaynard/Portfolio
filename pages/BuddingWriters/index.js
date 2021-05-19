@@ -45,7 +45,7 @@ export default function Home({ margin }) {
       <div className="projTitle">
         <h1>Budding Writers</h1>
         <h5>Cafe Bookstore</h5>
-        <h6>Wordpress website - 2020</h6>
+        <h6>WordPress website - 2020</h6>
       </div>
       <h2 className="h3Step">Project Overview</h2>
       <div className="rowsBW">
@@ -54,7 +54,7 @@ export default function Home({ margin }) {
           <p>
             This project was in my first year of studies. Our teacher split up
             the class into teams and assigned us a fake client (which he acted
-            as) that we had to build a wordpress website for. Our client owned a
+            as) that we had to build a WordPress website for. Our client owned a
             start up business offering a unique mix of cafe and lunch services
             with a large collection of second hand novels and literature.
             Budding writers cafe bookstore, a bookstore cafe in the heart of
@@ -69,7 +69,7 @@ export default function Home({ margin }) {
           <h5>My Role</h5>
           <p>
             All things UX and UI. User research and analysis, brainstorming,
-            branding, and creation of Wordpress website with css custom
+            branding, and creation of WordPress website with css custom
             modifications.
           </p>
           <br></br>
@@ -267,7 +267,7 @@ export default function Home({ margin }) {
           flex="none"
           flexInfo={2}
           h3="What I Learned"
-          p="I learned how difficult it can be to modify wordpress templates with css and html. I learned that a good wordpress website with fully functional e-commerce takes time, and that most of the time spent on building a wordpress website is in the planning and research stages. Given more time, i'd tweak the design, fix css issues and make eCommerce fully functional."
+          p="I learned how difficult it can be to modify WordPress templates with css and html. I learned that a good WordPress website with fully functional e-commerce takes time, and that most of the time spent on building a WordPress website is in the planning and research stages. Given more time, i'd tweak the design, fix css issues and make eCommerce fully functional."
           src="bwlogo.svg"
         ></TitleNDescCol>
       </div>
