@@ -95,7 +95,7 @@ const CollectiveTruthers = () => {
               Collective Truthers is a small book publishing company that
               targets first-time authors that have experienced something
               incredible and desire to share their story with the world. 
-              <br></br>
+         
                    
               My task was to redesign the Collective Truthers website and create a new and fully responsive version on WordPress.
 
