@@ -36,6 +36,7 @@ const H4 = styled.h4`
 const Img = styled.img`
   max-width: 600px;
   height: auto;
+  width: 100%;
 `;
 const Div4 = styled.div`
   width: 100%;
@@ -76,7 +77,8 @@ const Img1 = styled.img`
   box-shadow: 1px 1px 15px rgb(50, 50, 100, 0.1);
   border-radius: 30px;
   margin: 20px;
-  max-width: 300px;
+  max-width: 200px;
+  width: 100vw;
 `;
 const Li = styled.li`
   font-weight: 300;
@@ -85,13 +87,13 @@ const Li = styled.li`
 
 const Link = styled.a`
   color: #1c344b;
-  font-weight: 500;
+  font-weight:300;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 
   :hover {
     color: black;
-    font-weight: 600;
+    font-weight: 400;
   }
 `;
 
@@ -161,7 +163,7 @@ const CollectiveTruthers = () => {
         </div><br></br><br></br>
         <div>
           <H4>Mood Board</H4>
-          <hr></hr>
+    
           <Img src="/CT/mood-board.png" />
         </div>
         <br></br><br></br>
