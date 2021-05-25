@@ -64,11 +64,16 @@ const Div4 = styled.div`
 const Divlinks = styled.div`
   height: auto;
   padding: 0px;
+  text-align: center !important;
 `;
 const LinksCont = styled.div`
   padding: 100px 0px;
   background: rgba(245, 250, 249, 1) 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const Div3 = styled.p`
@@ -115,7 +120,7 @@ const Link = styled.a`
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
-
+  text-align: center !important;
   :hover {
     color: black;
     font-weight: 400;
@@ -123,7 +128,7 @@ const Link = styled.a`
 `;
 const HR = styled.hr`
   max-width: 150px;
-  border: 1px solid black;
+  border: 1px solid #1C344B;
 `;
 const CollectiveTruthers = () => {
   return (
