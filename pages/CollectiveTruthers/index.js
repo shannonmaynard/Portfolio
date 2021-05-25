@@ -32,25 +32,45 @@ const A = styled.a`
 `;
 const H4 = styled.h4`
   margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 900px) {
+    text-align: center;
+  }
 `;
 const H42 = styled.h4`
-margin-bottom: 10px;
-  margin-block-start: 0px;
-  margin-block-end:0px;
-
+  margin-bottom: 10px;
+  margin-block-start: 0px !important;
+  margin-block-end: 0px !important;
+  @media only screen and (max-width: 900px) {
+    text-align: center;
+  }
 `;
 const Img = styled.img`
   max-width: 600px;
   height: auto;
   width: 100%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(200,200,200, 0.5);
 `;
 const Div4 = styled.div`
   width: 100%;
   justify-content: space-between;
+
 `;
 const Divlinks = styled.div`
   height: auto;
+  padding: 0px;
 `;
+const LinksCont = styled.div`
+  padding: 100px 0px;
+  background: rgba(245, 250, 249, 1) 100%;
+  width: 100%;
+`;
+
 const Div3 = styled.p`
   padding: 20px;
   display: flex;
@@ -68,11 +88,7 @@ const Div = styled.div`
   text-align-last: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(
-    to top,
-    rgba(225, 243, 241, 1) 0%,
-    rgba(240, 249, 248, 1) 100%
-  );
+  background: rgba(245, 250, 249, .5) 100%;
 `;
 const Div2 = styled.div`
   max-width: 700px;
@@ -96,7 +112,7 @@ const Li = styled.li`
 
 const Link = styled.a`
   color: #1c344b;
-  font-weight:300;
+  font-weight: 300;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 
@@ -105,7 +121,10 @@ const Link = styled.a`
     font-weight: 400;
   }
 `;
-
+const HR = styled.hr`
+  max-width: 150px;
+  border: 1px solid black;
+`;
 const CollectiveTruthers = () => {
   return (
     <div className="epubCont">
@@ -158,56 +177,63 @@ const CollectiveTruthers = () => {
             </ol>
           </Div2>
         </Div3>
-      
+
         <br></br>
-        <Divlinks>
-          <H42>Persona</H42>
-          <hr></hr>
-          <Link
-            target="_blank"
-            href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=3%3A6"
-          >
-            View Persona
-          </Link>
-        </Divlinks><br></br><br></br>
-        <Divlinks>
-          <H4>Mood Board</H4>
-    
-          <Img src="/CT/mood-board.png" />
-        </Divlinks>
-        <br></br><br></br>
-        <Divlinks>
-          <H4>Style Guide</H4>
-          <hr></hr>
-          <Link
-            target="_blank"
-            href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=18%3A2"
-          >
-            View Style Guide
-          </Link>
-        </Divlinks>
-        <br></br><br></br>
-        <Divlinks>
-          <H4>Sitemap</H4>
-          <hr></hr>
-          <Link
-            target="_blank"
-            href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=87%3A147"
-          >
-            View Sitemap
-          </Link>
-        </Divlinks>
-        <br></br><br></br>
-        <Divlinks>
-          <H4>Low Fidelity</H4>
-          <hr></hr>
-          <Link
-            target="_blank"
-            href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=92%3A182"
-          >
-            View Low Fidelity
-          </Link>
-        </Divlinks>
+        <LinksCont>
+          <Divlinks>
+            <H42>Persona</H42>
+            <HR></HR>
+            <Link
+              target="_blank"
+              href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=3%3A6"
+            >
+              View Persona
+            </Link>
+          </Divlinks>
+          <br></br>
+          <br></br>
+          <Divlinks>
+            <H4>Mood Board</H4>
+
+            <Img src="/CT/mood-board.png" />
+          </Divlinks>
+          <br></br>
+          <br></br>
+          <Divlinks>
+            <H4>Style Guide</H4>
+            <HR></HR>
+            <Link
+              target="_blank"
+              href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=18%3A2"
+            >
+              View Style Guide
+            </Link>
+          </Divlinks>
+          <br></br>
+          <br></br>
+          <Divlinks>
+            <H4>Sitemap</H4>
+            <HR></HR>
+            <Link
+              target="_blank"
+              href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=87%3A147"
+            >
+              View Sitemap
+            </Link>
+          </Divlinks>
+          <br></br>
+          <br></br>
+          <Divlinks>
+            <H4>Low Fidelity</H4>
+            <HR></HR>
+            <Link
+              target="_blank"
+              href="https://www.figma.com/file/ysfx1E1OHrX3vl3a8JYClH/Web-and-Mobile-mockups?node-id=92%3A182"
+            >
+              View Low Fidelity
+            </Link>
+          </Divlinks>
+        </LinksCont>
         <br></br>
         <br></br>
         <br></br>
