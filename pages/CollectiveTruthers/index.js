@@ -33,6 +33,12 @@ const A = styled.a`
 const H4 = styled.h4`
   margin-bottom: 10px;
 `;
+const H42 = styled.h4`
+margin-bottom: 10px;
+  margin-block-start: 0px;
+  margin-block-end:0px;
+
+`;
 const Img = styled.img`
   max-width: 600px;
   height: auto;
@@ -41,6 +47,9 @@ const Img = styled.img`
 const Div4 = styled.div`
   width: 100%;
   justify-content: space-between;
+`;
+const Divlinks = styled.div`
+  height: auto;
 `;
 const Div3 = styled.p`
   padding: 20px;
@@ -151,8 +160,8 @@ const CollectiveTruthers = () => {
         </Div3>
       
         <br></br>
-        <div>
-          <H4>Persona</H4>
+        <Divlinks>
+          <H42>Persona</H42>
           <hr></hr>
           <Link
             target="_blank"
@@ -160,14 +169,14 @@ const CollectiveTruthers = () => {
           >
             View Persona
           </Link>
-        </div><br></br><br></br>
-        <div>
+        </Divlinks><br></br><br></br>
+        <Divlinks>
           <H4>Mood Board</H4>
     
           <Img src="/CT/mood-board.png" />
-        </div>
+        </Divlinks>
         <br></br><br></br>
-        <div>
+        <Divlinks>
           <H4>Style Guide</H4>
           <hr></hr>
           <Link
@@ -176,9 +185,9 @@ const CollectiveTruthers = () => {
           >
             View Style Guide
           </Link>
-        </div>
+        </Divlinks>
         <br></br><br></br>
-        <div>
+        <Divlinks>
           <H4>Sitemap</H4>
           <hr></hr>
           <Link
@@ -187,9 +196,9 @@ const CollectiveTruthers = () => {
           >
             View Sitemap
           </Link>
-        </div>
+        </Divlinks>
         <br></br><br></br>
-        <div>
+        <Divlinks>
           <H4>Low Fidelity</H4>
           <hr></hr>
           <Link
@@ -198,7 +207,7 @@ const CollectiveTruthers = () => {
           >
             View Low Fidelity
           </Link>
-        </div>
+        </Divlinks>
         <br></br>
         <br></br>
         <br></br>
