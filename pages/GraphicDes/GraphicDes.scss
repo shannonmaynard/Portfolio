@@ -1,0 +1,42 @@
+.graphic-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding:100px 30px;
+    min-height: 500px;
+    h4{
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 1000px){
+        flex-direction: column;
+    }
+    img{
+        height: auto;
+        max-width: 500px;
+    }
+    #joker{
+        max-width: 600px;
+        height: 100%;
+    }
+    .text-graphic{
+        max-width: 500px;
+        
+        p, h6{
+            @media only screen and (max-width: 1000px){
+                display: none;
+            }
+        
+        }
+    }
+}
+
+.graphic-row:nth-child(even){
+    background-color: rgb(243, 240, 235);
+    border: rgb(252, 250, 248) solid 10px;
+}
+.graphic-row:nth-child(odd){
+    background-color: rgb(252, 250, 248);
+  
+}

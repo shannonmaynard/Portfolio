@@ -154,7 +154,7 @@ export default function Home({ isVisible }) {
             <Tag>Adobe XD</Tag>
             <Tag>After Effects</Tag>
             <Tag>React</Tag>
-            <Tag>Github</Tag>
+            <Tag>GitHub</Tag>
             <Tag>NextJs</Tag>
             <Tag>SCSS</Tag>
             <Tag>HTML</Tag>

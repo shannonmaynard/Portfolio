@@ -21,16 +21,16 @@ const Projects = () => {
                   imgWidth="100%"
                   src="epubImg.png"
                   href="/Epub"
-                  projectDesc="Childrens Book/Game"
-                  projectType="Indesign Interactive Epub"
+                  projectDesc="A Childrens Book/Game created in Indesign"
+                  projectType="A Peanuts Adventures"
                 />
               </div>
               <div>
                 <MajorImgs
                   src="/CommaidImg.png"
                   href="/CommAid"
-                  projectDesc="Volunteer Application for Students and Organizations"
-                  projectType="UX/UI & React Web Application"
+                  projectDesc="UX/UI & React Web Application Volunteer web app"
+                  projectType="CommAid"
                 />
               </div>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                 <MajorImgs
                   src="/collectiveTruthers.png"
                   href="/CollectiveTruthers"
-                  projectDesc="Book Publishing Website Redesign & Branding"
+                  projectDesc="WordPress website for book publishing company"
                   projectType="Collective Truthers"
                 />
               </div>
@@ -48,10 +48,21 @@ const Projects = () => {
                 <MajorImgs
                   src="/BWComputer.png"
                   href="/BuddingWriters"
-                  projectDesc="Budding Writers Bookstore Cafe Website"
-                  projectType="WordPress Website"
+                  projectDesc="WordPress website"
+                  projectType="Budding Writers Bookstore Cafe"
                 />
               </div>
+            </div>
+            <div className="projRows">
+              <div>
+                <MajorImgs
+                  src="/graphics.png"
+                  href="/GraphicDes"
+                  projectDesc="Illustrator and Photoshop Projects"
+                  projectType="Graphic Design Works"
+                />
+              </div>
+             
             </div>
           </div>
         </div>
