@@ -8,12 +8,13 @@ const Button = styled.button`
   margin: 15px 0px;
   font-family: "Poppins", sans-serif;
   width: fit-content;
-  font-weight: 400;
+  font-weight: 300;
   border: none;
   transition: 0.3s;
+  border-radius: 5px;
   color: ${(props) => (props.color ? props.color : "white")};
   margin: 40px 0px;
-  background-color: ${(props) => (props.bgcolor ? props.bgcolor : "#1b344b")};
+  background-color: ${(props) => (props.bgcolor ? props.bgcolor : "#142738")};
   :hover {
     border: none;
     color: white;

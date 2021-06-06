@@ -29,13 +29,13 @@ div.desc {
 
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap");
 @import "../comps/Categories/Categories.scss";
-
 @import "../comps/MajorImgs/MajorImgs.scss";
 @import "/pages/BuddingWriters/BuddingWriters.scss";
 @import "../comps/TitleNDesc/TitleNDesc.scss";
 @import "../pages/Projects/Projects.scss";
 @import "../pages/Epub/Epub.scss";
 @import "../pages/GraphicDes/GraphicDes.scss";
+@import "../pages/CollectiveTruthers/CollectiveTruthers.scss";
 @import "../pages/CommAid/CommAid.scss";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap");
@@ -234,16 +234,38 @@ p {
   }
 }
 .h3Step {
-  background: #222222;
-  color: #ddb575;
+  background: #F0EBDD;
+  color: #222222;
   display: flex;
   flex-direction: column;
-  padding: 65px;
+  padding: 30px;
   margin-bottom: 0px;
   font-weight: 300;
   font-size: 45px;
   display: flex;
-
+text-transform: uppercase;
+  text-align: center;
+  @media only screen and (max-width: 700px) {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0px;
+    padding: 40px 30px;
+    text-align-last: left;
+    font-size: 35px;
+  }
+}
+.h3step2 {
+  background: #222222;
+  color: #ddb575;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  font-size: 40px;
+  display: flex;
+text-transform: uppercase;
   text-align: center;
   @media only screen and (max-width: 700px) {
     text-align: left;

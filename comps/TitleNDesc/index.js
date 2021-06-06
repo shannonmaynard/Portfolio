@@ -56,7 +56,7 @@ const P = styled.p`
 const Img = styled.img`
   width: 80%;
   height: 80%;
-  max-width: 700px;
+  max-width: 600px;
   margin-right: 30px;
   @media only screen and (max-width: 700px) {
     width: 100%;

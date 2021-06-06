@@ -20,6 +20,7 @@ const H3 = styled.h3`
   align-items: flex-start;
   display: flex;
   text-align: left;
+  
   @media only screen and (max-width: 900px) {
   }
 `;

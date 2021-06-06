@@ -52,6 +52,7 @@ const H3 = styled.h3`
 `;
 const H3Desk = styled.h3`
   display: flex;
+  font-size: 35px;
   @media only screen and (max-width: 700px) {
     display: none;
     padding-bottom: 0px;

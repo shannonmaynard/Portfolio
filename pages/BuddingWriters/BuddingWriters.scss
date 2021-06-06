@@ -83,7 +83,7 @@ h2{
         }
     }
     .deliverables {
-        background-color: rgb(249, 238, 226);
+        background-color: #f0ebdc88;
         position: relative;
         padding: 200px 30px;
         @media only screen and (max-width: 700px) {
@@ -102,7 +102,9 @@ h2{
         flex-direction: column;
         text-align: left;
         justify-content: space-between;
-
+        h3{
+            font-size: 35px;
+        }
         .persInfo {
             display: flex;
             flex-direction: column;
@@ -200,17 +202,21 @@ h2{
     }
 }
 .key {
-    background-color: rgb(249, 238, 226);
+    background-color: #f0ebdc88;
     display: flex;
     width: 100%;
     justify-content: center;
     padding-bottom: 60px;
     flex-direction: column;
+   
     justify-content: center;
     align-items: center;
     @media only screen and (max-width: 700px) {
         padding: 20px 30px;
         align-items: flex-start;
+    }
+    h3{
+         font-size: 30px;
     }
 }
 [data-aos].compCont1 {

@@ -27,7 +27,7 @@ export default function Home({ margin }) {
         <h1>CommAid</h1>
         <h6>A UX/UI and Web Development Project</h6>
       </div>
-      <h2 className="h3Step">Project Overview</h2>
+      <h2 className="h3step2">Project Overview</h2>
       <div className="rowsCA">
         <div
           className="animated"
@@ -103,7 +103,7 @@ export default function Home({ margin }) {
           </a>
         </div>
       </div>
-      <h2 className="h3Step">Research & Analysis</h2>
+      <h2 className="h3step2">Research & Analysis</h2>
       <div className="bg1">
         <TitleNDescCol
           flexImg={2}
@@ -187,7 +187,7 @@ export default function Home({ margin }) {
       <div className="deliverablesCA">
         <ThreeCol></ThreeCol>
       </div>
-      <h2 className="h3Step">Design</h2>
+      <h2 className="h3step2">Design</h2>
       <div className="bg4">
         <div
           className="animated"
@@ -248,7 +248,7 @@ export default function Home({ margin }) {
           href="https://www.figma.com/proto/R10YSuSRGPS50PKD7zHXVm/CommAid%2FModified?node-id=1%3A188&scaling=scale-down"
         ></TitleNDescCol>
       </div>
-      <h2  className="h3Step">Testing and Development</h2>
+      <h2  className="h3step2">Testing and Development</h2>
 
       <div className="compCont1CA">
         <ImgDescBelowSide
@@ -317,11 +317,11 @@ export default function Home({ margin }) {
             <Btn
               href="https://takfive-frontend-git-main.takefive.vercel.app/VolunteerListingPage"
               btn="View CommAid Live"
-              bgcolor="black"
+             
               borderhov="black"
               border="black solid 2px"
-              color="black"
-              padding="17px"
+              
+            
             ></Btn>
           </div>
         </div>

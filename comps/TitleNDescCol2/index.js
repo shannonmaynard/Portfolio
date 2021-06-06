@@ -58,6 +58,7 @@ const Info = styled.div`
 const H3 = styled.h3`
   display: flex;
   text-align: left;
+  font-size: 35px;
   @media only screen and (max-width: 700px) {
     padding-bottom: 20px;
     margin-bottom: 0px;

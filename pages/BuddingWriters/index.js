@@ -271,8 +271,8 @@ export default function Home({ margin }) {
           src="bwlogo.svg"
         ></TitleNDescCol>
       </div>
-      <BtnBlack btn="View Next Project" hrefPrev="/CollectiveTruthers" display="none" />
+      <BtnBlack btn="View Next Project" href="/GraphicDes" hrefPrev="/CollectiveTruthers" />
       <Footer />
     </div>
   );
-}
+}  
