@@ -137,7 +137,7 @@
         }
     }
     .bg1 {
-        background-color: rgb(255, 250, 246);
+        background-color: rgba(250, 246, 243, 0.733);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -220,6 +220,9 @@
     @media only screen and (max-width: 700px) {
         padding: 0px 30px;
     }
+    h3{
+        font-size: 40px;
+    }
 }
 .bg4 {
     background-color: rgb(255, 255, 255);
@@ -227,7 +230,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    h3{
+        font-size: 35px;
+    }
     p {
         max-width: 700px;
         text-align: left;
@@ -414,7 +419,7 @@ h2 {
     }
 }
 .bg3 {
-    background-color: rgb(255, 250, 246);
+    background-color: rgba(250, 246, 243, 0.733);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -424,5 +429,8 @@ h2 {
     @media only screen and (max-width: 700px) {
         padding: 80px 30px;
         text-align: left;
+    }
+    h3{
+        font-size: 40px;
     }
 }

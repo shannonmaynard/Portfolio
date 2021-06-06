@@ -73,6 +73,7 @@ const P2 = styled.p`
 const Img = styled.img`
   width: 100%;
   height: auto;
+  max-width: 500px;
   background-color: white;
  
 `;

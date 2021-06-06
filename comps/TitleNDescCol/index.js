@@ -90,7 +90,7 @@ const Img = styled.img`
 `;
 const ImgCont = styled.div`
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   justify-content: center;
   align-items: center;
   display: ${(props) => (props.flex ? props.flex : "flex")};

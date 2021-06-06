@@ -26,7 +26,7 @@ const H3 = styled.h3`
 `;
 const Img = styled.img`
   width: 60vw;
-  max-width: 900px;
+  max-width: 600px;
   height: auto;
 
   margin-right: 30px;

@@ -20,10 +20,10 @@ export default function Home({ margin }) {
     <div className="contentsCA" id="top">
       <Categories></Categories>
       <Menu></Menu>
-      <img className="banner" src="/CommaidImg.png" />
+    
   
       <div className="projTitleCA">
-        <img src="cmaid/Logo.svg" alt="sdfsdf" />
+  
         <h1>CommAid</h1>
         <h6>A UX/UI and Web Development Project</h6>
       </div>
