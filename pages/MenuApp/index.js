@@ -9,7 +9,7 @@ const MenuApp = () => {
     <div className="contMajorProj">
       <Categories></Categories>
       <div className="contentsMenu">
-        <H2 h2="Menu Mobile App" desc="A simple Mobile App Design" />
+        <H2 h2="Menu Mobile App" desc="A simple Menu App Design For Diner/Catering Business" />
       </div>
       <div className="menu-row">
         <div className="text-menu">
@@ -29,7 +29,7 @@ const MenuApp = () => {
           <p>
             The design of the app is two simple steps. The first page is the
             homepage with a list of food groups. If you click a food group
-            you'll be lead to menu options from that food group.
+            you'll be lead to menu options from that food group. For my design, I took a look at popular menu apps such as SkipTheDishes and UberEats, as well as other diner menu's. From there, I knew the basic layout I wanted to create as well as the different styles of menu apps that circulated the market. Through trial and error, I narrowed down the look and feel I wanted to create and ended up with my final product as shown below.
           </p>
         </div>
       </div>
