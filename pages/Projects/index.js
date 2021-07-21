@@ -62,10 +62,18 @@ const Projects = () => {
                   projectType="Graphic Design Works"
                 />
               </div>
-             
+              <div>
+                <MajorImgs
+                  src="/menu-box.png"
+                  href="/MenuApp"
+                  projectType="Menu Mobile App"
+                  projectDesc="A simple Menu App Design For Diner/Catering Business"
+                />
+              </div>
             </div>
           </div>
         </div>
+     
         <br></br> <br></br> <br></br> <br></br>
         <br></br> <br></br> <br></br>
         <br></br> <br></br>

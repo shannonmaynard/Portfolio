@@ -4,6 +4,7 @@ import MajorImgs from "../../comps/MajorImgs";
 import Menu from "../../comps/Menu";
 import Footer from "../../comps/Footer";
 import H2 from "../../comps/H2";
+import BtnBlack from "../../comps/BtnBlack";
 const MenuApp = () => {
   return (
     <div className="contMajorProj">
@@ -45,8 +46,10 @@ const MenuApp = () => {
               <h4>View Prototype on Figma</h4>
             </a>
           </u>
+          
         </div>
       </div>
+      <BtnBlack btn="View Next Project" hrefPrev="/BuddingWriters" />
       <Footer />
     </div>
   );

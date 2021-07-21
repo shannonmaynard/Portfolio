@@ -85,9 +85,8 @@ const GraphicDes = () => {
         <img src="/graphics/poster.png" alt="movie-poster" />
       </div>
       <div id="nextPrevCont">
-        <a href="/BuddingWriters">
-          <button className="nextPrev1">Previous Project</button>
-        </a>
+    
+        <BtnBlack btn="View Next Project" hrefPrev="/BuddingWriters"  href="/MenuApp" />
       </div>
       <Footer></Footer>
     </div>
