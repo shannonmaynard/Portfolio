@@ -135,7 +135,7 @@ export default function Home({ isVisible }) {
                   >
                     <Img className="linkedIn" src="/linkedIn2.png" />
                   </a>
-                  <a href="mailto:shannon.maynard@outlook.com">
+                  <a href="mailto:shannon.maynard1234@gmail.com">
                     <Img src="Mail2.svg"></Img>
                   </a>
                 </div>
