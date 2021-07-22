@@ -32,7 +32,7 @@
         align-items: center;
         padding: 100px 30px;
     
-        background: linear-gradient(to right, #fff2e088, #f3dec29a,);
+        background: linear-gradient(to right, #fff2e088, #f3dec29a);
         h4 {
             font-size: 30px;
             text-transform: uppercase;
@@ -76,4 +76,7 @@ padding-bottom: 150px;
     p{
         max-width: 700px;
     }
+}
+#menu1Img{
+    max-height: 600px;
 }

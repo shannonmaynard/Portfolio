@@ -16,6 +16,7 @@ const MenuApp = () => {
         />
       </div>
       <div className="menu-row">
+        <img src="/menu1.png" id="menu1Img"/>
         <div className="text-menu">
           <h4>Project Description</h4>
           <h6>Time Taken: 1 DAY - June 15, 2021</h6>
@@ -29,7 +30,7 @@ const MenuApp = () => {
       </div>
       <div className="menu-row2">
         <div className="text-menu">
-          <h4>THE DESIGN</h4>
+          <h4>THE DESIGN & RESEARCH</h4>
           <p>
             For my design,
             I took a look at popular menu apps such as SkipTheDishes and
