@@ -13,6 +13,11 @@ const H2 = styled.h2`
   margin: 0px;
   margin-top: 100px;
   padding: 0px;
+  line-height: 50px;
+  margin-bottom: 30px;
+  @media only screen and (max-width: 700px) {
+    font-weight: 300;
+  }
 `;
 const ImgLogo = styled.img`
   max-width: 350px;
@@ -41,9 +46,11 @@ const A = styled.a`
 const Div3 = styled.p`
   padding: 20px;
   display: flex;
+  margin: 0px;
   justify-content: center;
   width: 100%;
   align-items: center;
+  background: linear-gradient(to bottom, #afdfd313, white);
   flex-direction: column;
 `;
 
@@ -56,7 +63,8 @@ const Div = styled.div`
   text-align-last: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(236, 244, 248, 0.7);
+  background: linear-gradient(to right, #ECF4F8, white);
+  box-shadow: 1px 3px 15px rgb(82, 100, 107, 0.6);
 `;
 const Div2 = styled.div`
   max-width: 700px;
@@ -64,6 +72,9 @@ const Div2 = styled.div`
   padding: 100px 0px;
   font-weight: 400;
   justify-content: center;
+  @media only screen and (max-width: 700px) {
+    text-align-last: left;
+  }
 `;
 const Img1 = styled.img`
   height: auto;
@@ -99,36 +110,36 @@ const CollectiveTruthers = () => {
     <div className="epubCont">
       <Categories></Categories>
       <div id="menu"></div>
-
       <div className="titleCT">
         <H2>COLLECTIVE TRUTHERS</H2>
         <H5>WordPress website redesign and branding</H5>
       </div>
-      <Div>
+ 
+      <Div >
         <Div2>
-          <h4>About the Project</h4>
-
-          <Img1 src="/collectiveTruthersW.png" className="epubImg2"></Img1>
+          <h4>ABOUT THE PROJECT</h4>
           <H52>May 1st - May 31st 2021</H52>
-          <br></br>
+          <br></br> <br></br> <br></br>
+          <img src="/CT/ct-run1.gif" className="ct-gif"></img>
           <p>
             Collective Truthers is a small book publishing company that targets
-            first-time authors that wish to share their story with the world.{" "}
+            first-time authors that wish to share their story with the world.
             <strong>
               My task was to redesign the Collective Truthers website{" "}
-            </strong>{" "}
+            </strong>
             and create a new and fully responsive version on WordPress. I worked
             with a partner and first figured out clients wants and needs. From
             there, we researched our target audience and competition, and
             proceeded to create a brand image that fit with both our client and
             target audience.
           </p>
+          <br></br> <br></br> 
+          <h5 id="down">WEBSITE CURRENTLY DOWN!</h5> <br></br>
           <a href="https://collectivetruthers.com/" target="_blank">
             <Btn btn="View Live Project"></Btn>
           </a>
         </Div2>
       </Div>
-      <br></br>
       <Div3>
         <Div2>
           <h4>Project Deliverables</h4>
@@ -147,7 +158,7 @@ const CollectiveTruthers = () => {
         </Div2>
       </Div3>
 
-      <div>
+      <div >
         <div className="Divlinks2">
           <div className="oldwebCont">
             <h4 className="ct-title2"> Old Website</h4>
@@ -160,7 +171,7 @@ const CollectiveTruthers = () => {
                 lead to, as well as inspected page content. We checked through
                 everything and questioned if each element really needed to be on
                 the page or not. Each problem we came accross, we made note of.
-                One of the <strong>biggest problems noticed</strong> was
+                One of the biggest problems noticed was
                 repetition of information across pages.
               </p>
               <img className="ct-img2" src="/CT/oldweb.png" />
@@ -267,7 +278,13 @@ const CollectiveTruthers = () => {
             <div className="link-text">
               <h4>DESIGN DIRECTION</h4>
               <p>
-                With the previous preparation in place we started putting together the style guide. Here, we focused on finding calming blue colors for primary and took our accent colors from the sister site truthtellerspublishing. This was to have make a connection in design between both websites. We also used the font, Cormorant Garamond, from logo for our headings. The design was to produce a modern, peaceful look.
+                With the previous preparation in place we started putting
+                together the style guide. Here, we focused on finding calming
+                blue colors for primary and took our accent colors from the
+                sister site truthtellerspublishing. This was to have make a
+                connection in design between both websites. We also used the
+                font, Cormorant Garamond, from logo for our headings. The design
+                was to produce a modern, peaceful look.
               </p>
 
               <a
@@ -291,7 +308,13 @@ const CollectiveTruthers = () => {
             <div className="link-text">
               <h4>MAPPING THE SITE</h4>
               <p>
-                This step was crucial before starting the website layout. Due to the original website having many problems, such as repitition of information, broken links and a general disorganization, we had to think carefully on where all the content should be placed. Additionally, the client also had additional content she wanted in the new site, so creating the information architecture required careful planning.
+                This step was crucial before starting the website layout. Due to
+                the original website having many problems, such as repitition of
+                information, broken links and a general disorganization, we had
+                to think carefully on where all the content should be placed.
+                Additionally, the client also had additional content she wanted
+                in the new site, so creating the information architecture
+                required careful planning.
               </p>
 
               <a

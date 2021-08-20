@@ -40,7 +40,7 @@ export default function Home({ margin }) {
     <div className="contentsBW" id="top">
       <Categories></Categories>
       <Menu></Menu>
-      <img className="Img2" src="/BWComputer.png" />
+    
       <Up href="#top"/>
       <div className="projTitle">
         <h1>Budding Writers</h1>
