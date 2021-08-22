@@ -55,7 +55,7 @@ const Epub = () => {
     <div className="epubCont">
       <Categories></Categories>
       <div id="menu"></div>
-      <img className="epubImg" src="/peanutBanner.png" />
+
       <div className="epubCont">
         <div className="titleEpub">
           <h3>A Peanut's Adventures</h3>
@@ -90,47 +90,6 @@ const Epub = () => {
             </Btn2>
           </div>
         </div>
-        <H2>Project Details</H2>
-        <div className="info1">
-          <div className="epubTasks">
-            <h3 id="h3Tasks">Project Task/Requirements</h3>
-            <p>
-              <br></br>
-              <br></br>
-              <b>Interactive Epub Requirements</b>
-              <br></br>
-              <br></br>
-              At least 12-15 articles (pages) with varying content (depending on
-              interactive elements and scope of interaction,animation,etc.)
-              Intuitive navigation between pages, content, and states.
-              <br></br>
-              <br></br>
-              <b>What Was Asked For the Project</b>
-              <br></br>
-              <br></br>
-              To design and implement an e-book/e-publication with interactive
-              features, such as (but not limited to):
-            </p>
-            <Li>audio and videos</Li>
-            <Li>buttons and navigation</Li>
-            <Li>external links</Li>
-            <Li>animation (InDesign / Edge Animate)</Li>
-            <Li>hiding and showing content</Li>
-            <Li>html5 content (Edge Animate)</Li>
-            <Li>html articles</Li>
-            <Li>galleries</Li>
-            <Li>slideshows</Li>
-
-            <br></br>
-            <br></br>
-            <b>Plot</b>
-            <p>
-              A childrens game/story about a hamster named Peanut that longs for
-              freedom, so she escapes. The players job is to protect her when
-              she reaches the outside world and get her home safely.
-            </p>
-          </div>
-        </div>
 
         <div className="info2">
           <div>
@@ -157,35 +116,20 @@ const Epub = () => {
               when the moment was right, we grabbed her!
               <br></br>
               <br></br>
-              <b>Bringing the Scene to Life: a Children's Book</b> <br></br>
-              <br></br>
-              That scene stuck with me, and when I was thinking about ideas for
-              this project, I thought about this scene. This led to me fleshing
-              out idea of, what if Peanut actually did escape? If she hadn't
-              died, what would be her life outside? As I was aiming to do a
-              children's book, these wild imaginations seemed like an
-              interesting idea. So, I turned these thoughts into a concrete
-              idea. I knew it would work well, as many children have hamsters as
-              their first pet. If they were to play my game, they could
-              sympathize and have fun while helping Peanut in her outside
-              adventures.
             </p>
           </div>
         </div>
         <div className="chara">
           <div className="charaCont">
             <h3>The Characters:</h3>
-           
+
             <div className="charaImgCont">
               <div className="h4Vs">
                 <h4>Peanut</h4> <h3>Vs</h3> <h4>The Neighbourhood Cats</h4>
               </div>
-   
-              
-              <img className="charaImg" src="/charas.png" />
             </div>
           </div>
-          <br></br> <br></br> <br></br>
+          
         </div>
 
         <div className="chara"></div>
@@ -205,7 +149,7 @@ const Epub = () => {
               </p>
             </div>
           </div>
-          <br></br> <br></br> <br></br>
+         <div id="hrEpub"></div>
           <div className="charaCont1">
             <h4 className="charaMobileH4">Hamster Peanut</h4>
             <div className="charaRow">
@@ -269,28 +213,30 @@ const Epub = () => {
             </div>
           </div>
         </div>
-   
+
         <div className="charaCont1">
           <div className="charaRow">
             <div className="epubInfo">
               <h4 className="charaMobileH4-2">Step 3: Writing the Story</h4>
-              <img className="umbrella" src="/umbrella.gif" />
-              <p className="p">
-                After gathering a lot of images, I had some ideas on the
-                direction I wanted to take. I first started to jot down my ideas
-                as they came into existence on a piece of paper. I wanted to
-                show the beginning of peanut, even before we brought her home
-                from the store.
-                <br></br> <br></br>
-                So, I thought about how she was born, to how she began her life
-                with us, to her escape and finally, her experience in the
-                outside world. For this, I wanted to let the user get involved
-                with helping her when she was outside.
-                <br></br> <br></br>I also thought about how every great story
-                needs a villain, and who better then Peanut’s natural enemies:
-                my older sisters cats! After Jotting down these ideas, I made a
-                script that I matched with the images I planned on using.
-              </p>
+              <div class="picAndTextEpub">
+                <img className="umbrella1" src="/umbrella.gif" />
+                <p className="p">
+                  After gathering a lot of images, I had some ideas on the
+                  direction I wanted to take. I first started to jot down my
+                  ideas as they came into existence on a piece of paper. I
+                  wanted to show the beginning of peanut, even before we brought
+                  her home from the store.
+                  <br></br> <br></br>
+                  So, I thought about how she was born, to how she began her
+                  life with us, to her escape and finally, her experience in the
+                  outside world. For this, I wanted to let the user get involved
+                  with helping her when she was outside.
+                  <br></br> <br></br>I also thought about how every great story
+                  needs a villain, and who better then Peanut’s natural enemies:
+                  my older sisters cats! After Jotting down these ideas, I made
+                  a script that I matched with the images I planned on using.
+                </p>
+              </div>
             </div>
           </div>
 
