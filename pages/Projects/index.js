@@ -27,7 +27,7 @@ const Projects = () => {
               </div>
               <div>
                 <MajorImgs
-                  src="/CommaidImg.png"
+                  src="/CA-cover.png"
                   href="/CommAid"
                   projectDesc="UX/UI & React Web Application Volunteer web app"
                   projectType="CommAid"
@@ -37,7 +37,7 @@ const Projects = () => {
             <div className="projRows">
               <div>
                 <MajorImgs
-                  src="/collectiveTruthers.png"
+                  src="/CT/CT-cover1.png"
                   href="/CollectiveTruthers"
                   projectDesc="WordPress website for book publishing company"
                   projectType="Collective Truthers"

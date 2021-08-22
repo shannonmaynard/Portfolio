@@ -63,7 +63,7 @@ const Div = styled.div`
   text-align-last: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to right, #ECF4F8, white);
+  background: linear-gradient(to right, #ecf4f8, white);
   box-shadow: 1px 3px 15px rgb(82, 100, 107, 0.6);
 `;
 const Div2 = styled.div`
@@ -114,8 +114,8 @@ const CollectiveTruthers = () => {
         <H2>COLLECTIVE TRUTHERS</H2>
         <H5>WordPress website redesign and branding</H5>
       </div>
- 
-      <Div >
+
+      <Div>
         <Div2>
           <h4>ABOUT THE PROJECT</h4>
           <H52>May 1st - May 31st 2021</H52>
@@ -133,7 +133,7 @@ const CollectiveTruthers = () => {
             proceeded to create a brand image that fit with both our client and
             target audience.
           </p>
-          <br></br> <br></br> 
+          <br></br> <br></br>
           <h5 id="down">WEBSITE CURRENTLY DOWN!</h5> <br></br>
           <a href="https://collectivetruthers.com/" target="_blank">
             <Btn btn="View Live Project"></Btn>
@@ -158,7 +158,7 @@ const CollectiveTruthers = () => {
         </Div2>
       </Div3>
 
-      <div >
+      <div>
         <div className="Divlinks2">
           <div className="oldwebCont">
             <h4 className="ct-title2"> Old Website</h4>
@@ -171,8 +171,8 @@ const CollectiveTruthers = () => {
                 lead to, as well as inspected page content. We checked through
                 everything and questioned if each element really needed to be on
                 the page or not. Each problem we came accross, we made note of.
-                One of the biggest problems noticed was
-                repetition of information across pages.
+                One of the biggest problems noticed was repetition of
+                information across pages.
               </p>
               <img className="ct-img2" src="/CT/oldweb.png" />
             </div>
@@ -333,7 +333,6 @@ const CollectiveTruthers = () => {
           <div className="ct-title">
             <h4>Low Fidelity</h4>
           </div>
-
           <div className="img-text">
             <div className="link-text">
               <h4>ABOUT THE USER</h4>
@@ -354,6 +353,58 @@ const CollectiveTruthers = () => {
               </a>
             </div>
             <img className="ct-img" src="/CT/low-fidelity.png" />
+          </div>
+          <div className="ct-title">
+            <h4>Web Pages</h4>
+          </div>
+          <br></br> <br></br>
+          <div id="divWebPagePara">
+            
+            <p className="webPagePara">
+              Here are some of the main pages I worked on. These pages were put together almost completely with elementor, so each element was carelly thought through during the design process. The only page with <b>e-commerce is the book submission page</b>, where we used a plugin to send the fixed amount asked for in the Collaborative Package. The{" "}
+              <b>website is currently down</b>, so viewing live isn't possible.
+            </p>
+          </div>
+          <br></br> <br></br>
+          <div className="screenshots">
+            <div className="innerScreenShots">
+              <div>
+                <h6 className="titleCT">HOMEPAGE</h6>
+                <img src="CT/CT_home.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">WHO WE ARE</h6>
+                <img src="CT/CT_whoWeAre.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">GUIDELINES</h6>
+                <img src="CT/CT_guide.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">GET PUBLISHED</h6>
+                <img src="CT/CT_getPub.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">BOOK SUBMISSION</h6>
+                <img src="CT/CT_submit.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">BOOKS PAGE</h6>
+                <img src="CT/CT_Books.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">BOOK INFO PAGE</h6>
+                <img src="CT/CT_Info.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">CONTACT PAGE</h6>
+                <img src="CT/CT_contact.png" />
+              </div>
+              <div>
+                <h6 className="titleCT">FAQ PAGE</h6>
+                <img src="CT/CT_faq.png" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
