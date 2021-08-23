@@ -25,6 +25,7 @@ const Cont = styled.div`
 const Img = styled.img`
   position: relative;
   transition: transform 0.5s ease;
+  transform: scale(1.03);
   height: ${(props) => (props.imgHeight ? props.imgHeight : "100%")};
   flex: 1;
   width: ${(props) => (props.imgWidth ? props.imgWidth : "100%")};
@@ -37,19 +38,6 @@ const Dark = styled.div`
   display: flex;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-`;
-const ViewWork = styled.div`
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  right: 0px;
-  width: 100%;
-  bottom: 0px;
-  z-index: 2;
-  padding-top: 1px;
-  height: 20%;
-  background-color: rgba(0, 0, 0, 0.4);
 `;
 
 const ContSmall = styled.div`
@@ -76,6 +64,7 @@ const H5 = styled.h5`
 const P = styled.p`
   color: black;
   font-weight: 200;
+  line-height: 27px;
   font-size: 14px;
   margin:0px;
   text-align:left;
