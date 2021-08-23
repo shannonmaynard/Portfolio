@@ -27,7 +27,7 @@ const Projects = () => {
               </div>
               <div>
                 <MajorImgs
-                  src="/CA-cover.png"
+                  src="/CA-cover2.png"
                   href="/CommAid"
                   projectDesc="UX/UI & React Web Application Volunteer web app"
                   projectType="CommAid"
