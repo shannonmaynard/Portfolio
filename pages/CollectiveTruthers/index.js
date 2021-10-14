@@ -43,17 +43,6 @@ const A = styled.a`
   }
 `;
 
-const Div3 = styled.p`
-  padding: 20px;
-  display: flex;
-  margin: 0px;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
-  background: linear-gradient(to bottom, #afdfd313, white);
-  flex-direction: column;
-`;
-
 const Div = styled.div`
   padding: 20px;
   display: flex;
@@ -140,23 +129,55 @@ const CollectiveTruthers = () => {
           </a>
         </Div2>
       </Div>
-      <Div3>
+      <div className="deliverables-ct">
         <Div2>
           <h4>Project Deliverables</h4>
-          <ol>
-            <Li>Study of Old Website</Li>
-            <Li>Client Survey</Li>
-            <Li>User Research and Competitive Analysis</Li>
-            <Li>Logo Design</Li>
-            <Li>Persona Creation</Li>
-            <Li>Mood Board</Li>
-            <Li>Style Guide</Li>
-            <Li>Author Pictures Photoshop Editing</Li>
-            <Li>Sitemap</Li>
-            <Li>WordPress Website Creation</Li>
-          </ol>
+          <div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Study of Old Website</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Client Survey</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>User Research and Competitive Analysis</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Logo Design</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Persona Creation</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Mood Board</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Style Guide</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Author Pictures Photoshop Editing</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>Sitemap</p>
+            </div>
+            <div className="deliv-cont">
+              <img src="/check.png"></img>
+              <p>WordPress Website Creation</p>
+            </div>
+          
+        
+          </div>
         </Div2>
-      </Div3>
+      </div>
 
       <div>
         <div className="Divlinks2">
@@ -359,10 +380,14 @@ const CollectiveTruthers = () => {
           </div>
           <br></br> <br></br>
           <div id="divWebPagePara">
-            
             <p className="webPagePara">
-              Here are some of the main pages I worked on. These pages were put together almost completely with elementor, so each element was carelly thought through during the design process. The only page with <b>e-commerce is the book submission page</b>, where we used a plugin to send the fixed amount asked for in the Collaborative Package. The{" "}
-              <b>website is currently down</b>, so viewing live isn't possible.
+              Here are some of the main pages I worked on. These pages were put
+              together almost completely with elementor, so each element was
+              carelly thought through during the design process. The only page
+              with <b>e-commerce is the book submission page</b>, where we used
+              a plugin to send the fixed amount asked for in the Collaborative
+              Package. The <b>website is currently down</b>, so viewing live
+              isn't possible.
             </p>
           </div>
           <br></br> <br></br>

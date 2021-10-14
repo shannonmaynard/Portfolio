@@ -109,12 +109,12 @@ export default function Home({ isVisible }) {
           >
             <div className="div">
               <div className="img">
-                <img src="/Me.png" />
+                <img src="/profile3.png" />
               </div>
               <div id="info">
                 <h3>About Me</h3>
                 <div className="img2">
-                  <img className="img2-2" src="/Me.png" />
+                  <img className="img2-2" src="/profile3.png" />
                 </div>
                 <p>
                   My name is <b>Shannon Maynard</b> and I'm currently a student
