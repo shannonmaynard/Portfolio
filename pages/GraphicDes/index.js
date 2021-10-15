@@ -86,7 +86,7 @@ const GraphicDes = () => {
       </div>
       <div id="nextPrevCont">
     
-        <BtnBlack btn="View Next Project" hrefPrev="/BuddingWriters"  href="/MenuApp" />
+        <BtnBlack btn="View Next Project" hrefPrev="/MenuApp"  href="/Epub" />
       </div>
       <Footer></Footer>
     </div>

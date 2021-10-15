@@ -59,7 +59,7 @@ const MenuApp = () => {
       <br></br>
       <br></br>
       <br></br>
-      <BtnBlack btn="View Next Project" hrefPrev="/GraphicDes" href="/Epub" />
+      <BtnBlack btn="View Next Project" hrefPrev="/CollectiveTruthers" href="/GraphicDes" />
       <Footer />
     </div>
   );

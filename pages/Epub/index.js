@@ -232,8 +232,9 @@ const Epub = () => {
           </div>
         </div>
       </div>
-      <BtnBlack href="CommAid" displayPrev="none"></BtnBlack>
+      <BtnBlack btn="View Next Project" hrefPrev="/GraphicDes"  href="/CollectiveTruthers" />
       <Footer />
+      
     </div>
   );
 };
