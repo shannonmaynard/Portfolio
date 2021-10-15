@@ -438,7 +438,7 @@ const CollectiveTruthers = () => {
         <a href="/CommAid">
           <button className="nextPrev1">Previous Project</button>
         </a>
-        <a href="/BuddingWriters">
+        <a href="/MenuApp">
           <button className="nextPrev2">Next Project</button>
         </a>
       </div>

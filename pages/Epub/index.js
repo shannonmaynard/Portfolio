@@ -119,53 +119,13 @@ const Epub = () => {
             </p>
           </div>
         </div>
-        <div className="chara">
-          <div className="charaCont">
-            <h3>The Characters:</h3>
 
-            <div className="charaImgCont">
-              <div className="h4Vs">
-                <h4>Peanut</h4> <h3>Vs</h3> <h4>The Neighbourhood Cats</h4>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-
-        <div className="chara"></div>
+        
       </div>
 
-      <div className="charaBigCont">
-        <div className="charaCont1">
-          <h4 className="charaMobileH4">The Cats</h4>
-          <div className="charaRow">
-            <img className="charaImg2" src="/cats.jpeg" />
-            <div className="epubInfo">
-              <h4 className="charaDeskH4">The Cats</h4>
-              <p className="p">
-                Based on the real life cats of my older sister. They're unamed
-                in the book but in real life go by Boo and Harley; two strays
-                with a scarred past that were adopted later in their life.
-              </p>
-            </div>
-          </div>
-         <div id="hrEpub"></div>
-          <div className="charaCont1">
-            <h4 className="charaMobileH4">Hamster Peanut</h4>
-            <div className="charaRow">
-              <img className="charaImg2" src="/peanut.png" />
-              <div className="epubInfo">
-                <h4 className="charaDeskH4">Hamster Peanut</h4>
-                <p className="p">
-                  Based on the real life hamster Peanut, who my younger sister
-                  bought from a small local pet store. Peanut is young in age,
-                  yet adventurous in spirit.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+      
+     
       <H2>Design Process</H2>
       <div className="charaBigCont2">
         <div className="charaCont1">
@@ -205,9 +165,7 @@ const Epub = () => {
                   photoshoots of both Peanut and the cats, to get what I needed.
                   <br></br>
                   <br></br>
-                  One thing I did know was that I wanted my scenarios to be in
-                  nature, as hamsters are wild creatures so nature is their
-                  natural habitat.
+                 
                 </p>
               </div>
             </div>
@@ -222,18 +180,17 @@ const Epub = () => {
                 <img className="umbrella1" src="/umbrella.gif" />
                 <p className="p">
                   After gathering a lot of images, I had some ideas on the
-                  direction I wanted to take. I first started to jot down my
-                  ideas as they came into existence on a piece of paper. I
-                  wanted to show the beginning of peanut, even before we brought
+                  direction I wanted to take and I
+                  wanted to start out by showing the beginning of peanut, even before we brought
                   her home from the store.
                   <br></br> <br></br>
-                  So, I thought about how she was born, to how she began her
+                  I thought about how she was born, to how she began her
                   life with us, to her escape and finally, her experience in the
                   outside world. For this, I wanted to let the user get involved
                   with helping her when she was outside.
                   <br></br> <br></br>I also thought about how every great story
-                  needs a villain, and who better then Peanut’s natural enemies:
-                  my older sisters cats! After Jotting down these ideas, I made
+                  needs a <b>villain</b>, and who better then Peanut’s natural enemies: 
+                  <b>my older sisters cats!</b> After Jotting down these ideas, I made
                   a script that I matched with the images I planned on using.
                 </p>
               </div>
