@@ -49,6 +49,7 @@ const Projects = () => {
                   imgWidth="100%"
                   src="epubImg.png"
                   href="/Epub"
+                  
                   projectDesc="A Childrens Book/Game created in Indesign"
                   projectType="A Peanuts Adventures"
                 />
