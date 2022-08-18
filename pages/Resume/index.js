@@ -34,7 +34,7 @@ const Resume = () => {
       <Menu />
       <Cont>
       
-        <Res src="resume-cover-letter.pdf"></Res>
+        <Res src="SHANNON_MAYNARD_Resume (2).PDF"></Res>
       </Cont>
       <Footer/>
     </BigCont>
