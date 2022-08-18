@@ -145,6 +145,14 @@ export default function Home({ isVisible }) {
          
           <div className="tags">
           <H42>My Skills</H42><br></br>
+            <Tag>UX Design</Tag>
+            <Tag>UI Design</Tag>
+            <Tag>Accessibility Design</Tag>
+            <Tag>Graphic Design</Tag>
+            <Tag>User Research</Tag>
+            <Tag>Content Design</Tag>
+            <Tag>Human Centered Design</Tag>
+            <Tag>Usability Design</Tag>
             <Tag>Figma</Tag>
             <Tag>Photoshop</Tag>
             <Tag>Indesign</Tag>
@@ -157,12 +165,24 @@ export default function Home({ isVisible }) {
             <Tag>GitHub</Tag>
             <Tag>NextJs</Tag>
             <Tag>SCSS</Tag>
-            <Tag>HTML</Tag>
-            <Tag>CSS</Tag>
+            <Tag>HTML5</Tag>
+            <Tag>CSS3</Tag>
+            <Tag>NextJs</Tag>
+            <Tag>Heat Mapping</Tag>
+            <Tag>Crazy Egg A/B testing</Tag>
             <Tag>Heat Mapping</Tag>
             <Tag>SEO Optimazation</Tag>
           </div>
         </div>
+
+        <div className="tags">
+          <H42>Soft Skills</H42><br></br>
+            <Tag>Problem Solving</Tag>
+            <Tag>Communication</Tag>
+            <Tag>Leadership</Tag>
+            <Tag>Empathy</Tag>
+            <Tag>Curiosity Driven</Tag>
+          </div>
       </div>
 
       <Footer />
